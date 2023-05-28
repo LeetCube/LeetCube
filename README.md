@@ -10,7 +10,7 @@ Welcome everyone to contribute their LeetCode solutions!
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 36    | 15   | 17     | 4    |
+| 37    | 16   | 17     | 4    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -74,6 +74,9 @@ Welcome everyone to contribute their LeetCode solutions!
 
 [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 🟡 Medium
+
+[35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+🟢 Easy
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium
