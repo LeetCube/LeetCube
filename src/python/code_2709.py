@@ -657,36 +657,35 @@ class UnionFind:
 
 class Solution:
     def canTraverseAllPairs(self, nums: List[int]) -> bool:
-        # print(len(nums))
-        # num_set = set(nums)
-        # print(len(num_set))
-        if len(nums) > 50000:
-            nums = set(nums)
+        if len(nums) == 1:  # base case, got me a WA oof
+            return True
+        nums = set(nums)  # obvious optimization
+        if 1 in nums:  # cannot gcd > 1 if 1 in set
+            return False
 
         u = UnionFind(len(nums), max(nums))
-        if len(nums) == 1:
-            return True
+
         for idx, num in enumerate(nums):
             if num in prime_set:
-                if u.indices[num] != -1:
+                if u.indices[num] != -1:  # this means that num is not the first to have this prime factor
                     u.union(u.indices[num], idx)
                 else:
-                    u.indices[num] = idx
+                    u.indices[num] = idx  # this num is the first to have this prime factor
             else:
                 for p in primes:
-                    if p * p > num:
+                    if p * p > num:  # sqrt rule
                         break
-                    if num % p == 0:
+                    if num % p == 0:  # factor found
                         if u.indices[p] == -1:
                             u.indices[p] = idx
                         else:
                             u.union(u.indices[p], idx)
-                        while num % p == 0:
+                        while num % p == 0:  # need while for perfect multiples
                             num //= p
-                if num > 1:
+                if num > 1:  # residual primes
                     if u.indices[num] != -1:
                         u.union(u.indices[num], idx)
                     else:
                         u.indices[num] = idx
 
-        return u.rank[u.find(0)] == len(nums)
+        return u.rank[u.find(0)] == len(nums)  # rank of any should be n
