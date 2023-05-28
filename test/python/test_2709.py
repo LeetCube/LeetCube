@@ -1,25 +1,12 @@
-import json
-from timeit import default_timer as timer
-
+from BaseTest import BaseTest
 from src.python.code_2709 import Solution
 
 
-def test():
-    with open('../test_json/test_2709.json', 'r') as f:
-        data = json.load(f)
-        print(f"Running {len(data)} cases")
-
-    s = Solution()
-
-    start = timer()
-    for case in data:
-        assert s.canTraverseAllPairs(nums=case['input']['nums']) == case['output'], \
-            f"Failed case. Should have been {case['output']}: {case['input']}"
-    end = timer()
-
-    # Accepted solution gets ~ 110ms
-    print(f"Elapsed time: {(end - start) * 1000: .0f} ms")
+def input_fetcher(case):
+    return case['input']['nums']
 
 
 if __name__ == '__main__':
-    test()
+    test = BaseTest(2709, input_fetcher)
+    solution = Solution().canTraverseAllPairs
+    test.run_tests(solution)
