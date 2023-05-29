@@ -1,31 +1,15 @@
-#define CATCH_CONFIG_FAST_COMPILE
-#define CATCH_CONFIG_DISABLE_MATCHERS
-
 #include <algorithm>
-#include <fstream>
 
+#include "cpp_deps/boilerplate.h"
 #include "../../src/cpp/code_5.cpp"
-#include "cpp_deps/catch.hpp"
-#include "cpp_deps/json.hpp"
 
-using json = nlohmann::json;
+void test(Solution& sol, const json& input, const json& output) {
+    string s = input["s"].get<string>();
+    vector<string> expected = output.get<vector<string>>();
+    string result = sol.longestPalindrome(s);
+    CHECK_NE(find(expected.begin(), expected.end(), result), expected.end());
+}
 
-TEST_CASE() {
-    ifstream test_file("test/test_json/test_5.json");
-    json tests;
-    test_file >> tests;
-
-    for (json::iterator it = tests.begin(); it != tests.end(); ++it) {
-        const auto& test_case = *it;
-        const auto& input = test_case["input"];
-        const auto& output = test_case["output"];
-
-        // problem-specific
-        Solution sol;
-        string s = input["s"].get<string>();
-        vector<string> expected = output.get<vector<string>>();
-        string result = sol.longestPalindrome(s);
-        INFO("TEST CASE " << (it - tests.begin()));
-        CHECK(find(expected.begin(), expected.end(), result) != expected.end());
-    }
+TEST_CASE("") {
+    TEST("test/test_json/test_5.json");
 }
