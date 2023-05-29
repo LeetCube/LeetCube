@@ -4,7 +4,7 @@
   <img src="https://github.com/LeetCube/LeetCube/blob/main/media/leetcube_logo_small.png" width="150" />
 </p>
 
-Welcome everyone to contribute their LeetCode solutions!
+Everyone is welcome to contribute their LeetCode solutions!
 
 ## [How to run](doc/run.md)
 
