@@ -1,5 +1,7 @@
 # LeetCube
 
+![](leetcube_logo.png)
+
 Welcome everyone to contribute their LeetCode solutions!
 
 ## [How to run](doc/run.md)
