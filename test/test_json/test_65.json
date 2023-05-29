@@ -1,0 +1,142 @@
+[
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "2"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "0089"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "-0.1"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "+3.14"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "4."
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "-.9"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "2e10"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "-90E3"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "3e+7"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "+6e-1"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "53.5e93"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "-123.456e789"
+        },
+        "output": true
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "abc"
+        },
+        "output": false
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "1a"
+        },
+        "output": false
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "1e"
+        },
+        "output": false
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "e3"
+        },
+        "output": false
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "99e2.5"
+        },
+        "output": false
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "--6"
+        },
+        "output": false
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "-+3"
+        },
+        "output": false
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "s": "95a54e53"
+        },
+        "output": false
+    }
+]
