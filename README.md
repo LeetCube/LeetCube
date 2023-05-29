@@ -1,6 +1,6 @@
 # LeetCube
 
-![](leetcube_logo.png)
+![](media/leetcube_logo_small.png)
 
 Welcome everyone to contribute their LeetCode solutions!
 
