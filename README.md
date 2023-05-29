@@ -1,6 +1,8 @@
 # LeetCube
 
-![](media/leetcube_logo_small.png)
+<p>
+  <img src="https://github.com/LeetCube/LeetCube/blob/main/media/leetcube_logo_small.png" width="150" />
+</p>
 
 Welcome everyone to contribute their LeetCode solutions!
 
