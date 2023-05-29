@@ -14,7 +14,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 37    | 16   | 17     | 4    |
+| 40    | 16   | 19     | 5    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -81,6 +81,15 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 🟢 Easy
+
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+🟡 Medium
+
+[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+🟡 Medium
+
+[65. Valid Number](https://leetcode.com/problems/valid-number/)
+🔴 Hard
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium
