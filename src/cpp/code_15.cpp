@@ -19,7 +19,7 @@ public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         set<vector<int>> soln;
-        for (int i = 0; i < nums.size(); i++) {
+        for (size_t i = 0; i < nums.size(); i++) {
             if (nums[i] > 0)
                 break;
             int j = i + 1;

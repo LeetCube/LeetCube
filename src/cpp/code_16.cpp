@@ -21,7 +21,7 @@ public:
     int threeSumClosest(vector<int>& nums, int target) {
         sort(nums.begin(), nums.end());
         int soln;
-        for (int i = 0; i < nums.size(); i++) {
+        for (size_t i = 0; i < nums.size(); i++) {
             int j = i + 1;
             int k = nums.size() - 1;
             while (j < k) {

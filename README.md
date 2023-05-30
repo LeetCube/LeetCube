@@ -14,7 +14,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 49    | 20   | 23     | 6    |
+| 51    | 20   | 25     | 6    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -88,6 +88,9 @@ Everyone is welcome to contribute their LeetCode solutions!
 [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 🔴 Hard
 
+[48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+🟡 Medium
+
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 🟡 Medium
 
@@ -119,6 +122,9 @@ Everyone is welcome to contribute their LeetCode solutions!
 🟡 Medium
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
+🟡 Medium
+
+[1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 🟡 Medium
 
 [2620. Counter](https://leetcode.com/problems/counter/)
