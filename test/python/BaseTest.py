@@ -19,9 +19,13 @@ class BaseTest:
         for case in self.data:
             input = self.input_fetcher(case)
             answer = self.output_fetcher(case)
-            assert solution(input) == answer, \
-                f"Failed case. Should have been {answer}: {input}"
+            if isinstance(input, tuple):
+                actual = solution(*input)
+            else:
+                actual = solution(input)
+            assert actual == answer, \
+                f"Failed case. Should have been {answer}, was {actual}\n: {input}"
 
         end = timer()
-        print(f"Elapsed time: {(end - start) * 1000: .0f} ms")
+        print(f"{len(self.data)} cases ran in{(end - start) * 1000: .0f} ms")
 
