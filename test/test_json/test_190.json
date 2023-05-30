@@ -1,0 +1,37 @@
+[
+    {
+        "contributor": "given",
+        "input": {
+            "n": 43261596
+        },
+        "output": 964176192
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 4294967293
+        },
+        "output": 3221225471
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "n": 0
+        },
+        "output": 0
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "n": 1
+        },
+        "output": 2147483648
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "n": 2863289685
+        },
+        "output": 2863289685
+    }
+]

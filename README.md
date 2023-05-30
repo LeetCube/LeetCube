@@ -14,7 +14,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 40    | 16   | 19     | 5    |
+| 49    | 20   | 23     | 6    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -82,6 +82,12 @@ Everyone is welcome to contribute their LeetCode solutions!
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 🟢 Easy
 
+[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+🟡 Medium
+
+[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+🔴 Hard
+
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 🟡 Medium
 
@@ -90,6 +96,27 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 [65. Valid Number](https://leetcode.com/problems/valid-number/)
 🔴 Hard
+
+[82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+🟡 Medium
+
+[136. Single Number](https://leetcode.com/problems/single-number/)
+🟢 Easy
+
+[148. Sort List](https://leetcode.com/problems/sort-list/)
+🟡 Medium
+
+[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+🟢 Easy
+
+[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+🟢 Easy
+
+[202. Happy Number](https://leetcode.com/problems/happy-number/)
+🟢 Easy
+
+[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+🟡 Medium
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium

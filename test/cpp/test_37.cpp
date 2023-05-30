@@ -1,28 +1,24 @@
-#include "cpp_deps/boilerplate.h"
 #include "../../src/cpp/code_37.cpp"
-
-#include <iostream>
+#include "cpp_deps/boilerplate.h"
 
 Board get_board(const json& field) {
-    Board board{};
+    Board board;
     for (const auto& row : field.get<std::vector<std::vector<std::string>>>()) {
-        std::vector<char> transformed_row{};
-        for (const auto& item : row) {
-            transformed_row.push_back(item[0]);
-        }
+        std::vector<char> transformed_row;
+
+        for (const auto& item : row) transformed_row.push_back(item[0]);
+
         board.push_back(transformed_row);
     }
+
     return board;
 }
 
 void test(Solution& sol, const json& input, const json& output) {
-    Board input_board = get_board(input);
-
-    Board expected_board = get_board(output);
-
-    sol.solveSudoku(input_board);
-
-    CHECK_EQ(input_board, expected_board);
+    Board board = get_board(input["board"]);
+    Board expected = get_board(output);
+    sol.solveSudoku(board);
+    CHECK_EQ(board, expected);
 }
 
 TEST_CASE("") {

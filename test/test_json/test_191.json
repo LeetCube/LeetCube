@@ -1,0 +1,44 @@
+[
+    {
+        "contributor": "given",
+        "input": {
+            "u": 11
+        },
+        "output": 3
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "u": 128
+        },
+        "output": 1
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "u": 4294967293
+        },
+        "output": 31
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "u": 0
+        },
+        "output": 0
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "u": 1
+        },
+        "output": 1
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "u": 2863289685
+        },
+        "output": 16
+    }
+]

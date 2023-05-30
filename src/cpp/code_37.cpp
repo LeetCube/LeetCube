@@ -1,10 +1,14 @@
+// 37. Sudoku Solver (Hard)
+
 #include <set>
 #include <vector>
 
-using Board = std::vector<std::vector<char>>;
+using namespace std;
+using Board = vector<vector<char>>;
+
 class Solution {
 public:
-    bool is_grid_sequence_valid(std::set<char>& seen, char entry) {
+    bool is_grid_sequence_valid(set<char>& seen, char entry) {
         if (entry == '.') {
             return true;
         }
@@ -16,11 +20,11 @@ public:
     }
 
     bool isValidSudoku(const Board& board, int modified_x, int modified_y) {
-        std::set<char> seen{};
+        set<char> seen;
         for (auto elem : board[modified_x]) {
             if (!is_grid_sequence_valid(seen, elem)) {
-                    return false;
-                }
+                return false;
+            }
         }
         seen.clear();
         for (int row = 0; row < 9; row++) {
@@ -30,12 +34,12 @@ public:
         }
         seen.clear();
 
-        const auto box_top_left_x = 3*(modified_x / 3);
-        const auto box_top_left_y = 3*(modified_y / 3);
+        const auto box_top_left_x = 3 * (modified_x / 3);
+        const auto box_top_left_y = 3 * (modified_y / 3);
         for (int x = 0; x < 3; x++) {
             for (int y = 0; y < 3; y++) {
                 if (!is_grid_sequence_valid(
-                        seen, 
+                        seen,
                         board[box_top_left_x + x][box_top_left_y + y])) {
                     return false;
                 }
@@ -44,6 +48,24 @@ public:
         return true;
     }
 
+    /**
+        Write a program to solve a Sudoku puzzle by filling the empty cells.
+
+        A sudoku solution must satisfy all of the following rules:
+
+        Each of the digits 1-9 must occur exactly once in each row.
+
+        Each of the digits 1-9 must occur exactly once in each column.
+
+        Each of the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.
+
+        The '.' character indicates empty cells.
+
+        @pre board.length == 9
+        @pre board[i].length == 9
+        @pre board[i][j] is a digit or '.'.
+        @pre It is guaranteed that the input board has only one solution.
+    */
     void solveSudoku(Board& board) {
         solve_search(board, 0);
     }
@@ -60,7 +82,7 @@ public:
         }
 
         for (int entry = 1; entry <= 9; entry++) {
-            board[curr_x][curr_y] = '0' + entry; 
+            board[curr_x][curr_y] = '0' + entry;
             if (!isValidSudoku(board, curr_x, curr_y)) {
                 board[curr_x][curr_y] = '.';
                 continue;
