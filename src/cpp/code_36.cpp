@@ -4,7 +4,6 @@
 #include <vector>
 
 using namespace std;
-using Board = vector<vector<char>>;
 
 class Solution {
 public:
@@ -36,7 +35,7 @@ public:
         @pre board[i].length == 9
         @pre board[i][j] is a digit 1-9 or '.'.
     */
-    bool isValidSudoku(Board& board) {
+    bool isValidSudoku(vector<vector<char>>& board) {
         for (const auto& row : board) {
             set<char> seen;
             for (auto elem : row) {

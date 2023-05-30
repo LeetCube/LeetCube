@@ -1,8 +1,8 @@
 #include "../../src/cpp/code_37.cpp"
 #include "cpp_deps/boilerplate.h"
 
-Board get_board(const json& field) {
-    Board board;
+vector<vector<char>> get_board(const json& field) {
+    vector<vector<char>> board;
     for (const auto& row : field.get<std::vector<std::vector<std::string>>>()) {
         std::vector<char> transformed_row;
 
@@ -15,8 +15,8 @@ Board get_board(const json& field) {
 }
 
 void test(Solution& sol, const json& input, const json& output) {
-    Board board = get_board(input["board"]);
-    Board expected = get_board(output);
+    vector<vector<char>> board = get_board(input["board"]);
+    vector<vector<char>> expected = get_board(output);
     sol.solveSudoku(board);
     CHECK_EQ(board, expected);
 }

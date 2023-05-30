@@ -4,7 +4,6 @@
 #include <vector>
 
 using namespace std;
-using Board = vector<vector<char>>;
 
 class Solution {
 public:
@@ -19,7 +18,7 @@ public:
         return false;
     }
 
-    bool isValidSudoku(const Board& board, int modified_x, int modified_y) {
+    bool isValidSudoku(const vector<vector<char>>& board, int modified_x, int modified_y) {
         set<char> seen;
         for (auto elem : board[modified_x]) {
             if (!is_grid_sequence_valid(seen, elem)) {
@@ -66,11 +65,11 @@ public:
         @pre board[i][j] is a digit or '.'.
         @pre It is guaranteed that the input board has only one solution.
     */
-    void solveSudoku(Board& board) {
+    void solveSudoku(vector<vector<char>>& board) {
         solve_search(board, 0);
     }
 
-    bool solve_search(Board& board, int curr_cell_num) {
+    bool solve_search(vector<vector<char>>& board, int curr_cell_num) {
         if (curr_cell_num >= 81) {
             return true;
         }
