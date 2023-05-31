@@ -1,7 +1,8 @@
 name: cpp-linter
 
 on:
-  push
+  push:
+    branches-ignore: []
   pull_request:
     branches: [main]
 
