@@ -9,9 +9,9 @@ Definition from [freeCodeCamp](https://www.freecodecamp.org/news/using-prettier-
 ## Editor
 
 1. Auto format when you save the file
-   ![](/doc/figs/format_editor.png)
+   ![](figs/format_editor.png)
 2. Auto add only 1 newline
-   ![](/doc/figs/format_newline.png)
+   ![](figs/format_newline.png)
 3. Can also use keyboard shortcut `shift + option + f` to format file
 
 ## C++
@@ -38,14 +38,14 @@ black test/python/
 ```
 
 Output e.g.
-![](/doc/figs/format_black.png)
+![](figs/format_black.png)
 
 ## JS and Markdown
 
 `annie` uses [prettier](https://prettier.io/).
 
 - To install, search for prettier in VSCode extension. Then you are all set!
-  ![](/doc/figs/format_prettier.png)
+  ![](figs/format_prettier.png)
 
 ## Test cases JSON
 
