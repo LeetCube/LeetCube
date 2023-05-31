@@ -6,9 +6,11 @@
 
 Everyone is welcome to contribute their LeetCode solutions!
 
-## [How to run](doc/run.md)
+## Instructions
 
-## [Upload format](doc/format.md)
+### [How to run](doc/run.md)
+
+### [Upload format](doc/format.md)
 
 ## Questions
 
