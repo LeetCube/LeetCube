@@ -1,0 +1,10 @@
+[
+    {
+        "contributor": "given",
+        "input": {
+            "ops": [ "Trie", "insert", "search", "search", "startsWith", "insert", "search" ],
+            "params": [ [ ], [ "apple" ], [ "apple" ], [ "app" ], [ "app" ], [ "app" ], [ "app" ] ]
+        },
+        "output": [ null, null, true, false, true, null, true ]
+    }
+]

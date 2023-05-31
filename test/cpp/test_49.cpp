@@ -1,8 +1,6 @@
 #include "../../src/cpp/code_49.cpp"
 #include "cpp_deps/boilerplate.h"
 
-#include <iostream>
-
 void test(Solution& sol, const json& input, const json& output) {
     vector<string> strs = input["strs"].get<vector<string>>();
     vector<vector<string>> expected = output.get<vector<vector<string>>>();

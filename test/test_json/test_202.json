@@ -1,0 +1,23 @@
+[
+    {
+        "contributor": "given",
+        "input": {
+            "n": 19
+        },
+        "output": true
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 2
+        },
+        "output": false
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "n": 1
+        },
+        "output": true
+    }
+]
