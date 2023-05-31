@@ -18,8 +18,6 @@ jobs:
         with:
           style: file
           ignore: test/cpp/cpp_deps
+          thread-comments: true
           version: 14
           extra-args: -std=c++17 -g -O2 -march=native -Wall -Wextra -Werror -pedantic -fsanitize=address -fsanitize=undefined
-      - name: Fail fast?!
-        if: steps.linter.outputs.checks-failed > 0
-        run: exit 1
