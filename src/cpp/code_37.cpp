@@ -8,9 +8,7 @@ using namespace std;
 class Solution {
 public:
     bool is_grid_sequence_valid(set<char>& seen, char entry) {
-        if (entry == '.') {
-            return true;
-        }
+        if (entry == '.') { return true; }
         if (seen.find(entry) == seen.end()) {
             seen.insert(entry);
             return true;
@@ -21,15 +19,11 @@ public:
     bool isValidSudoku(const vector<vector<char>>& board, int modified_x, int modified_y) {
         set<char> seen;
         for (auto elem : board[modified_x]) {
-            if (!is_grid_sequence_valid(seen, elem)) {
-                return false;
-            }
+            if (!is_grid_sequence_valid(seen, elem)) { return false; }
         }
         seen.clear();
         for (int row = 0; row < 9; row++) {
-            if (!is_grid_sequence_valid(seen, board[row][modified_y])) {
-                return false;
-            }
+            if (!is_grid_sequence_valid(seen, board[row][modified_y])) { return false; }
         }
         seen.clear();
 
@@ -37,11 +31,7 @@ public:
         const auto box_top_left_y = 3 * (modified_y / 3);
         for (int x = 0; x < 3; x++) {
             for (int y = 0; y < 3; y++) {
-                if (!is_grid_sequence_valid(
-                        seen,
-                        board[box_top_left_x + x][box_top_left_y + y])) {
-                    return false;
-                }
+                if (!is_grid_sequence_valid(seen, board[box_top_left_x + x][box_top_left_y + y])) { return false; }
             }
         }
         return true;
@@ -70,15 +60,11 @@ public:
     }
 
     bool solve_search(vector<vector<char>>& board, int curr_cell_num) {
-        if (curr_cell_num >= 81) {
-            return true;
-        }
+        if (curr_cell_num >= 81) { return true; }
         int curr_x = curr_cell_num / 9;
         int curr_y = curr_cell_num % 9;
 
-        if (board[curr_x][curr_y] != '.') {
-            return solve_search(board, curr_cell_num + 1);
-        }
+        if (board[curr_x][curr_y] != '.') { return solve_search(board, curr_cell_num + 1); }
 
         for (int entry = 1; entry <= 9; entry++) {
             board[curr_x][curr_y] = '0' + entry;

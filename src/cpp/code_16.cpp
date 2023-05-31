@@ -28,12 +28,9 @@ public:
                 int sum = nums[i] + nums[j] + nums[k];
                 if (sum == target) {
                     return sum;
-                } else if (sum < target)
-                    j++;
-                else
-                    k--;
-                if (abs(sum - target) < abs(soln - target))
-                    soln = sum;
+                } else if (sum < target) j++;
+                else k--;
+                if (abs(sum - target) < abs(soln - target)) soln = sum;
             }
         }
         return soln;

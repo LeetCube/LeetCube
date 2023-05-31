@@ -8,15 +8,9 @@
 using json = nlohmann::json;
 using namespace std;
 
-enum Result {
-    TRUE = true,
-    FALSE = false,
-    NULLPTR = -1
-};
+enum Result { TRUE = true, FALSE = false, NULLPTR = -1 };
 
-NLOHMANN_JSON_SERIALIZE_ENUM(Result, {{NULLPTR, nullptr},
-                                      {TRUE, true},
-                                      {FALSE, false}})
+NLOHMANN_JSON_SERIALIZE_ENUM(Result, {{NULLPTR, nullptr}, {TRUE, true}, {FALSE, false}})
 
 TEST_CASE("") {
     ifstream test_file("test/test_json/test_208.json");

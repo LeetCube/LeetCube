@@ -19,7 +19,7 @@ Definition from [freeCodeCamp](https://www.freecodecamp.org/news/using-prettier-
 `blank` uses the following formatting style, in conjunction with VSCode's formatter that ships with the C++ extension by default (add the following to the `C_Cpp: Clang_format_fallback Style` and `C_Cpp: Clang_format_style` settings in VSCode):
 
 ```js
-{ BasedOnStyle: Google, UseTab: Never, IndentWidth: 4, AllowShortIfStatementsOnASingleLine: AllIfsAndElse, ColumnLimit: 150, DerivePointerAlignment: false, PointerAlignment: Left, AllowShortBlocksOnASingleLine: Always, AllowShortFunctionsOnASingleLine: All, AllowShortLoopsOnASingleLine: true, FixNamespaceComments: false, AccessModifierOffset: -4}
+{ BasedOnStyle: Google, UseTab: Never, IndentWidth: 4, AllowShortIfStatementsOnASingleLine: AllIfsAndElse, ColumnLimit: 20000, DerivePointerAlignment: false, PointerAlignment: Left, AllowShortBlocksOnASingleLine: Always, AllowShortFunctionsOnASingleLine: Empty, AllowShortLoopsOnASingleLine: true, FixNamespaceComments: false, AccessModifierOffset: -4}
 ```
 
 ## Python

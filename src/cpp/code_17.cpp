@@ -16,11 +16,9 @@ public:
         @pre digits[i] is a digit in the range ['2', '9'].
     */
     vector<string> letterCombinations(string digits) {
-        const vector<string> letters = {"", "", "abc", "def", "ghi",
-                                        "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        const vector<string> letters = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
-        if (digits.empty())
-            return {};
+        if (digits.empty()) return {};
 
         vector<string> soln;
         soln.push_back("");
@@ -28,8 +26,7 @@ public:
         for (auto d : digits) {
             vector<string> temp;
             for (auto l : letters[d - '0'])
-                for (auto c : soln)
-                    temp.push_back(c + l);
+                for (auto c : soln) temp.push_back(c + l);
             soln.swap(temp);
         }
 
