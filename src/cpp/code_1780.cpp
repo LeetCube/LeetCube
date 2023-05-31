@@ -4,9 +4,7 @@ class Solution {
 public:
     bool checkPowersOfThree(int n) {
         int h = 1;
-        while (h <= n) {
-            h = h * 3;
-        }
+        while (h <= n) { h = h * 3; }
         h = h / 3;
         if (n - h >= h) {
             return false;

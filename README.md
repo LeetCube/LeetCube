@@ -6,6 +6,9 @@
 
 Everyone is welcome to contribute their LeetCode solutions!
 
+[![GitHub Super-Linter](https://github.com/LeetCube/LeetCube/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![cpp-linter](https://github.com/LeetCube/LeetCube/actions/workflows/cpp-linter.yml/badge.svg)](https://github.com/marketplace/actions/c-c-linter)
+
 ## Instructions
 
 ### [How to run](doc/run.md)

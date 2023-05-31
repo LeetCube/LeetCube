@@ -28,9 +28,7 @@ public:
     vector<int> col(vector<vector<int>>& matrix, int k) {
         vector<int> col;
         int n = matrix.size();
-        for (int j = n - 1; j >= 0; j--) {
-            col.push_back(matrix[j][k]);
-        }
+        for (int j = n - 1; j >= 0; j--) { col.push_back(matrix[j][k]); }
         return col;
     }
 };
