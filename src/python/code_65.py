@@ -51,7 +51,7 @@ class Solution:
             return self.valid_decimal_or_int(s)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = Solution()
     # print(s.valid_int("+123"))
     # print(s.isNumber("+eo"))
