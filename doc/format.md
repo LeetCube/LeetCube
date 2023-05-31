@@ -16,11 +16,9 @@ Definition from [freeCodeCamp](https://www.freecodecamp.org/news/using-prettier-
 
 ## C++
 
-`blank` uses the following formatting style, in conjunction with VSCode's formatter that ships with the C++ extension by default (add the following to the `C_Cpp: Clang_format_fallback Style` and `C_Cpp: Clang_format_style` settings in VSCode):
+`blank` uses Google-style formatting, with a few custom options. A `.clang-format` file with said options is provided.
 
-```js
-{ BasedOnStyle: Google, UseTab: Never, IndentWidth: 4, AllowShortIfStatementsOnASingleLine: AllIfsAndElse, ColumnLimit: 20000, DerivePointerAlignment: false, PointerAlignment: Left, AllowShortBlocksOnASingleLine: Always, AllowShortFunctionsOnASingleLine: Empty, AllowShortLoopsOnASingleLine: true, FixNamespaceComments: false, AccessModifierOffset: -4}
-```
+On Linux, if you have `clang-format` installed, you can run `find . -iname *.cpp | xargs clang-format -style=file -i` when in the project root directory to format all of the files according to the rules above. Rules are subject to change.
 
 ## Python
 
