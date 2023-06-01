@@ -1,6 +1,6 @@
 SRCS_DIR = src/cpp
 TESTS_DIR = test/cpp
-TESTS = $(wildcard $(TESTS_DIR)/test_*.cpp)
+TESTS = $(subst src/cpp/code, test/cpp/test, $(wildcard $(SRCS_DIR)/code_*.cpp))
 BUILD_DIR = build
 BIN_DIR = bin
 OUT = $(subst $(TESTS_DIR), $(BIN_DIR), $(basename $(TESTS)))

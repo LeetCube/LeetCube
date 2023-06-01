@@ -21,7 +21,7 @@ TEST_CASE("") {
         const json& test_case = *it;
         const json& input = test_case["input"];
         const json& output = test_case["output"];
-        Trie* obj;
+        Trie* obj = nullptr;
         INFO("TEST CASE " << (it - tests.begin()));
         vector<string> ops = input["ops"].get<vector<string>>();
         vector<vector<string>> params = input["params"].get<vector<vector<string>>>();
