@@ -1,13 +1,13 @@
 SRCS_DIR = src/cpp
 TESTS_DIR = test/cpp
-TESTS = $(wildcard $(TESTS_DIR)/test_*.cpp)
+TESTS = $(subst src/cpp/code, test/cpp/test, $(wildcard $(SRCS_DIR)/code_*.cpp))
 BUILD_DIR = build
 BIN_DIR = bin
 OUT = $(subst $(TESTS_DIR), $(BIN_DIR), $(basename $(TESTS)))
 
 CXX = clang++
-CXXFLAGS = -std=c++17 -g -O2 -march=native -Wall -Wextra -pedantic -fsanitize=address -fsanitize=undefined
-DOCTEST_CXXFLAGS = -std=c++17 -c -g -Ofast -march=native -Wall -Wextra -pedantic -fsanitize=address -fsanitize=undefined
+CXXFLAGS = -std=c++17 -g -O2 -march=native -Wall -Wextra -Werror -pedantic -fsanitize=address -fsanitize=undefined
+DOCTEST_CXXFLAGS = -std=c++17 -c -g -Ofast -march=native -Wall -Wextra -Werror -pedantic -fsanitize=address -fsanitize=undefined
 
 all: $(OUT)
 

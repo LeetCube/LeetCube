@@ -20,9 +20,9 @@ using namespace std;
 class Trie {
     struct TrieNode {
         bool is_word;
-        TrieNode* children[26];
+        TrieNode* children[26]{};
 
-        TrieNode(bool iw) : is_word(iw), children{} {}
+        TrieNode(bool iw) : is_word(iw) {}
     };
 
     TrieNode* root;
@@ -30,19 +30,42 @@ class Trie {
 public:
     void clear(TrieNode*& node) {
         if (node) {
-            for (TrieNode* child : node->children) clear(child);
+            for (auto& child : node->children) clear(child);
 
             delete node;
             node = nullptr;
         }
     }
 
+    TrieNode* copy(const TrieNode* other) {
+        if (!other) return nullptr;
+
+        auto* node = new TrieNode(other->is_word);
+
+        for (int i = 0; i < 26; ++i) node->children[i] = copy(other->children[i]);
+
+        return node;
+    }
+
     ~Trie() {
         clear(root);
     }
 
-    Trie() {
-        root = new TrieNode(false);
+    Trie() : root(new TrieNode(false)) {}
+
+    Trie(const Trie& other) : root(copy(other.root)) {}
+
+    Trie(Trie&& other) = default;
+
+    Trie& operator=(Trie&& other) = default;
+
+    Trie& operator=(const Trie& other) {
+        if (this != &other) {
+            clear(root);
+            root = copy(other.root);
+        }
+
+        return *this;
     }
 
     void insert(string word) {

@@ -32,7 +32,7 @@ public:
 
         for (int i = 0; i < n * n; ++i) {
             if (grid[i / n][i % n] == 1) {
-                stack.push_back({i % n, i / n});
+                stack.emplace_back(i % n, i / n);
                 break;
             }
         }

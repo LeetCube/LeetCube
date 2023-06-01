@@ -1,7 +1,7 @@
 #include <vector>
 
-#include "cpp_deps/boilerplate.h"
 #include "../../src/cpp/code_2.cpp"
+#include "cpp_deps/boilerplate.hpp"
 
 void clear(ListNode*& head) {
     if (!head) return;

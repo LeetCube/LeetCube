@@ -2,21 +2,15 @@
 #include <vector>
 
 #include "../../src/cpp/code_208.cpp"
-#include "cpp_deps/doctest.h"
+#include "cpp_deps/doctest.hpp"
 #include "cpp_deps/json.hpp"
 
 using json = nlohmann::json;
 using namespace std;
 
-enum Result {
-    TRUE = true,
-    FALSE = false,
-    NULLPTR = -1
-};
+enum Result { TRUE = true, FALSE = false, NULLPTR = -1 };
 
-NLOHMANN_JSON_SERIALIZE_ENUM(Result, {{NULLPTR, nullptr},
-                                      {TRUE, true},
-                                      {FALSE, false}})
+NLOHMANN_JSON_SERIALIZE_ENUM(Result, {{NULLPTR, nullptr}, {TRUE, true}, {FALSE, false}})
 
 TEST_CASE("") {
     ifstream test_file("test/test_json/test_208.json");
@@ -27,7 +21,7 @@ TEST_CASE("") {
         const json& test_case = *it;
         const json& input = test_case["input"];
         const json& output = test_case["output"];
-        Trie* obj;
+        Trie* obj = nullptr;
         INFO("TEST CASE " << (it - tests.begin()));
         vector<string> ops = input["ops"].get<vector<string>>();
         vector<vector<string>> params = input["params"].get<vector<vector<string>>>();

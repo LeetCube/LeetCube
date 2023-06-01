@@ -1,12 +1,13 @@
 #include "../../src/cpp/code_36.cpp"
-#include "cpp_deps/boilerplate.h"
+#include "cpp_deps/boilerplate.hpp"
 
 vector<vector<char>> get_board(const json& field) {
     vector<vector<char>> board;
     for (const auto& row : field.get<std::vector<std::vector<std::string>>>()) {
         std::vector<char> transformed_row;
+        transformed_row.reserve(row.size());
 
-        for (const auto& item : row) transformed_row.push_back(item[0]);
+        for (const auto& item : row) transformed_row.emplace_back(item[0]);
 
         board.push_back(transformed_row);
     }

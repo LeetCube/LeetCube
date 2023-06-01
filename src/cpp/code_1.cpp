@@ -1,6 +1,7 @@
 // 1. Two Sum (Easy)
 
 #include <algorithm>
+#include <unordered_map>
 #include <vector>
 
 using namespace std;

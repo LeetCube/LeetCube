@@ -19,28 +19,24 @@ public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         set<vector<int>> soln;
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] > 0)
-                break;
-            int j = i + 1;
-            int k = nums.size() - 1;
-            if (nums[k] < 0)
-                break;
+        for (size_t i = 0; i < nums.size(); i++) {
+            if (nums[i] > 0) break;
+            size_t j = i + 1;
+            size_t k = nums.size() - 1;
+            if (nums[k] < 0) break;
             while (j < k) {
                 int sum = nums[i] + nums[j] + nums[k];
                 if (sum == 0) {
                     soln.insert({nums[i], nums[j], nums[k]});
                     j++;
                     k--;
-                } else if (sum < 0)
-                    j++;
-                else
-                    k--;
+                } else if (sum < 0) j++;
+                else k--;
             }
         }
         vector<vector<int>> output;
-        for (auto s : soln)
-            output.push_back(s);
+        output.reserve(soln.size());
+        for (const auto& s : soln) output.push_back(s);
         return output;
     }
 };
