@@ -1,7 +1,7 @@
 #include <algorithm>
 
 #include "../../src/cpp/code_17.cpp"
-#include "cpp_deps/boilerplate.h"
+#include "cpp_deps/boilerplate.hpp"
 
 void test(Solution& sol, const json& input, const json& output) {
     string digits = input["digits"].get<string>();

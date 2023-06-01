@@ -21,7 +21,7 @@ public:
 
         for (size_t i = 1; i < strs.size(); i++) {
             if (common.length() <= 0) break;
-            string temp = "";
+            string temp;
             for (size_t j = 0; j < common.length(); j++) {
                 if (strs[i][j] == common[j]) temp += common[j];
                 else break;

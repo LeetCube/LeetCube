@@ -20,10 +20,10 @@ public:
     */
     int threeSumClosest(vector<int>& nums, int target) {
         sort(nums.begin(), nums.end());
-        int soln;
+        int soln = 30001;
         for (size_t i = 0; i < nums.size(); i++) {
-            int j = i + 1;
-            int k = nums.size() - 1;
+            size_t j = i + 1;
+            size_t k = nums.size() - 1;
             while (j < k) {
                 int sum = nums[i] + nums[j] + nums[k];
                 if (sum == target) {

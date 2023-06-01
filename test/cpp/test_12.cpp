@@ -1,5 +1,5 @@
 #include "../../src/cpp/code_12.cpp"
-#include "cpp_deps/boilerplate.h"
+#include "cpp_deps/boilerplate.hpp"
 
 void test(Solution& sol, const json& input, const json& output) {
     int num = input["num"].get<int>();

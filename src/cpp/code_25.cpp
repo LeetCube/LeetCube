@@ -26,9 +26,9 @@ public:
         dummy.next = head;
         ListNode* before = &dummy;
         ListNode* after = head;
-        ListNode* curr;
-        ListNode* prev;
-        ListNode* next;
+        ListNode* curr = nullptr;
+        ListNode* prev = nullptr;
+        ListNode* next = nullptr;
 
         while (true) {
             ListNode* cursor = after;

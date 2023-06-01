@@ -1,14 +1,14 @@
-#include "../../src/cpp/code_35.cpp"
+#include "../../src/cpp/code_215.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
 void test(Solution& sol, const json& input, const json& output) {
     vector<int> nums = input["nums"].get<vector<int>>();
-    int target = input["target"];
+    int k = input["k"].get<int>();
     int expected = output.get<int>();
-    int result = sol.searchInsert(nums, target);
+    int result = sol.findKthLargest(nums, k);
     CHECK_EQ(result, expected);
 }
 
 TEST_CASE("") {
-    TEST("test/test_json/test_35.json");
+    TEST("test/test_json/test_215.json");
 }

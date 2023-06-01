@@ -11,7 +11,7 @@ public:
         } else if (n - h == 0) {
             return true;
         } else {
-            return true && checkPowersOfThree(n - h);
+            return checkPowersOfThree(n - h);
         }
     }
 };
