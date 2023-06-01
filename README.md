@@ -6,15 +6,20 @@
 
 Everyone is welcome to contribute their LeetCode solutions!
 
-## [How to run](doc/run.md)
+[![GitHub Super-Linter](https://github.com/LeetCube/LeetCube/actions/workflows/linter.yml/badge.svg?branch=main)](https://github.com/marketplace/actions/super-linter)
+[![cpp-linter](https://github.com/LeetCube/LeetCube/actions/workflows/cpp-linter.yml/badge.svg?branch=main)](https://github.com/marketplace/actions/c-c-linter)
 
-## [Upload format](doc/format.md)
+## Instructions
+
+### [How to run](doc/run.md)
+
+### [Upload format](doc/format.md)
 
 ## Questions
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 49    | 20   | 23     | 6    |
+| 52    | 20   | 26     | 6    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -88,6 +93,9 @@ Everyone is welcome to contribute their LeetCode solutions!
 [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 🔴 Hard
 
+[48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+🟡 Medium
+
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 🟡 Medium
 
@@ -118,7 +126,13 @@ Everyone is welcome to contribute their LeetCode solutions!
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 🟡 Medium
 
+[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+🟡 Medium
+
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
+🟡 Medium
+
+[1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 🟡 Medium
 
 [2620. Counter](https://leetcode.com/problems/counter/)

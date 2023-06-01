@@ -19,16 +19,16 @@ public:
         @pre -10^9 <= target <= 10^9
     */
     vector<int> searchRange(vector<int>& nums, int target) {
-        int lower, lo = 0, hi = nums.size();
+        size_t lower = 0, lo = 0, hi = nums.size();
 
         while (lo < hi) {
-            int mid = (lo + hi) / 2;
+            size_t mid = (lo + hi) / 2;
 
             if (nums[mid] < target) lo = mid + 1;
             else hi = mid;
         }
 
-        if (lo == (int)nums.size() || nums[lo] != target) return {-1, -1};
+        if (lo == nums.size() || nums[lo] != target) return {-1, -1};
 
         lower = lo;
         hi = nums.size();
@@ -40,6 +40,6 @@ public:
             else hi = mid;
         }
 
-        return {lower, lo - 1};
+        return {(int)lower, (int)lo - 1};
     }
 };

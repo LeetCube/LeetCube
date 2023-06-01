@@ -19,9 +19,11 @@ public:
           @pre 1 <= n <= sz
     */
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        // NOLINTBEGIN
+        if (!head) return head;
+
         int num = 0;
-        for (ListNode* n = head; n != nullptr; n = n->next)
-            num++;
+        for (ListNode* n = head; n != nullptr; n = n->next) num++;
 
         if (num == n) {
             ListNode* temp = head->next;
@@ -31,14 +33,13 @@ public:
         }
 
         ListNode* beforeTarget = head;
-        for (int i = 1; i < num - n; i++)
-            beforeTarget = beforeTarget->next;
+        for (int i = 1; i < num - n; i++) beforeTarget = beforeTarget->next;
 
         ListNode* target = beforeTarget->next;
-        if (target)
-            beforeTarget->next = target->next;
+        if (target) beforeTarget->next = target->next;
         delete target;
 
         return head;
+        // NOLINTEND
     }
 };

@@ -4,12 +4,17 @@ from typing import Union
 
 
 def default_output_fetcher(case):
-    return case['output']
+    return case["output"]
 
 
 class BaseTest:
-    def __init__(self, number: Union[int, str], input_fetcher, output_fetcher=default_output_fetcher):
-        with open(f'../test_json/test_{number}.json', 'r') as f:
+    def __init__(
+        self,
+        number: Union[int, str],
+        input_fetcher,
+        output_fetcher=default_output_fetcher,
+    ):
+        with open(f"../test_json/test_{number}.json", "r") as f:
             self.data = json.load(f)
             self.input_fetcher = input_fetcher
             self.output_fetcher = output_fetcher

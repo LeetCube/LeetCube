@@ -17,8 +17,8 @@ public:
         int m = numeric_limits<int>::min();
         int curr = 0;
 
-        for (size_t i = 0; i < nums.size(); ++i) {
-            curr = max(nums[i], curr + nums[i]);
+        for (int i : nums) {
+            curr = max(i, curr + i);
             m = max(m, curr);
         }
 

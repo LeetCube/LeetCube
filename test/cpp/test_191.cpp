@@ -1,5 +1,5 @@
 #include "../../src/cpp/code_191.cpp"
-#include "cpp_deps/boilerplate.h"
+#include "cpp_deps/boilerplate.hpp"
 
 void test(Solution& sol, const json& input, const json& output) {
     uint32_t u = input["u"].get<uint32_t>();

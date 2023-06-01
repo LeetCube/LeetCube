@@ -17,10 +17,10 @@ public:
         @pre -10^4 <= target <= 10^4
     */
     int searchInsert(vector<int>& nums, int target) {
-        int lo = 0, hi = nums.size();
+        size_t lo = 0, hi = nums.size();
 
         while (lo < hi) {
-            int mid = (lo + hi) / 2;
+            size_t mid = (lo + hi) / 2;
 
             if (target == nums[mid]) return mid;
             else if (target < nums[mid]) hi = mid;

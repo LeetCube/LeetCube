@@ -12,13 +12,14 @@ class Solution {
     public:
         vector<int> arr;
 
-        DSet(int n) {
+        DSet(size_t n) {
             arr = vector<int>(n, -1);
         }
 
         int Find(int a) {
             if (arr[a] < 0) return a;
-            else return arr[a] = Find(arr[a]);
+
+            return arr[a] = Find(arr[a]);
         }
 
         void Union(int a, int b) {
@@ -62,10 +63,10 @@ public:
         DSet dset(nums.size());
         unordered_map<int, int> idx;
 
-        for (size_t i = 0; i < nums.size(); ++i) {
+        for (int i = 0; i < (int)nums.size(); ++i) {
             if (nums[i] == 1) return false;
 
-            unsigned curr = nums[i];
+            int curr = nums[i];
 
             if (curr % 2 == 0) {
                 // if 2 is already a divisor of a previous number, we union the two indices because they share a common factor (2)
@@ -83,7 +84,7 @@ public:
                 while (curr % 3 == 0) curr /= 3;
             }
 
-            for (unsigned j = 6; (j - 1) * (j - 1) <= curr; j += 6) {
+            for (int j = 6; (j - 1) * (j - 1) <= curr; j += 6) {
                 if (curr % (j - 1) == 0) {
                     if (idx.find(j - 1) != idx.end()) dset.Union(i, idx.at(j - 1));
                     else idx[j - 1] = i;

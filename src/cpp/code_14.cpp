@@ -19,14 +19,12 @@ public:
     string longestCommonPrefix(vector<string>& strs) {
         string common = strs[0];
 
-        for (int i = 1; i < strs.size(); i++) {
+        for (size_t i = 1; i < strs.size(); i++) {
             if (common.length() <= 0) break;
-            string temp = "";
-            for (int j = 0; j < common.length(); j++) {
-                if (strs[i][j] == common[j])
-                    temp += common[j];
-                else
-                    break;
+            string temp;
+            for (size_t j = 0; j < common.length(); j++) {
+                if (strs[i][j] == common[j]) temp += common[j];
+                else break;
             }
             common = temp;
         }
