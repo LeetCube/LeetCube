@@ -1,4 +1,4 @@
-#include "boilerplate.h"
+#include "boilerplate.hpp"
 
 json get_json(const string& fp) {
     ifstream test_file(fp);

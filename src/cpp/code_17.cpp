@@ -20,13 +20,12 @@ public:
 
         if (digits.empty()) return {};
 
-        vector<string> soln;
-        soln.push_back("");
+        vector<string> soln = {""};
 
         for (auto d : digits) {
             vector<string> temp;
-            for (auto l : letters[d - '0'])
-                for (auto c : soln) temp.push_back(c + l);
+            for (const auto l : letters[d - '0'])
+                for (const auto& c : soln) temp.push_back(c + l);
             soln.swap(temp);
         }
 

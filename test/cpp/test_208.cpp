@@ -2,7 +2,7 @@
 #include <vector>
 
 #include "../../src/cpp/code_208.cpp"
-#include "cpp_deps/doctest.h"
+#include "cpp_deps/doctest.hpp"
 #include "cpp_deps/json.hpp"
 
 using json = nlohmann::json;

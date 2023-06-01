@@ -1,5 +1,5 @@
 #include "../../src/cpp/code_36.cpp"
-#include "cpp_deps/boilerplate.h"
+#include "cpp_deps/boilerplate.hpp"
 
 vector<vector<char>> get_board(const json& field) {
     vector<vector<char>> board;

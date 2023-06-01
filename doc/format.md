@@ -6,6 +6,8 @@ Definition from [freeCodeCamp](https://www.freecodecamp.org/news/using-prettier-
 
 > Code formatters are automated tools that help you format source code _automatically_. The main purpose of code formatters is to standardize the formatting of code across a project or team, making it **easier to read and understand code**.
 
+**Note: please keep function signatures as they are on LeetCode**.
+
 ## Editor
 
 1. Auto format when you save the file

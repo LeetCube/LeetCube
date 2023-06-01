@@ -4,7 +4,7 @@
 #include <fstream>
 #include <string>
 
-#include "doctest.h"
+#include "doctest.hpp"
 #include "json.hpp"
 
 using json = nlohmann::json;
