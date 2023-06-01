@@ -20,9 +20,9 @@ using namespace std;
 class Trie {
     struct TrieNode {
         bool is_word;
-        TrieNode* children[26];
+        TrieNode* children[26]{};
 
-        TrieNode(bool iw) : is_word(iw), children{} {}
+        TrieNode(bool iw) : is_word(iw) {}
     };
 
     TrieNode* root;
@@ -54,6 +54,10 @@ public:
     Trie() : root(new TrieNode(false)) {}
 
     Trie(const Trie& other) : root(copy(other.root)) {}
+
+    Trie(Trie&& other) = default;
+
+    Trie& operator=(Trie&& other) = default;
 
     Trie& operator=(const Trie& other) {
         if (this != &other) {

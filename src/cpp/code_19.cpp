@@ -19,6 +19,9 @@ public:
           @pre 1 <= n <= sz
     */
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        // NOLINTBEGIN
+        if (!head) return head;
+
         int num = 0;
         for (ListNode* n = head; n != nullptr; n = n->next) num++;
 
@@ -37,5 +40,6 @@ public:
         delete target;
 
         return head;
+        // NOLINTEND
     }
 };

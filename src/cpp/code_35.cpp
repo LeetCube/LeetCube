@@ -23,6 +23,7 @@ public:
             size_t mid = (lo + hi) / 2;
 
             if (target == nums[mid]) return mid;
+            else if (target < nums[mid]) hi = mid;
             else lo = mid + 1;
         }
 

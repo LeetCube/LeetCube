@@ -22,12 +22,11 @@ class Solution {
     }
 
     int select(vector<int>& nums, size_t left, size_t right, size_t k) {
-        while (left != right) {
+        while (left < right) {
             size_t p = partition(nums, left, right);
 
             if (k == p) return nums[p];
-
-            if (k < p) right = p - 1;
+            else if (k < p) right = p - 1;
             else left = p + 1;
         }
 

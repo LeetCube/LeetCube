@@ -22,6 +22,8 @@ Definition from [freeCodeCamp](https://www.freecodecamp.org/news/using-prettier-
 
 On Linux, if you have `clang-format` installed, you can run `find . -iname *.cpp | xargs clang-format -style=file -i` when in the project root directory to format all of the files according to the rules above. Rules are subject to change.
 
+On Linux, if you have `clang-tidy` installed, you can run `find . -iname *.cpp -exec sh -c 'clang-tidy --config-file=.clang-tidy "$1"' -- {} \;` when in the project root directory to run the `clang-tidy` linter on all files. Rules are subject to change. If you want to disable linting for a block of code, add `// NOLINTBEGIN` and `// NOLINTEND` around it.
+
 ## Python
 
 `annie` uses [black](https://github.com/psf/black).
