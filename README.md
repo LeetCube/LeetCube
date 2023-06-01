@@ -19,7 +19,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 51    | 20   | 25     | 6    |
+| 52    | 20   | 26     | 6    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -124,6 +124,9 @@ Everyone is welcome to contribute their LeetCode solutions!
 🟢 Easy
 
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+🟡 Medium
+
+[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 🟡 Medium
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
