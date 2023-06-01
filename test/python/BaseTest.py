@@ -36,12 +36,14 @@ class BaseTest:
         input_fetcher,
         output_fetcher=default_output_fetcher,
         output_transformer=None,
+        output_comparator=None,
     ):
         with open(f"../test_json/test_{number}.json", "r") as f:
             self.data = json.load(f)
             self.input_fetcher = input_fetcher
             self.output_fetcher = output_fetcher
             self.output_transformer = output_transformer
+            self.output_comparator = output_comparator
 
     def run_tests(self, solution):
         start = timer()
@@ -54,9 +56,14 @@ class BaseTest:
                 actual = solution(input)
             if self.output_transformer is not None:
                 actual = self.output_transformer(actual)
-            assert (
-                actual == answer
-            ), f"Failed case. Should have been {answer}, was {actual}\n: {input}"
 
+            error_msg = (
+                f"Failed case. Should have been {answer}, was {actual}\n: {input}"
+            )
+
+            if self.output_comparator is not None:
+                assert self.output_comparator(answer, actual), error_msg
+            else:
+                assert answer == actual, error_msg
         end = timer()
         print(f"{len(self.data)} cases ran in{(end - start) * 1000: .0f} ms")
