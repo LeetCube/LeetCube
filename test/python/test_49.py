@@ -29,8 +29,6 @@ def nested_list_contents_comparator(
 
 
 def test():
-    test = Test(
-        49, input_fetcher, output_comparator=nested_list_contents_comparator
-    )
+    test = Test(49, input_fetcher, output_comparator=nested_list_contents_comparator)
     solution = Solution().groupAnagrams
     test.run_tests(solution)

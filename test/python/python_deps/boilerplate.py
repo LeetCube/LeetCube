@@ -1,33 +1,11 @@
 import json
-from typing import Union, List, Optional
+from typing import Union
 from .data_structures import *
 
 
-def default_output_fetcher(case):
-    return case["output"]
-
-
-def build_linked_list(input: List) -> Optional[ListNode]:
-    if len(input) == 0:
-        return None
-    head = ListNode(input[0])
-    curr = head
-    for i in input[1:]:
-        curr.next = ListNode(i)
-        curr = curr.next
-    return head
-
-
-def listnode_to_list(ln: ListNode):
-    acc = []
-    while ln:
-        acc.append(ln.val)
-        ln = ln.next
-
-    return acc
-
-
 class Test:
+    default_output_fetcher = lambda test_case: test_case["output"]
+
     def __init__(
         self,
         number: Union[int, str],
