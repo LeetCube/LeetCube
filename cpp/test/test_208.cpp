@@ -13,7 +13,7 @@ enum Result { TRUE = true, FALSE = false, NULLPTR = -1 };
 NLOHMANN_JSON_SERIALIZE_ENUM(Result, {{NULLPTR, nullptr}, {TRUE, true}, {FALSE, false}})
 
 TEST_CASE("") {
-    ifstream test_file("../data/json_testcases/test_208.json");
+    ifstream test_file("../data/testcases/test_208.json");
     json tests;
     test_file >> tests;
 

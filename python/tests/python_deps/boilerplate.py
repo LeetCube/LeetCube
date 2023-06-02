@@ -19,7 +19,7 @@ class BoilerTest:
         self.output_fetcher = output_fetcher
         self.output_transformer = output_transformer
         self.output_comparator = output_comparator
-        with open(f"../../test/test_json/test_{number}.json", "r") as f:
+        with open(f"data/testcases/test_{number}.json", "r") as f:
             self.test_cases = json.load(f)
 
     def run_tests(self, solution):

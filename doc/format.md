@@ -73,8 +73,8 @@ If the problem allows the answer to be returned in any order, or similar:
 
 - sort each entry in the output list, if necessary (list of lists)
 - sort the entire output list
-- add the **sorted** answer in JSON, and add code to sort the result in the test file. (see [`test/cpp/test_17.cpp`](../test/cpp/test_17.cpp), [`../data/json_testcases/test_17.json`](../../data/json_testcases/test_17.json))
+- add the **sorted** answer in JSON, and add code to sort the result in the test file. (see [`test_17.cpp`](../cpp/test/test_17.cpp), [`test_17.json`](../data/testcases/test_17.json))
 
 If multiple correct answers:
 
-- add a **list** of all correct answers in JSON, and add code to check that the result is in said list in the test file. (see [`test/cpp/test_5.cpp`](../test/cpp/test_5.cpp), [`../data/json_testcases/test_5.json`](../../data/json_testcases/test_5.json))
+- add a **list** of all correct answers in JSON, and add code to check that the result is in said list in the test file. (see [`test/cpp/test_5.cpp`](../test/cpp/test_5.cpp), [`../data/testcases/test_5.json`](../../data/testcases/test_5.json))

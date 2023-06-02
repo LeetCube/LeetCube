@@ -14,7 +14,8 @@ To compile and run all tests:
 
 ```shell
 cd cpp/
-make r
+make run
+```
 
 ## Python
 
