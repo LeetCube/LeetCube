@@ -1,7 +1,8 @@
 import sys
 import os
+
 sys.path.append(os.getcwd())
-from .BaseTest import BaseTest
+from .python_deps.boilerplate import Test
 from src.python.code_49 import Solution
 
 from typing import List
@@ -27,8 +28,8 @@ def nested_list_contents_comparator(
     return True
 
 
-if __name__ == "__main__":
-    test = BaseTest(
+def test():
+    test = Test(
         49, input_fetcher, output_comparator=nested_list_contents_comparator
     )
     solution = Solution().groupAnagrams

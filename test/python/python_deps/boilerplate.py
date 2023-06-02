@@ -1,7 +1,6 @@
 import json
-from timeit import default_timer as timer
 from typing import Union, List, Optional
-from .DataStructures import ListNode
+from .data_structures import *
 
 
 def default_output_fetcher(case):
@@ -28,7 +27,7 @@ def listnode_to_list(ln: ListNode):
     return acc
 
 
-class BaseTest:
+class Test:
     def __init__(
         self,
         number: Union[int, str],
@@ -45,7 +44,6 @@ class BaseTest:
             self.output_comparator = output_comparator
 
     def run_tests(self, solution):
-        start = timer()
         for case in self.data:
             input = self.input_fetcher(case)
             answer = self.output_fetcher(case)
@@ -64,5 +62,3 @@ class BaseTest:
                 assert self.output_comparator(answer, actual), error_msg
             else:
                 assert answer == actual, error_msg
-        end = timer()
-        print(f"{len(self.data)} cases ran in{(end - start) * 1000: .0f} ms")

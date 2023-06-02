@@ -1,7 +1,8 @@
 import sys
 import os
+
 sys.path.append(os.getcwd())
-from .BaseTest import BaseTest, build_linked_list, listnode_to_list
+from .python_deps.boilerplate import Test, build_linked_list, listnode_to_list
 from src.python.code_2 import Solution
 
 
@@ -11,7 +12,7 @@ def input_fetcher(case):
     )
 
 
-if __name__ == "__main__":
-    test = BaseTest(2, input_fetcher, output_transformer=listnode_to_list)
+def test():
+    test = Test(2, input_fetcher, output_transformer=listnode_to_list)
     solution = Solution().addTwoNumbers
     test.run_tests(solution)
