@@ -1,6 +1,7 @@
 import json
 from typing import Union
 from .data_structures import *
+from timeit import default_timer as timer
 
 
 class BoilerTest:
@@ -14,17 +15,19 @@ class BoilerTest:
         output_transformer=None,
         output_comparator=None,
     ):
+        self.number = number
+        self.input_fetcher = input_fetcher
+        self.output_fetcher = output_fetcher
+        self.output_transformer = output_transformer
+        self.output_comparator = output_comparator
         with open(f"test/test_json/test_{number}.json", "r") as f:
-            self.data = json.load(f)
-            self.input_fetcher = input_fetcher
-            self.output_fetcher = output_fetcher
-            self.output_transformer = output_transformer
-            self.output_comparator = output_comparator
+            self.test_cases = json.load(f)
 
     def run_tests(self, solution):
-        for case in self.data:
-            input = self.input_fetcher(case)
-            answer = self.output_fetcher(case)
+        start = timer()
+        for test_case in self.test_cases:
+            input = self.input_fetcher(test_case)
+            answer = self.output_fetcher(test_case)
             if isinstance(input, tuple):
                 actual = solution(*input)
             else:
@@ -40,3 +43,6 @@ class BoilerTest:
                 assert self.output_comparator(answer, actual), error_msg
             else:
                 assert answer == actual, error_msg
+
+        end = timer()
+        print(f"\ntest_{self.number}: {(end - start):.3f}s")
