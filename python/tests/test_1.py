@@ -1,9 +1,5 @@
-import sys
-import os
-
-sys.path.append(os.getcwd())
-from .python_deps.boilerplate import BoilerTest
-from src.python.code_1 import Solution
+from python.src.code_1 import Solution
+from python.tests.python_deps.boilerplate import BoilerTest
 
 
 def input_fetcher(case):

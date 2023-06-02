@@ -1,10 +1,6 @@
-import sys
-import os
-
-sys.path.append(os.getcwd())
-from .python_deps.boilerplate import BoilerTest
-from .python_deps.data_structures import *
-from src.python.code_2 import Solution
+from python.src.code_2 import Solution
+from python.tests.python_deps.boilerplate import BoilerTest
+from python.tests.python_deps.data_structures import build_linked_list, listnode_to_list
 
 
 def input_fetcher(case):
