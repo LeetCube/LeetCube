@@ -1,4 +1,7 @@
-from BaseTest import BaseTest, build_linked_list, listnode_to_list
+import sys
+import os
+sys.path.append(os.getcwd())
+from .BaseTest import BaseTest, build_linked_list, listnode_to_list
 from src.python.code_2 import Solution
 
 

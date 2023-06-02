@@ -1,8 +1,7 @@
 import json
 from timeit import default_timer as timer
 from typing import Union, List, Optional
-
-from Structure import ListNode
+from .DataStructures import ListNode
 
 
 def default_output_fetcher(case):
@@ -38,7 +37,7 @@ class BaseTest:
         output_transformer=None,
         output_comparator=None,
     ):
-        with open(f"../test_json/test_{number}.json", "r") as f:
+        with open(f"test/test_json/test_{number}.json", "r") as f:
             self.data = json.load(f)
             self.input_fetcher = input_fetcher
             self.output_fetcher = output_fetcher

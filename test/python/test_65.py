@@ -1,4 +1,7 @@
-from BaseTest import BaseTest
+import sys
+import os
+sys.path.append(os.getcwd())
+from .BaseTest import BaseTest
 from src.python.code_65 import Solution
 
 
