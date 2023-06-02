@@ -8,8 +8,8 @@ void test(Solution& sol, const json& input, const json& output) {
     vector<ListNode*> lists;
 
     for (auto l : lists_input) {
-        ListNode *head = nullptr;
-        ListNode *curr = nullptr;
+        ListNode* head = nullptr;
+        ListNode* curr = nullptr;
         for (auto i : l) {
             if (!head) head = curr = new ListNode(l[i]);
             else {
@@ -24,7 +24,7 @@ void test(Solution& sol, const json& input, const json& output) {
 
     vector<int> result;
     while (curr) {
-        ListNode *tmp = curr->next;
+        ListNode* tmp = curr->next;
         result.push_back(curr->val);
         delete curr;
         curr = tmp;
