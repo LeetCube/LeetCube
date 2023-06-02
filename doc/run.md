@@ -5,15 +5,16 @@ Let $n$ be the question number
 ## C++
 
 ```shell
+cd cpp/
 make bin/test_n
-./bin/test_n
+bin/test_n
 ```
 
 To compile and run all tests:
 
 ```shell
-make run
-```
+cd cpp/
+make r
 
 ## Python
 
