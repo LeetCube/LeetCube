@@ -19,7 +19,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 52    | 20   | 26     | 6    |
+| 55    | 20   | 29     | 6    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -127,6 +127,15 @@ Everyone is welcome to contribute their LeetCode solutions!
 🟡 Medium
 
 [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+🟡 Medium
+
+[221. Maximal Square](https://leetcode.com/problems/maximal-square/)
+🟡 Medium
+
+[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+🟡 Medium
+
+[264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)
 🟡 Medium
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)

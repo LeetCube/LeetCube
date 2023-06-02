@@ -1,0 +1,23 @@
+[
+    {
+        "contributor": "given",
+        "input": {
+            "matrix": [ [ "1", "0", "1", "0", "0" ], [ "1", "0", "1", "1", "1" ], [ "1", "1", "1", "1", "1" ], [ "1", "0", "0", "1", "0" ] ]
+        },
+        "output": 4
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "matrix": [ [ "0", "1" ], [ "1", "0" ] ]
+        },
+        "output": 1
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "matrix": [ [ "0" ] ]
+        },
+        "output": 0
+    }
+]
