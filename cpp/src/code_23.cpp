@@ -38,7 +38,7 @@ public:
         if (lists.empty()) return nullptr;
 
         priority_queue<ListNode*, vector<ListNode*>, comp> pq;
-        for (auto *l : lists)
+        for (auto* l : lists)
             if (l) pq.push(l);
 
         ListNode* head = nullptr;
