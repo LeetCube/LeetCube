@@ -10,7 +10,7 @@ void test(Solution& sol, const json& input, const json& output) {
     for (auto l : lists_input) {
         ListNode *head = nullptr;
         ListNode *curr = nullptr;
-        for (int i = 0; i < (int) l.size(); i++) {
+        for (auto i : l) {
             if (!head) head = curr = new ListNode(l[i]);
             else {
                 curr->next = new ListNode(l[i]);
