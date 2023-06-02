@@ -9,5 +9,5 @@ void test(Solution& sol, const json& input, const json& output) {
 }
 
 TEST_CASE("") {
-    TEST("../data/testcases/test_14.json");
+    TEST(14);
 }

@@ -12,13 +12,13 @@ using namespace std;
 
 class Solution;
 
-json get_json(const string& fp);
+json get_json(const int n);
 
 void test(Solution& sol, const json& input, const json& output);
 
-#define TEST(fp)                                                           \
+#define TEST(n)                                                           \
     {                                                                      \
-        json tests = get_json(fp);                                         \
+        json tests = get_json(n);                                         \
                                                                            \
         for (json::iterator it = tests.begin(); it != tests.end(); ++it) { \
             const json& test_case = *it;                                   \
