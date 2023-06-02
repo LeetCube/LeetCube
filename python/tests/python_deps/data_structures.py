@@ -25,3 +25,19 @@ def listnode_to_list(ln: ListNode):
         ln = ln.next
 
     return acc
+
+
+def nested_list_contents_comparator(
+    answer: List[List[str]], actual: List[List[str]]
+) -> bool:
+    if len(answer) != len(actual):
+        return False
+
+    answer.sort()
+    actual.sort()
+
+    for ans, act in zip(answer, actual):
+        if ans.sort() != act.sort():
+            return False
+
+    return True
