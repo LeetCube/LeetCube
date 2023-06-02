@@ -3,7 +3,7 @@ from typing import Union
 from .data_structures import *
 
 
-class Test:
+class BoilerTest:
     default_output_fetcher = lambda test_case: test_case["output"]
 
     def __init__(

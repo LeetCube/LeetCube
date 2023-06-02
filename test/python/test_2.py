@@ -2,7 +2,7 @@ import sys
 import os
 
 sys.path.append(os.getcwd())
-from .python_deps.boilerplate import Test
+from .python_deps.boilerplate import BoilerTest
 from .python_deps.data_structures import Helpers
 from src.python.code_2 import Solution
 
@@ -14,6 +14,6 @@ def input_fetcher(case):
 
 
 def test():
-    test = Test(2, input_fetcher, output_transformer=Helpers.listnode_to_list)
+    test = BoilerTest(2, input_fetcher, output_transformer=Helpers.listnode_to_list)
     solution = Solution().addTwoNumbers
     test.run_tests(solution)

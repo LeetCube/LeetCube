@@ -2,7 +2,7 @@ import sys
 import os
 
 sys.path.append(os.getcwd())
-from .python_deps.boilerplate import Test
+from .python_deps.boilerplate import BoilerTest
 from src.python.code_65 import Solution
 
 
@@ -21,6 +21,6 @@ def test():
     # cases = [make_case(li, True) for li in l] + [make_case(li2, False) for li2 in l2]
     # print(json.dumps(cases, indent=4))
 
-    test = Test(65, input_fetcher)
+    test = BoilerTest(65, input_fetcher)
     solution = Solution().isNumber
     test.run_tests(solution)
