@@ -1,7 +1,11 @@
-from typing import List
+import sys
+import os
 
-from BaseTest import BaseTest
+sys.path.append(os.getcwd())
+from .python_deps.boilerplate import BoilerTest
 from src.python.code_49 import Solution
+
+from typing import List
 
 
 def input_fetcher(case):
@@ -24,8 +28,8 @@ def nested_list_contents_comparator(
     return True
 
 
-if __name__ == "__main__":
-    test = BaseTest(
+def test():
+    test = BoilerTest(
         49, input_fetcher, output_comparator=nested_list_contents_comparator
     )
     solution = Solution().groupAnagrams

@@ -17,8 +17,16 @@ make run
 
 ## Python
 
+`-s` flag is optional, it shows timing for each individual test.
+
 ```shell
-pytest test/python/test_n.py
+pytest test/python/test_n.py -s
+```
+
+To run all tests:
+
+```shell
+pytest test/python/ -s
 ```
 
 ## JavaScript
