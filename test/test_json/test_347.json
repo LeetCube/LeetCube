@@ -1,0 +1,18 @@
+[
+    {
+        "contributor": "phaserush",
+        "input": {
+            "nums": [ 1, 1, 1, 2, 2, 3 ],
+            "k": 2
+        },
+        "output": [ 1, 2 ]
+    },
+    {
+        "contributor": "phaserush",
+        "input": {
+            "nums": [ 1 ],
+            "k": 1
+        },
+        "output": [ 1 ]
+    }
+]

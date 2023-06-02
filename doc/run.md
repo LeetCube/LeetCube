@@ -17,9 +17,23 @@ make run
 
 ## Python
 
+## Shell
+
+`-s` flag is optional, it shows timing for each individual test.
+
 ```shell
-pytest test/python/test_n.py
+pytest python/tests/test_n.py -s
 ```
+
+To run all tests:
+
+```shell
+pytest python/tests -s
+```
+
+## JetBrains (PyCharm, IntelliJ IDEA, etc)
+
+Follow steps outlined [here](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test).
 
 ## JavaScript
 
