@@ -10,7 +10,3 @@ def test():
     test = BoilerTest(238, input_fetcher)
     solution = Solution().productExceptSelf
     test.run_tests(solution)
-
-
-if __name__ == '__main__':
-    test()
