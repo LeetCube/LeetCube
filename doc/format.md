@@ -77,4 +77,4 @@ If the problem allows the answer to be returned in any order, or similar:
 
 If multiple correct answers:
 
-- add a **list** of all correct answers in JSON, and add code to check that the result is in said list in the test file. (see [`test/cpp/test_5.cpp`](../test/cpp/test_5.cpp), [`../data/testcases/test_5.json`](../../data/testcases/test_5.json))
+- add a **list** of all correct answers in JSON, and add code to check that the result is in said list in the test file. (see [`test_5.cpp`](../cpp/test/test_5.cpp), [`test_5.json`](../data/testcases/test_5.json))
