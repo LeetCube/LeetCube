@@ -59,6 +59,7 @@ Upload to the `test/test_json` directory. Format:
 [
     {
         "contributor": ...,
+        "description": ...,
         "input": {
             "input1": ...,
             ...
@@ -70,6 +71,9 @@ Upload to the `test/test_json` directory. Format:
 ```
 
 Input names should match the argument/example input parameter names. Given test cases (examples) have `"given"` as contributor.
+
+The field `"description"` should describe what the test case is trying to test. For example, potential values could be, "small input" or "large input".
+This field is optional as the main purpose is to make it easier to deduce what the test case is trying to test.
 
 If the problem allows the answer to be returned in any order, or similar:
 
