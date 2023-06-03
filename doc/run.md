@@ -14,7 +14,7 @@ To compile and run all tests:
 
 ```shell
 cd cpp/
-make run
+make run -jc # c is number of cores to run in parallel, speeds up significantly
 ```
 
 ## Python
