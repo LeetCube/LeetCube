@@ -1,0 +1,33 @@
+[
+  {
+    "contributor": "phaserush",
+    "input": {
+      "array": [
+        {
+          "id": "1"
+        },
+        {
+          "id": "1"
+        },
+        {
+          "id": "2"
+        }
+      ],
+      "fn": {
+        "args": "item",
+        "body": "return item.id"
+      }
+    },
+    "output": {
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ],
+      "3": [
+        3
+      ]
+    }
+  }
+]
