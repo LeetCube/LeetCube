@@ -21,7 +21,7 @@ ListNode* from_array(const vector<int>& arr, size_t idx) {
 
 void test(Solution& sol, const json& input, const json& output) {
     vector<ListNode*> lists;
-    for (auto l : input["lists"].get<vector<vector<int>>>()) lists.push_back(from_array(l, l.size()));
+    for (const auto &l : input["lists"].get<vector<vector<int>>>()) lists.push_back(from_array(l, l.size()));
 
     ListNode* result = sol.mergeKLists(lists);
 
@@ -30,7 +30,7 @@ void test(Solution& sol, const json& input, const json& output) {
 
     CHECK_UNARY(is_equal(result, expected));
 
-    for (auto l : lists) clear(l);
+    for (auto *l : lists) clear(l);
     clear(expected);
     clear(result);
 }
