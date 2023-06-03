@@ -59,6 +59,7 @@ Upload to the `test/test_json` directory. Format:
 [
     {
         "contributor": ...,
+        "comments": ...,
         "input": {
             "input1": ...,
             ...
@@ -70,6 +71,14 @@ Upload to the `test/test_json` directory. Format:
 ```
 
 Input names should match the argument/example input parameter names. Given test cases (examples) have `"given"` as contributor.
+
+The field `"comments"` is an optional field for general comments. It can
+include, but is not limited to, a description of the test case or an
+explanation on why the input results in such output. For example,
+- `"comments": "this test case checks large inputs"` In this case, the comment describes the test case.
+- `"comments": "\"aba\" is also a valid answer."` in this case, the comment describes why a certain input results in a certain output. This is similar
+to the "explanation" that comes with LeetCode examples.
+
 
 If the problem allows the answer to be returned in any order, or similar:
 
