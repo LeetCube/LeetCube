@@ -1,36 +1,38 @@
 #include "../src/code_23.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+void clear(ListNode*& head) {
+    if (!head) return;
+    clear(head->next);
+    delete head;
+    head = nullptr;
+}
+
+bool is_equal(ListNode* l1, ListNode* l2) {
+    if (!l1 && !l2) return true;
+    if (!l1 || !l2) return false;
+    return l1->val == l2->val && is_equal(l1->next, l2->next);
+}
+
+ListNode* from_array(const vector<int>& arr, size_t idx) {
+    if (idx >= arr.size()) return nullptr;
+    return new ListNode(arr[idx], from_array(arr, idx + 1));
+}
+
 void test(Solution& sol, const json& input, const json& output) {
-    vector<vector<int>> lists_input = input["lists"].get<vector<vector<int>>>();
-    vector<int> expected = output.get<vector<int>>();
-
     vector<ListNode*> lists;
+    for (auto l : input["lists"].get<vector<vector<int>>>()) lists.push_back(from_array(l, l.size()));
 
-    for (auto l : lists_input) {
-        ListNode* head = nullptr;
-        ListNode* curr = nullptr;
-        for (auto i : l) {
-            if (!head) head = curr = new ListNode(l[i]);
-            else {
-                curr->next = new ListNode(l[i]);
-                curr = curr->next;
-            }
-        }
-        lists.push_back(head);
-    }
+    ListNode* result = sol.mergeKLists(lists);
 
-    ListNode* curr = sol.mergeKLists(lists);
+    vector<int> out = output.get<vector<int>>();
+    ListNode* expected = from_array(out, out.size());
 
-    vector<int> result;
-    while (curr) {
-        ListNode* tmp = curr->next;
-        result.push_back(curr->val);
-        delete curr;
-        curr = tmp;
-    }
+    CHECK_UNARY(is_equal(result, expected));
 
-    CHECK_EQ(result, expected);
+    for (auto l : lists) clear(l);
+    clear(expected);
+    clear(result);
 }
 
 TEST_CASE("") {
