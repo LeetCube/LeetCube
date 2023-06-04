@@ -2,6 +2,7 @@
 
 class Solution {
     // GIVEN
+    [[nodiscard]]
     bool isBadVersion(int n) const {
         return n >= bad;
     }
