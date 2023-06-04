@@ -1,0 +1,34 @@
+[
+  {
+    "contributor": "given",
+    "input": {
+      "coins": [1, 2, 5],
+      "amount": 11
+    },
+    "output": 3
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "coins": [2],
+      "amount": 3
+    },
+    "output": -1
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "coins": [1],
+      "amount": 0
+    },
+    "output": 0
+  },
+  {
+    "contributor": "Hgjnnf",
+    "input": {
+      "coins": [3, 6, 7],
+      "amount": 22
+    },
+    "output": 4
+  }
+]
