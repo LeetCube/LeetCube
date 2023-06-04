@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "The answer is \"abc\", with the length of 3.",
         "input": {
             "s": "abcabcbb"
         },
@@ -8,6 +9,7 @@
     },
     {
         "contributor": "given",
+        "comments": "The answer is \"b\", with the length of 1.",
         "input": {
             "s": "bbbbb"
         },
@@ -15,6 +17,7 @@
     },
     {
         "contributor": "given",
+        "comments": "The answer is \"wke\", with the length of 3. Notice that the answer must be a substring, \"pwke\" is a subsequence and not a substring.",
         "input": {
             "s": "pwwkew"
         },

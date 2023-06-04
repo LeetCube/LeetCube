@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2020/11/26/max1grid.jpg",
         "input": {
             "matrix": [ [ "1", "0", "1", "0", "0" ], [ "1", "0", "1", "1", "1" ], [ "1", "1", "1", "1", "1" ], [ "1", "0", "0", "1", "0" ] ]
         },
@@ -8,6 +9,7 @@
     },
     {
         "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2020/11/26/max2grid.jpg",
         "input": {
             "matrix": [ [ "0", "1" ], [ "1", "0" ] ]
         },

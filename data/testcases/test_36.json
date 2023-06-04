@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png",
         "input": {
             "board": [
                 [ "5", "3", ".", ".", "7", ".", ".", ".", "." ],
@@ -18,6 +19,7 @@
     },
     {
         "contributor": "given",
+        "comments": "Same as Example 1, except with the \u001b[1m5\u001b[m in the top left corner being modified to \u001b[1m8\u001b[m. Since there are two 8's in the top left 3x3 sub-box, it is invalid.",
         "input": {
             "board": [
                 [ "8", "3", ".", ".", "7", ".", ".", ".", "." ],

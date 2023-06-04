@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg",
         "input": {
             "head": [ 1, 2, 3, 3, 4, 4, 5 ]
         },
@@ -8,6 +9,7 @@
     },
     {
         "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2021/01/04/linkedlist2.jpg",
         "input": {
             "head": [ 1, 1, 1, 2, 3 ]
         },

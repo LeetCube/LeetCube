@@ -8,30 +8,10 @@
     },
     {
         "contributor": "given",
+        "comments": "There is no common prefix among the input strings.",
         "input": {
-            "strs": ["flower", "flow", "flight"]
+            "strs": ["dog","racecar","car"]
         },
-        "output": "fl"
-    },
-    {
-        "contributor": "blank",
-        "input": {
-            "strs": ["flower", "flow", "flight"]
-        },
-        "output": "fl"
-    },
-    {
-        "contributor": "blank",
-        "input": {
-            "strs": ["flower", "flow", "flight"]
-        },
-        "output": "fl"
-    },
-    {
-        "contributor": "blank",
-        "input": {
-            "strs": ["flower", "flow", "flight"]
-        },
-        "output": "fl"
+        "output": ""
     }
 ]

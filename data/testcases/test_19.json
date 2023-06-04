@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg",
         "input": {
             "head": [ 1, 2, 3, 4, 5 ],
             "n": 2
