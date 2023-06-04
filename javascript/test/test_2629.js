@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { compose } = require("../../src/js/code_2629.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { compose } = require(src_path(2629));
 
 fn = compose((functions = [(x) => x + 1, (x) => x * x, (x) => 2 * x]));
 expect(fn((x = 4))).to.equal(65);

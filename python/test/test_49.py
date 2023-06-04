@@ -1,6 +1,6 @@
 from python.src.code_49 import Solution
-from python.tests.python_deps.boilerplate import BoilerTest
-from python.tests.python_deps.data_structures import nested_list_contents_comparator
+from python.test.python_deps.boilerplate import BoilerTest
+from python.test.python_deps.data_structures import nested_list_contents_comparator
 
 
 def input_fetcher(case):

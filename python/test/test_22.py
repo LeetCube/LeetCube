@@ -1,4 +1,4 @@
-from python.tests.python_deps.boilerplate import BoilerTest
+from python.test.python_deps.boilerplate import BoilerTest
 from python.src.code_22 import Solution
 
 

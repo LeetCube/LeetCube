@@ -1,5 +1,5 @@
 from python.src.code_2709 import Solution
-from python.tests.python_deps.boilerplate import BoilerTest
+from python.test.python_deps.boilerplate import BoilerTest
 
 
 def input_fetcher(case):

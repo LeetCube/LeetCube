@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { curry } = require("../../src/js/code_2632.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { curry } = require(src_path(2632));
 
 function sum(a, b, c) {
   return a + b + c;

@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { promisePool } = require("../../src/js/code_2636.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { promisePool } = require(src_path(2636));
 
 delta = 10;
 t = Date.now();
