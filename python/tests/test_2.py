@@ -1,6 +1,6 @@
 from python.src.code_2 import Solution
-from python.test.python_deps.boilerplate import BoilerTest
-from python.test.python_deps.data_structures import build_linked_list, listnode_to_list
+from python.tests.python_deps.boilerplate import BoilerTest
+from python.tests.python_deps.data_structures import build_linked_list, listnode_to_list
 
 
 def input_fetcher(case):
