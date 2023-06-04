@@ -1,0 +1,11 @@
+[
+    {
+        "contributor": "given",
+        "comments": "MedianFinder medianFinder = new MedianFinder();\nmedianFinder.addNum(1);    // arr = [1]\nmedianFinder.addNum(2);    // arr = [1, 2]\nmedianFinder.findMedian(); // return 1.5 (i.e., (1 + 2) / 2)\nmedianFinder.addNum(3);    // arr[1, 2, 3]\nmedianFinder.findMedian(); // return 2.0",
+        "input": {
+            "ops": [ "MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian" ],
+            "params": [ [ ], [ 1 ], [ 2 ], [ ], [ 3 ], [ ] ]
+        },
+        "output": [ null, null, null, 1.5, null, 2.0 ]
+    }
+]

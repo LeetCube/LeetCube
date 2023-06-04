@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "3 is represented as 3 ones.",
         "input": {
             "num": 3
         },
@@ -8,6 +9,7 @@
     },
     {
         "contributor": "given",
+        "comments": "L = 50, V = 5, III = 3.",
         "input": {
             "num": 58
         },
@@ -15,6 +17,7 @@
     },
     {
         "contributor": "given",
+        "comments": "M = 1000, CM = 900, XC = 90 and IV = 4.",
         "input": {
             "num": 1994
         },

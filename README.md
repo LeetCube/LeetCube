@@ -19,7 +19,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 55    | 20   | 29     | 6    |
+| 61    | 22   | 31     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -77,6 +77,9 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 🟢 Easy
+
+[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+🟡 Medium
 
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 🔴 Hard
@@ -141,6 +144,15 @@ Everyone is welcome to contribute their LeetCode solutions!
 [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)
 🟡 Medium
 
+[268. Missing Number](https://leetcode.com/problems/missing-number/)
+🟢 Easy
+
+[278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+🟢 Easy
+
+[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+🔴 Hard
+
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium
 
@@ -161,6 +173,9 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 [2629. Function Composition](https://leetcode.com/problems/function-composition/)
 🟢 Easy
+
+[2631. Group By](https://leetcode.com/problems/group-by/)
+🟡 Medium
 
 [2632. Curry](https://leetcode.com/problems/curry/)
 🟡 Medium

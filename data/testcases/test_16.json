@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).",
         "input": {
             "nums": [ -1, 2, 1, -4 ],
             "target": 1
@@ -9,6 +10,7 @@
     },
     {
         "contributor": "given",
+        "comments": "The sum that is closest to the target is 0. (0 + 0 + 0 = 0).",
         "input": {
             "nums": [ 0, 0, 0 ],
             "target": 1

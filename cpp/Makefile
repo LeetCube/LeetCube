@@ -18,7 +18,7 @@ $(BUILD_DIR)/doctest_config.o: $(TESTS_DIR)/cpp_deps/doctest_config.cpp
 	@mkdir -p $(BUILD_DIR)
 	$(CXX) $(DOCTEST_CXXFLAGS) $^ -o $@
 
-$(OUT): $(BIN_DIR)/test_%: $(SRCS_DIR)/code_%.cpp $(TESTS_DIR)/test_%.cpp $(TESTS_DIR)/cpp_deps/boilerplate.cpp $(BUILD_DIR)/doctest_config.o
+$(OUT): $(BIN_DIR)/test_%: $(SRCS_DIR)/code_%.cpp $(TESTS_DIR)/test_%.cpp $(BUILD_DIR)/doctest_config.o
 	@mkdir -p $(BIN_DIR)
 	$(CXX) $(CXXFLAGS) $^ -o $@
 

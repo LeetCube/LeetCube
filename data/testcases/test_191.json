@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "The input binary string \u001b[1m00000000000000000000000000001011\u001b[m has a total of three '1' bits.",
         "input": {
             "u": 11
         },
@@ -8,6 +9,7 @@
     },
     {
         "contributor": "given",
+        "comments": "The input binary string \u001b[1m00000000000000000000000010000000\u001b[m has a total of one '1' bit.",
         "input": {
             "u": 128
         },
@@ -15,6 +17,7 @@
     },
     {
         "contributor": "given",
+        "comments": "The input binary string \u001b[1m11111111111111111111111111111101\u001b[m has a total of thirty '1' bits.",
         "input": {
             "u": 4294967293
         },

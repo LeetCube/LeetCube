@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "\"a\" does not match the entire string \"aa\".",
         "input": {
             "s": "aa",
             "p": "a"
@@ -9,6 +10,7 @@
     },
     {
         "contributor": "given",
+        "comments": "'*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes \"aa\".",
         "input": {
             "s": "aa",
             "p": "a*"
@@ -17,6 +19,7 @@
     },
     {
         "contributor": "given",
+        "comments": "\".*\" means \"zero or more (*) of any character (.)\".",
         "input": {
             "s": "ab",
             "p": ".*"

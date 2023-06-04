@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "12 = 3^1 + 3^2",
         "input": {
             "n": 12
         },
@@ -8,6 +9,7 @@
     },
     {
         "contributor": "given",
+        "comments": "3^0 + 3^2 + 3^4",
         "input": {
             "n": 91
         },

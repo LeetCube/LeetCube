@@ -1,6 +1,7 @@
 [
     {
         "contributor": "given",
+        "comments": "III = 3.",
         "input": {
             "s": "III"
         },
@@ -8,6 +9,7 @@
     },
     {
         "contributor": "given",
+        "comments": "L = 50, V= 5, III = 3.",
         "input": {
             "s": "LVIII"
         },
@@ -15,6 +17,7 @@
     },
     {
         "contributor": "given",
+        "comments": "M = 1000, CM = 900, XC = 90 and IV = 4.",
         "input": {
             "s": "MCMXCIV"
         },
