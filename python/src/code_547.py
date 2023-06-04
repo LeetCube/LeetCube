@@ -4,12 +4,13 @@ from typing import List
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         adj = {}
-        cities = [0] * len(isConnected)
+        N = len(isConnected)
+        cities = [0] * N
 
-        for i in range(len(isConnected)):
+        for i in range(N):
             if i not in adj:
                 adj[i] = set()
-            for j in range(len(isConnected[i])):
+            for j in range(N):
                 if i == j:
                     continue
 
@@ -27,7 +28,7 @@ class Solution:
                 cities[n] = province
                 dfs(n, visited, province)
 
-        for i in range(len(isConnected)):
+        for i in range(N):
             if cities[i] == 0:
                 cities[i] = i + 1
                 dfs(i, set(), i + 1)

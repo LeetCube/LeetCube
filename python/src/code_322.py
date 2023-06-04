@@ -1,19 +1,20 @@
 from typing import List
+import math
 
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         memo = {}
 
-        def dp(num):
+        def dp(num: int) -> int:
             if num in memo:
                 return memo[num]
             if num < 0:
-                return float("inf")
+                return math.inf
             if num == 0:
                 return 0
 
-            res = float("inf")
+            res = math.inf
             for coin in coins:
                 res = min(res, 1 + dp(num - coin))
 
@@ -21,4 +22,4 @@ class Solution:
             return res
 
         res = dp(amount)
-        return res if res != float("inf") else -1
+        return res if res != math.inf else -1
