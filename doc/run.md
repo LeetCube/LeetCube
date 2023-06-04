@@ -40,11 +40,5 @@ Follow steps outlined [here](https://www.jetbrains.com/help/pycharm/pytest.html#
 ## JavaScript
 
 ```shell
-node --test javascript/test/test_n.js
-```
-
-To run all tests:
-
-```shell
-node --test javascript/test
+bash javascript/tests/run.sh
 ```
