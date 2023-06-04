@@ -6,7 +6,7 @@ var expect = chai.expect;
 var { src_path } = require("./javascript_deps/boilerplate")
 const { createCounter } = require(src_path(2620));
 
-counter = createCounter(1);
+counter = createCounter(10);
 expect(counter()).to.equal(10);
 expect(counter()).to.equal(11);
 expect(counter()).to.equal(12);
