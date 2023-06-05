@@ -7,5 +7,4 @@ class Solution:
         for i, n in enumerate(nums):
             if abs(target - n) in seen:
                 return [seen[abs(target - n)], i]
-            else:
-                seen[n] = i
+            seen[n] = i
