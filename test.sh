@@ -43,9 +43,9 @@ py() {
 
 js() {
     if [ $n = "all" ]; then
-        node --test javascript/tests/test_*
+        node --test javascript/test/test_*
     else
-        node --test javascript/tests/test_$n.js
+        node --test javascript/test/test_$n.js
     fi
 }
 
