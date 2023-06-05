@@ -1,5 +1,3 @@
-// 264. Ugly Number II (Medium)
-
 #include <vector>
 
 using namespace std;

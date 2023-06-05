@@ -1,5 +1,3 @@
-// 36. Valid Sudoku (Medium)
-
 #include <set>
 #include <vector>
 

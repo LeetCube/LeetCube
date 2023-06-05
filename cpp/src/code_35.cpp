@@ -1,5 +1,3 @@
-// 35. Search Insert Position (Easy)
-
 #include <vector>
 
 using namespace std;

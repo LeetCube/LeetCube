@@ -1,4 +1,5 @@
-from typing import List, Optional
+from typing import Optional
+from typing import List
 
 
 class ListNode:
@@ -41,3 +42,35 @@ def nested_list_contents_comparator(
             return False
 
     return True
+
+
+# Standard definition for a binary tree node.
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
+# creation of a binary tree: deserializes JSON list input into binary tree of type TreeNode.
+def createBinaryTree(data, index=0):
+    parentNode = None
+    if index < len(data):
+        if data[index] == None:
+            return
+        parentNode = TreeNode(data[index])  # initialize tree node object
+
+        # left child of a node exists at 2*(index)
+        leftChildIndex = 2 * index
+
+        # right child of a node exists at 2*(index)
+        rightChildIndex = 2 * index + 1
+
+        # we obtained left and right child indices. Now, we increment by 1 to set up recursion
+        parentNode.left = createBinaryTree(
+            data, leftChildIndex + 1
+        )  # indices 1, 3, 7, 15, ... within JSON list
+        parentNode.right = createBinaryTree(
+            data, rightChildIndex + 1
+        )  # indices 2, 5, 12, 25, ... within JSON list
+    return parentNode

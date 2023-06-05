@@ -1,5 +1,3 @@
-// 19. Remove Nth Node From End of List (Medium)
-
 struct ListNode {
     int val;
     ListNode* next;

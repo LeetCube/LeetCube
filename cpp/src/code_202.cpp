@@ -1,5 +1,3 @@
-// 202. Happy Number (Easy)
-
 class Solution {
 public:
     /**

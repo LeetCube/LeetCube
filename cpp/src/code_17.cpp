@@ -1,5 +1,3 @@
-// 17. Letter Combinations of a Phone Number (Medium)
-
 #include <string>
 #include <vector>
 

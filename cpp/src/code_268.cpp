@@ -1,5 +1,3 @@
-// 268. Missing Number (Easy)
-
 #include <vector>
 
 using namespace std;

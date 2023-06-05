@@ -1,5 +1,3 @@
-// 11. Container With Most Water (Medium)
-
 #include <vector>
 
 using namespace std;

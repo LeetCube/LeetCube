@@ -1,5 +1,3 @@
-// 148. Sort List (Medium)
-
 #include <algorithm>
 
 using namespace std;

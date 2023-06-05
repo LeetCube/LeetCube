@@ -1,5 +1,3 @@
-// 65. Valid Number (Hard)
-
 #include <string>
 
 using namespace std;

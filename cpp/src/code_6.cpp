@@ -1,5 +1,3 @@
-// 6. Zigzag Conversion (Medium)
-
 #include <string>
 
 using namespace std;

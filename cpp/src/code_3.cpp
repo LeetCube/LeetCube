@@ -1,5 +1,3 @@
-// 3. Longest Substring Without Repeating Characters (Medium)
-
 #include <string>
 
 using namespace std;
