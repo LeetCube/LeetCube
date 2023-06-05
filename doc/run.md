@@ -4,6 +4,10 @@ Let $n$ be the question number
 
 ## C++
 
+### Shell
+
+To compile and run 1 test:
+
 ```shell
 cd cpp/
 make bin/test_n
@@ -12,9 +16,12 @@ bin/test_n
 
 To compile and run all tests:
 
+`c` is the number of cores to run in parallel, speeds up significantly.
+Default to 8 in `test.sh`
+
 ```shell
 cd cpp/
-make run -jc # c is number of cores to run in parallel, speeds up significantly
+make run -jc
 ```
 
 ## Python
@@ -22,6 +29,8 @@ make run -jc # c is number of cores to run in parallel, speeds up significantly
 ### Shell
 
 `-s` flag is optional, it shows timing for each individual test.
+
+To run 1 test:
 
 ```shell
 pytest python/tests/test_n.py -s
@@ -36,14 +45,22 @@ pytest python/tests -s
 ### JetBrains (PyCharm, IntelliJ IDEA, etc)
 
 Follow steps outlined [here](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test).
- 
+
 ## JavaScript
 
+### Shell
+
+To run 1 test:
+
 ```shell
-node test/js/test_n.js
+node --test javascript/test/test_$n.js
 ```
 
+To run all tests:
 
+```shell
+node --test javascript/test/test_*
+```
 
 ## Java
 
@@ -62,15 +79,16 @@ Get IntelliJ [from JetBrains](https://www.jetbrains.com/idea/download). If you h
 (Recommended) - [Install gradle natively](https://gradle.org/install/). This is not required, and the wrapper this repo ships with should be enough to bootstrap any actions. However, installing gradle should make things a bit smoother in the beginning.
 
 ---
+
 1. [Clone the repo via IntelliJ](https://www.jetbrains.com/help/idea/cloning-repository.html).
 
 ![cloning in intellij](figs/java/1_1_clone.png)
 
-2. You can also just use `https://github.com/LeetCube/LeetCube.git` 
+2. You can also just use `https://github.com/LeetCube/LeetCube.git`
 
 ![](figs/java/1_2_clone.png)
 
-3. Set up the Project SDK 
+3. Set up the Project SDK
 
 ![](figs/java/1_3_projectsettings.png)
 
@@ -82,14 +100,11 @@ Get IntelliJ [from JetBrains](https://www.jetbrains.com/idea/download). If you h
 
 ![](figs/java/1_5_runbuild.png)
 
-6. The terminal should show all tests passing. Here is what your project structure should look like now: 
+6. The terminal should show all tests passing. Here is what your project structure should look like now:
 
 ![](figs/java/1_6_sampleproject.png)
 
 7. If all goes well, the project should be set up now. Add your new solutions under `java/src/main/java/leetcube/{yourname}/CodeN.java`, and add unit tests to either a new file under `java/src/test/java/leetcube` or under the example given in `java/src/test/java/leetcube/questions/TestBase.java`
-
-
-
 
 ### Shell (For advanced users)
 
@@ -110,4 +125,3 @@ gradlew.bat tasks
 
 # you can edit the wrapper targets and distributions in java/build.gradle
 ```
-

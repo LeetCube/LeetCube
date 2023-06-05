@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { sleep } = require("../../src/js/code_2621.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { sleep } = require(src_path(2621));
 
 delta = 10;
 millis = 100;

@@ -1,8 +1,6 @@
 # LeetCube
 
-<p>
-  <img src="https://github.com/LeetCube/LeetCube/blob/main/media/leetcube_logo_small.png" width="150" />
-</p>
+<img src="/media/leetcube_logo_small.png" width="150" />
 
 Everyone is welcome to contribute their LeetCode solutions!
 
@@ -11,7 +9,15 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 ## Instructions
 
-### [How to run](doc/run.md)
+### How to run
+
+In terminal, just follow the prompts
+
+```shell
+bash test.sh
+```
+
+[Detailed doc](doc/run.md)
 
 ### [Upload format](doc/format.md)
 

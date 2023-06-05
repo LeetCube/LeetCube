@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { map } = require("../../src/js/code_2635.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { map } = require(src_path(2635));
 
 expect(
   map(

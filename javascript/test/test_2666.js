@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { once } = require("../../src/js/code_2666.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { once } = require(src_path(2666));
 
 fn = (a, b, c) => a + b + c;
 onceFn = once(fn);

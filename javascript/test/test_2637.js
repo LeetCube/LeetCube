@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { timeLimit } = require("../../src/js/code_2637.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { timeLimit } = require(src_path(2637));
 
 fn = timeLimit(
   (fn = async (n) => {

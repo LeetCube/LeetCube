@@ -3,7 +3,8 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-const { createCounter } = require("../../src/js/code_2620.js");
+var { src_path } = require("./javascript_deps/boilerplate")
+const { createCounter } = require(src_path(2620));
 
 counter = createCounter(10);
 expect(counter()).to.equal(10);
