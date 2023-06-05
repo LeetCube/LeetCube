@@ -1,7 +1,25 @@
 [
     {
+        "contributor": "given",
+        "comments": "two nodes, single edge",
+        "input": {
+            "numCourses": 2,
+            "prerequisites": [[1,0]]
+        },
+        "output": true
+    },
+    {
+        "contributor": "given",
+        "comments": "two nodes, cycle",
+        "input": {
+            "numCourses": 2,
+            "prerequisites": [[1,0],[0,1]]
+        },
+        "output": false
+    },
+    {
         "contributor": "LittleChungus",
-        "comment": "single node",
+        "comments": "single node",
         "input": {
             "numCourses": 1,
             "prerequisites": []
@@ -10,7 +28,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "singly linked list",
+        "comments": "singly linked list",
         "input": {
             "numCourses": 3,
             "prerequisites": [[0,1],[1,2]]
@@ -19,7 +37,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "singly circular linked list",
+        "comments": "singly circular linked list",
         "input": {
             "numCourses": 3,
             "prerequisites": [[0,1],[1,2],[2,0]]
@@ -28,7 +46,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "doubly linked list",
+        "comments": "doubly linked list",
         "input": {
             "numCourses": 3,
             "prerequisites": [[0,1],[1,0],[1,2],[2,1]]
@@ -37,7 +55,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "doubly circular linked list",
+        "comments": "doubly circular linked list",
         "input": {
             "numCourses": 3,
             "prerequisites": [[0,1],[1,0],[1,2],[2,1],[2,0],[0,2]]
@@ -46,7 +64,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "all singleton connected components",
+        "comments": "all singleton connected components",
         "input": {
             "numCourses": 100,
             "prerequisites": []
@@ -55,7 +73,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "diamond shaped graph",
+        "comments": "diamond shaped graph",
         "input": {
             "numCourses": 5,
             "prerequisites": [[0,1],[0,2],[1,3],[2,3],[3,4]]
@@ -64,7 +82,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "self loop",
+        "comments": "self loop",
         "input": {
             "numCourses": 3,
             "prerequisites": [[0,1],[0,2],[2,2]]
@@ -73,7 +91,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "back edge spans multiple levels",
+        "comments": "back edge spans multiple levels",
         "input": {
             "numCourses": 6,
             "prerequisites": [[0,1],[0,2],[1,3],[2,4],[4,5],[5,0]]
@@ -82,7 +100,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "complete binary tree",
+        "comments": "complete binary tree",
         "input": {
             "numCourses": 7,
             "prerequisites": [[0,1],[0,2],[2,3],[2,4],[1,5],[1,6]]
@@ -91,7 +109,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "multiple connected components, all valid",
+        "comments": "multiple connected components, all valid",
         "input": {
             "numCourses": 14,
             "prerequisites": [[0,1],[1,2],[3,4],[3,5],[6,7],[8,10],[9,10],[10,11],[11,12],[11,13]]
@@ -100,7 +118,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "multiple connected components, some invalid",
+        "comments": "multiple connected components, some invalid",
         "input": {
             "numCourses": 10,
             "prerequisites": [[0,1],[0,2],[3,4],[4,5],[5,3],[6,7],[8,7],[9,8]]
@@ -109,7 +127,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "fully connected directed graph",
+        "comments": "fully connected directed graph",
         "input": {
             "numCourses": 4,
             "prerequisites": [[0,1],[1,0],[1,2],[2,1],[2,3],[3,2],[3,0],[0,3],[0,2],[2,0],[1,3],[3,1]]
@@ -118,7 +136,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "no cycles, maximum edges",
+        "comments": "no cycles, maximum edges",
         "input": {
             "numCourses": 374,
             "prerequisites": [
@@ -753,7 +771,7 @@
     },
     {
         "contributor": "LittleChungus",
-        "comment": "no cycles, maximum nodes with large number of edges",
+        "comments": "no cycles, maximum nodes with large number of edges",
         "input": {
             "numCourses": 2000,
             "prerequisites": [
