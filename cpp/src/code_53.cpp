@@ -1,5 +1,3 @@
-// 53. Maximum Subarray (Medium)
-
 #include <limits>
 #include <vector>
 

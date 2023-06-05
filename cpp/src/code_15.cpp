@@ -1,5 +1,3 @@
-// 15. 3Sum (Medium)
-
 #include <algorithm>
 #include <set>
 #include <vector>

@@ -1,5 +1,3 @@
-// 136. Single Number (Easy)
-
 #include <vector>
 
 using namespace std;

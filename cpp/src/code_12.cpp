@@ -1,5 +1,3 @@
-// 12. Integer to Roman (Medium)
-
 #include <string>
 
 using namespace std;

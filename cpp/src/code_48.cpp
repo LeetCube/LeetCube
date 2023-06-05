@@ -1,5 +1,3 @@
-// 48. Rotate Image (Medium)
-
 #include <map>
 #include <vector>
 

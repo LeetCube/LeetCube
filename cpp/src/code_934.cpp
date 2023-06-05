@@ -1,5 +1,3 @@
-// 934. Shortest Bridge (Medium)
-
 #include <algorithm>
 #include <iostream>
 #include <utility>

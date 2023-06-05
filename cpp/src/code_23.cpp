@@ -1,5 +1,3 @@
-// 23. Merge k Sorted Lists (Hard)
-
 #include <algorithm>
 #include <queue>
 #include <vector>

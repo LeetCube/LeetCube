@@ -1,5 +1,3 @@
-// 208. Implement Trie (Prefix Tree) (Medium)
-
 #include <string>
 
 using namespace std;

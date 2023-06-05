@@ -1,5 +1,3 @@
-// 215. Kth Largest Element in an Array (Medium)
-
 #include <algorithm>
 #include <cstdlib>
 #include <vector>

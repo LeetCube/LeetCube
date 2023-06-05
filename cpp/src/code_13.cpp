@@ -1,5 +1,3 @@
-// 13. Roman to Integer (Easy)
-
 #include <string>
 
 using namespace std;

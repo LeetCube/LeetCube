@@ -1,5 +1,3 @@
-// 10. Regular Expression Matching (Hard)
-
 #include <string>
 #include <vector>
 

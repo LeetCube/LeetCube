@@ -1,5 +1,3 @@
-// 37. Sudoku Solver (Hard)
-
 #include <set>
 #include <vector>
 

@@ -1,5 +1,3 @@
-// 7. Reverse Integer (Medium)
-
 #include <limits>
 
 using namespace std;

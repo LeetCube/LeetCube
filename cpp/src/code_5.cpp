@@ -1,5 +1,3 @@
-// 5. Longest Palindromic Substring (Medium)
-
 #include <string>
 #include <vector>
 
