@@ -62,12 +62,30 @@ Get IntelliJ [from JetBrains](https://www.jetbrains.com/idea/download). If you h
 (Recommended) - [Install gradle natively](https://gradle.org/install/). This is not required, and the wrapper this repo ships with should be enough to bootstrap any actions. However, installing gradle should make things a bit smoother in the beginning.
 
 ---
-1. [Clone the repo via IntelliJ](https://www.jetbrains.com/help/idea/cloning-repository.html). ![cloning in intellij](figs/java/1_1_clone.png)
-2. You can also just use `https://github.com/LeetCube/LeetCube.git` ![](figs/java/1_2_clone.png)
-3. Set up the Project SDK ![](figs/java/1_3_projectsettings.png)
-4. Now, open the `java` folder and right click on `build.gradle`. There should be an option to "link gradle project" ![](figs/java/1_4_linkgradle.png)
-5. Now, on the right side, there should be a Gradle bar. Open that and run the `build` target. ![](figs/java/1_5_runbuild.png)
-6. The terminal should show all tests passing. Here is what your project structure should look like now: ![](figs/java/1_6_sampleproject.png)
+1. [Clone the repo via IntelliJ](https://www.jetbrains.com/help/idea/cloning-repository.html).
+
+![cloning in intellij](figs/java/1_1_clone.png)
+
+2. You can also just use `https://github.com/LeetCube/LeetCube.git` 
+
+![](figs/java/1_2_clone.png)
+
+3. Set up the Project SDK 
+
+![](figs/java/1_3_projectsettings.png)
+
+4. Now, open the `java` folder and right click on `build.gradle`. There should be an option to "link gradle project"
+
+![](figs/java/1_4_linkgradle.png)
+
+5. Now, on the right side, there should be a Gradle bar. Open that and run the `build` target.
+
+![](figs/java/1_5_runbuild.png)
+
+6. The terminal should show all tests passing. Here is what your project structure should look like now: 
+
+![](figs/java/1_6_sampleproject.png)
+
 7. If all goes well, the project should be set up now. Add your new solutions under `java/src/main/java/leetcube/{yourname}/CodeN.java`, and add unit tests to either a new file under `java/src/test/java/leetcube` or under the example given in `java/src/test/java/leetcube/questions/TestBase.java`
 
 
@@ -79,7 +97,10 @@ Only do this if you don't plan on developing, or if you really know what you're 
 
 ```shell
 ### Instructions for advanced users!
-gradlew.bat test # run all tests using the gradle wrapper
+
+# run all tests using the gradle wrapper
+gradlew.bat test # for windows
+./gradlew test   # for unix
 
 # You can execute other targets using the gradle wrapper (gradlew), such as
 gradlew.bat build
