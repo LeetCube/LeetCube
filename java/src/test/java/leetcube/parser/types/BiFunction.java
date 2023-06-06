@@ -1,6 +1,7 @@
 package leetcube.parser.types;
 
 import com.google.gson.annotations.SerializedName;
+import leetcube.parser.types.generics.GenericBiFunction;
 
 public record BiFunction<Arg1, Arg2, Output>(
         String contributor,

@@ -17,7 +17,7 @@ import java.util.Set;
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Code817 {
+public class Code817 {
     public int numComponents(ListNode head, int[] nums) {
         int length = nums.length;
 
