@@ -6,8 +6,9 @@ vector<vector<char>> get_matrix(const json& field) {
 
     for (const auto& row : field.get<std::vector<std::vector<std::string>>>()) {
         std::vector<char> transformed_row;
+        transformed_row.reserve(row.size());
 
-        for (const auto& item : row) transformed_row.push_back(item[0]);
+        for (const auto& item : row) transformed_row.emplace_back(item[0]);
 
         matrix.push_back(transformed_row);
     }

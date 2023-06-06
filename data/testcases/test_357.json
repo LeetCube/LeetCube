@@ -1,0 +1,66 @@
+[
+    {
+        "contributor": "given",
+        "comments": "The answer should be the total numbers in the range of 0 ≤ x < 100, excluding 11,22,33,44,55,66,77,88,99",
+        "input": {
+            "n": 2
+        },
+        "output": 91
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 0
+        },
+        "output": 1
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 1
+        },
+        "output": 10
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 3
+        },
+        "output": 739
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 4
+        },
+        "output": 5275
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 5
+        },
+        "output": 32491
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 6
+        },
+        "output": 168571
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 7
+        },
+        "output": 712891
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "n": 8
+        },
+        "output": 2345851
+    }
+]
