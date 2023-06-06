@@ -3,17 +3,13 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-var { src_path } = require("./javascript_deps/boilerplate")
+var { src_path, testcases_path } = require("./javascript_deps/boilerplate");
 const { createCounter } = require(src_path(2620));
+const test_cases = require(testcases_path(2620));
 
-counter = createCounter(10);
-expect(counter()).to.equal(10);
-expect(counter()).to.equal(11);
-expect(counter()).to.equal(12);
-
-counter = createCounter(-2);
-expect(counter()).to.equal(-2);
-expect(counter()).to.equal(-1);
-expect(counter()).to.equal(0);
-expect(counter()).to.equal(1);
-expect(counter()).to.equal(2);
+test_cases.forEach((test_case) => {
+	const counter = createCounter(test_case.input.n);
+	test_case.output.forEach((o) => {
+		expect(counter()).to.equal(o);
+	});
+});

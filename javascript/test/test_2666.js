@@ -3,16 +3,21 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-var { src_path } = require("./javascript_deps/boilerplate")
+var { src_path, testcases_path } = require("./javascript_deps/boilerplate");
 const { once } = require(src_path(2666));
+const test_cases = require(testcases_path(2666));
 
-fn = (a, b, c) => a + b + c;
-onceFn = once(fn);
-expect(onceFn(1, 2, 3)).to.equal(6);
-expect(onceFn(2, 3, 6)).to.equal(undefined);
-
-fn = (a, b, c) => a * b * c;
-onceFn = once(fn);
-expect(onceFn(5, 7, 4)).to.equal(140);
-expect(onceFn(2, 3, 6)).to.equal(undefined);
-expect(onceFn(4, 6, 8)).to.equal(undefined);
+test_cases.forEach((test_case) => {
+	eval(test_case.input.fn);
+	const onceFn = once(fn);
+	const { calls, value } = test_case.output[0];
+	var i = 0;
+	for (const c of test_case.input.calls) {
+		if (i < calls) {
+			expect(onceFn(...c)).to.equal(value);
+		} else {
+			expect(onceFn(...c)).to.be.undefined;
+		}
+		i++;
+	}
+});

@@ -3,17 +3,16 @@ var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 var expect = chai.expect;
 
-var { src_path } = require("./javascript_deps/boilerplate")
+var { src_path, testcases_path } = require("./javascript_deps/boilerplate");
 const { createCounter } = require(src_path(2665));
+const test_cases = require(testcases_path(2665));
 
-counter = createCounter(5);
-expect(counter.increment()).to.equal(6);
-expect(counter.reset()).to.equal(5);
-expect(counter.decrement()).to.equal(4);
+const zip = require("lodash/zip");
 
-counter = createCounter(0);
-expect(counter.increment()).to.equal(1);
-expect(counter.increment()).to.equal(2);
-expect(counter.decrement()).to.equal(1);
-expect(counter.reset()).to.equal(0);
-expect(counter.reset()).to.equal(0);
+test_cases.forEach((test_case) => {
+	const counter = createCounter(test_case.input.init);
+	z = zip(test_case.input.calls, test_case.output);
+	for (const [c, o] of z) {
+		expect(counter[c]()).to.equal(o);
+	}
+});
