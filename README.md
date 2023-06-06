@@ -25,7 +25,7 @@ bash test.sh
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 69    | 27   | 34     | 8    |
+| 70    | 28   | 34     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -185,6 +185,9 @@ bash test.sh
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium
+
+[1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
+🟢 Easy
 
 [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 🟡 Medium
