@@ -1,5 +1,3 @@
-// 16. 3Sum Closest (Medium)
-
 #include <algorithm>
 #include <vector>
 

@@ -1,5 +1,3 @@
-// 221. Maximal Square (Medium)
-
 #include <vector>
 
 using namespace std;

@@ -1,5 +1,3 @@
-// 18. 4Sum (Medium)
-
 #include <algorithm>
 #include <vector>
 

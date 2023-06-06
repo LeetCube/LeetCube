@@ -1,5 +1,3 @@
-// 82. Remove Duplicates from Sorted List II (Medium)
-
 struct ListNode {
     int val;
     ListNode* next;

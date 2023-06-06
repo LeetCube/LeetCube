@@ -1,5 +1,3 @@
-// 14. Longest Common Prefix (Easy)
-
 #include <string>
 #include <vector>
 

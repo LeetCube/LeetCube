@@ -1,5 +1,3 @@
-// 1780. Check if Number is a Sum of Powers of Three (Medium)
-
 class Solution {
 public:
     bool checkPowersOfThree(int n) {

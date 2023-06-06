@@ -1,5 +1,3 @@
-// 2. Add Two Numbers (Medium)
-
 struct ListNode {
     int val;
     ListNode* next;

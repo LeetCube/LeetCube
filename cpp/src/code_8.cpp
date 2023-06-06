@@ -1,5 +1,3 @@
-// 8. String to Integer (atoi) (Medium)
-
 #include <limits>
 #include <string>
 

@@ -1,5 +1,3 @@
-// 190. Reverse Bits (Easy)
-
 #include <cstdint>
 
 class Solution {

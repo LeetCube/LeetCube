@@ -1,5 +1,3 @@
-// 191. Number of 1 Bits (Easy)
-
 #include <cstdint>
 
 class Solution {

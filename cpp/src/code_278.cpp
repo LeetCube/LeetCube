@@ -1,5 +1,3 @@
-// 278. First Bad Version (Easy)
-
 class Solution {
     // GIVEN
     [[nodiscard]] bool isBadVersion(const int n) const {

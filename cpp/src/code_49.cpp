@@ -1,5 +1,3 @@
-// 49. Group Anagrams (Medium)
-
 #include <algorithm>
 #include <string>
 #include <unordered_map>

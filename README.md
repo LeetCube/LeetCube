@@ -35,7 +35,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 61    | 22   | 31     | 8    |
+| 70    | 28   | 34     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -130,6 +130,9 @@ We already have 2 formatter actions running on every GitHub PR.
 [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 🟡 Medium
 
+[112. Path Sum](https://leetcode.com/problems/path-sum/)
+🟢 Easy
+
 [136. Single Number](https://leetcode.com/problems/single-number/)
 🟢 Easy
 
@@ -146,6 +149,9 @@ We already have 2 formatter actions running on every GitHub PR.
 🟢 Easy
 
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+🟡 Medium
+
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 🟡 Medium
 
 [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
@@ -169,8 +175,29 @@ We already have 2 formatter actions running on every GitHub PR.
 [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 🔴 Hard
 
+[338. Counting Bits](https://leetcode.com/problems/counting-bits/)
+🟢 Easy
+
+[357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)
+🟡 Medium
+
+[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+🟡 Medium
+
+[405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+🟢 Easy
+
+[572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+🟢 Easy
+
+[575. Distribute Candies](https://leetcode.com/problems/distribute-candies/)
+🟢 Easy
+
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium
+
+[1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
+🟢 Easy
 
 [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 🟡 Medium

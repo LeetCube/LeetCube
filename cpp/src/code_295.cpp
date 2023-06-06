@@ -1,5 +1,3 @@
-// 295. Find Median from Data Stream (Hard)
-
 #include <functional>
 #include <queue>
 

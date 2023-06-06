@@ -1,5 +1,3 @@
-// 9. Palindrome Number (Easy)
-
 class Solution {
 public:
     /**

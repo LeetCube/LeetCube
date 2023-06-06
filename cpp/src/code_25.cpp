@@ -1,5 +1,3 @@
-// 25. Reverse Nodes in k-Group (Hard)
-
 struct ListNode {
     int val;
     ListNode* next;
