@@ -57,7 +57,7 @@ Get IntelliJ [from JetBrains](https://www.jetbrains.com/idea/download). If you h
 
 (Recommended) - [Link IntelliJ with your GitHub](https://www.jetbrains.com/help/idea/github.html)
 
-(Required) - Make sure you have Java installed. This repo requires a Java version between 14 and 19, inclusive ([Java 20 is not supported for running Gradle](https://docs.gradle.org/current/userguide/compatibility.html)); I'd recommend Java 17 or 18. You can install java on your system first, or [install it through IntelliJ](https://www.jetbrains.com/help/idea/sdk.html)
+(Required) - Make sure you have Java installed. This repo requires Java 14+; I'd recommend Java 17 or 18. You can install java on your system first, or [install it through IntelliJ](https://www.jetbrains.com/help/idea/sdk.html)
 
 (Recommended) - [Install gradle natively](https://gradle.org/install/). This is not required, and the wrapper this repo ships with should be enough to bootstrap any actions. However, installing gradle should make things a bit smoother in the beginning.
 
