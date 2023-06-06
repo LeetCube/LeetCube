@@ -9,17 +9,27 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 ## Instructions
 
-### How to run
+### How to set up and update
 
-In terminal, just follow the prompts
+```shell
+bash setup.sh
+```
+
+[Detailed set up and update doc](doc/setup.md)
+
+### How to run tests
 
 ```shell
 bash test.sh
 ```
 
-[Detailed doc](doc/run.md)
+[Detailed testing doc](doc/test.md)
 
-### [Upload format](doc/format.md)
+### How to format the code
+
+We already have 2 formatter actions running on every GitHub PR.
+
+[Detailed formatting doc](doc/format.md)
 
 ## Questions
 
