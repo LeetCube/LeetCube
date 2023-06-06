@@ -3,21 +3,29 @@ package leetcube.parser;
 import com.google.gson.reflect.TypeToken;
 import leetcube.parser.types.BiFunction;
 import leetcube.parser.types.MonoFunction;
+import leetcube.parser.types.QuadFunction;
 
 import java.lang.reflect.Type;
-import java.util.ArrayList;
+import java.util.List;
 
 public enum Shape {
-    INTARR_INT_INTARR(
-            new TypeToken<ArrayList<BiFunction<int[], Integer, int[]>>>() {
+    INT1D_INT_INT1D(
+            new TypeToken<List<BiFunction<int[], Integer, int[]>>>() {
             }.getType()),
-    INTARR_INTARR_INTARR(
-            new TypeToken<ArrayList<BiFunction<int[], int[], int[]>>>() {
+    INT1D_INT1D_INT1D(
+            new TypeToken<List<BiFunction<int[], int[], int[]>>>() {
+            }.getType()),
+    INT1D_INT1D_INT(
+            new TypeToken<List<BiFunction<int[], int[], Integer>>>() {
+            }.getType()),
+    INT_BOOLEAN(
+            new TypeToken<List<MonoFunction<Integer, Boolean>>>() {
             }.getType()),
 
-    INT_BOOLEAN(
-            new TypeToken<ArrayList<MonoFunction<Integer, Boolean>>>() {
-            }.getType());
+    INT2D_INT_INT_INT_INT2D(
+            new TypeToken<List<QuadFunction<int[][], Integer, Integer, Integer, int[][]>>>() {
+            }.getType()
+    );
 
     final Type type;
 

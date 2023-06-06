@@ -1,6 +1,6 @@
 package leetcube.aaryan_rampal;
 
-class Code733 {
+public class Code733 {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
         int newColor = image[sr][sc];
         if (color != newColor) floodFillHelper(image, sr, sc, color, newColor);
