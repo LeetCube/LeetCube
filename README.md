@@ -35,7 +35,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 70    | 28   | 34     | 8    |
+| 72    | 29   | 35     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -196,10 +196,10 @@ We already have 2 formatter actions running on every GitHub PR.
 [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 🟢 Easy
 
-[733. Flood Fill](https://leetcode.com/problems/flood-fill/)
-🟢 Easy
-
 [817. Linked List Components](https://leetcode.com/problems/linked-list-components/)
+🟡 Medium
+
+[934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) 
 🟡 Medium
 
 [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
