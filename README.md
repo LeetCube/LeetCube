@@ -35,7 +35,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 72    | 29   | 35     | 8    |
+| 72    | 29   | 37     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -187,6 +187,9 @@ We already have 2 formatter actions running on every GitHub PR.
 [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
 🟢 Easy
 
+[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+🟡 Medium
+
 [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 🟢 Easy
 
@@ -200,6 +203,9 @@ We already have 2 formatter actions running on every GitHub PR.
 🟡 Medium
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) 
+🟡 Medium
+
+[974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 🟡 Medium
 
 [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
