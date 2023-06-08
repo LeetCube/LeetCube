@@ -12,8 +12,7 @@ class Solution:
         for n in nums:
             currsum += n
             if currsum - k in sums:
-                count += sums[currsum - k]            
+                count += sums[currsum - k]
             sums[currsum] += 1
 
         return count
-    
