@@ -173,6 +173,6 @@ for lang in langs:
         if c.langs is not None and lang in c.langs:
             dict_langs[lang] += 1
 
-dict_langs = {"lang": dict_langs.keys(), "count": dict_langs.values()}
+dict_langs = {"language": dict_langs.keys(), "count": dict_langs.values()}
 
 contributors = [c.to_list() for c in contributors]
