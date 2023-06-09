@@ -41,7 +41,8 @@ void test(Solution& sol, const json& input, const json& output) {
         } else if (op == "findMedian") {
             CHECK_EQ(param.size(), 0);
             double result = sol.obj->findMedian();
-            CHECK_EQ(result, expected);
+            CHECK(expected.has_value());
+            CHECK_EQ(result, expected.value());
         } else FAIL("invalid op");
     }
 
