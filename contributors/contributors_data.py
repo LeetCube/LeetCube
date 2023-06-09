@@ -5,7 +5,7 @@ from collections import defaultdict
 
 # https://stackoverflow.com/questions/58608361/string-based-enum-in-python
 
-columns = ["nickname", "github", "branch", "languages", "first_commit"]
+columns = ["nickname", "github", "languages", "first_commit"]
 langs = ["cpp", "py", "js", "java", "ts", "go"]
 
 
@@ -14,13 +14,11 @@ class Contributor:
         self,
         nickname: str,
         github: str,
-        branch: str,
         langs: List[str],
         first_commit: date,
     ):
         self.nickname = nickname
         self.github = github
-        self.branch = branch
         self.langs = langs
         self.first_commit = first_commit
 
@@ -33,7 +31,6 @@ class Contributor:
         return [
             self.nickname,
             self.github,
-            self.branch,
             self.join_by(", ", self.langs),
             self.first_commit,
         ]
@@ -44,19 +41,15 @@ contributors.append(
     Contributor(
         "any",
         "dataprob",
-        "annieli",
         ["py", "js"],
         date(2023, 5, 26),
     )
 )
-contributors.append(
-    Contributor("youssef", "ysaleh03", "youssef", ["cpp"], date(2023, 5, 27))
-)
+contributors.append(Contributor("youssef", "ysaleh03", ["cpp"], date(2023, 5, 27)))
 contributors.append(
     Contributor(
         "blank",
         "Person314159",
-        "blank",
         ["cpp"],
         date(2023, 5, 27),
     )
@@ -65,7 +58,6 @@ contributors.append(
     Contributor(
         "Requiem",
         "PhaseRush",
-        "phaserush",
         ["py", "java", "ts"],
         date(2023, 5, 28),
     )
@@ -74,7 +66,6 @@ contributors.append(
     Contributor(
         "eater",
         "william-swy",
-        "feature",
         ["cpp"],
         date(2023, 5, 29),
     )
@@ -83,7 +74,6 @@ contributors.append(
     Contributor(
         "Haad",
         "hbhutta",
-        "haad",
         ["cpp"],
         date(2023, 5, 29),
     )
@@ -92,7 +82,6 @@ contributors.append(
     Contributor(
         "Gordon",
         "Hgjnnf",
-        "gordoncheung",
         ["py"],
         date(2023, 6, 2),
     )
@@ -101,7 +90,6 @@ contributors.append(
     Contributor(
         "Saif",
         "saifabdelazim",
-        "darksword",
         ["py"],
         date(2023, 6, 5),
     )
@@ -110,7 +98,6 @@ contributors.append(
     Contributor(
         "aaryan",
         "aaryan-rampal",
-        "aaryan",
         ["java"],
         date(2023, 6, 6),
     )
@@ -118,7 +105,6 @@ contributors.append(
 contributors.append(
     Contributor(
         "yimeng",
-        "ymnglli",
         "ymnglli",
         ["py"],
         date(2023, 6, 8),
@@ -128,7 +114,6 @@ contributors.append(
     Contributor(
         "Nothingyet",
         "hquanvo",
-        "nothingyet",
         ["cpp"],
         None,
     )
@@ -136,7 +121,6 @@ contributors.append(
 contributors.append(
     Contributor(
         "Jason",
-        "argonaut0",
         "argonaut0",
         ["go"],
         None,
@@ -148,7 +132,6 @@ contributors.append(
         "eysk-io",
         None,
         None,
-        None,
     )
 )
 contributors.append(
@@ -157,14 +140,12 @@ contributors.append(
         "ryanmckim",
         None,
         None,
-        None,
     )
 )
 contributors.append(
     Contributor(
         "RasPoutine",
         "nopunindented",
-        None,
         ["py", "js", "ts"],
         None,
     )
@@ -173,7 +154,6 @@ contributors.append(
     Contributor(
         "dinosaur",
         "Ccolina03",
-        None,
         ["java", "ts"],
         None,
     )
@@ -182,7 +162,6 @@ contributors.append(
     Contributor(
         "kiara",
         "kcoton",
-        None,
         ["py"],
         None,
     )
