@@ -1,0 +1,11 @@
+[
+    {
+        "contributor": "given",
+        "comments": "MapSum mapSum = new MapSum();\\nmapSum.insert(\"apple\", 3);  \\nmapSum.sum(\"ap\");           // return 3 (apple = 3)\\nmapSum.insert(\"app\", 2);    \\nmapSum.sum(\"ap\");           // return 5 (apple + app = 3 + 2 = 5)",
+        "input": {
+            "ops": ["MapSum", "insert", "sum", "insert", "sum"],
+            "params": [[], ["apple", 3], ["ap"], ["app", 2], ["ap"]]
+        },
+        "output": [null, null, 3, null, 5]
+    }
+]

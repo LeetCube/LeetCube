@@ -34,8 +34,8 @@ We already have 2 formatter actions running on every GitHub PR.
 ## Questions
 
 | Total | Easy | Medium | Hard |
-| ----- | ---- | ------ | ---- |
-| 72    | 29   | 37     | 8    |
+|-------| ---- |--------| ---- |
+| 76    | 29   | 39     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -195,6 +195,12 @@ We already have 2 formatter actions running on every GitHub PR.
 
 [575. Distribute Candies](https://leetcode.com/problems/distribute-candies/)
 🟢 Easy
+
+[665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)
+🟡 Medium
+
+[677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
+🟡 Medium
 
 [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 🟢 Easy

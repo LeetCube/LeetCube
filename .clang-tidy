@@ -1,5 +1,5 @@
 ---
-Checks:          'bugprone-*,performance-*,readability-*,modernize-*,cppcoreguidelines-*,-modernize-use-trailing-return-type,-readability-convert-member-functions-to-static,-cppcoreguidelines-avoid-non-const-global-variables,-cppcoreguidelines-macro-usage,-readability-braces-around-statements,-readability-implicit-bool-conversion,-readability-isolate-declaration,-cppcoreguidelines-avoid-c-arrays,-modernize-avoid-c-arrays,-cppcoreguidelines-pro-bounds-constant-array-index,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-bugprone-easily-swappable-parameters,-readability-else-after-return,-bugprone-signed-char-misuse,-bugprone-narrowing-conversions,-cppcoreguidelines-narrowing-conversions,-cppcoreguidelines-owning-memory,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-bugprone-implicit-widening-of-multiplication-result,-bugprone-suspicious-include,-readability-suspicious-call-argument,-cppcoreguidelines-avoid-const-or-ref-data-members,-cppcoreguidelines-avoid-do-while'
+Checks:          'bugprone-*,performance-*,readability-*,modernize-*,cppcoreguidelines-*,-modernize-use-trailing-return-type,-readability-convert-member-functions-to-static,-cppcoreguidelines-avoid-non-const-global-variables,-cppcoreguidelines-macro-usage,-readability-braces-around-statements,-readability-implicit-bool-conversion,-readability-isolate-declaration,-cppcoreguidelines-avoid-c-arrays,-modernize-avoid-c-arrays,-cppcoreguidelines-pro-bounds-constant-array-index,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-bugprone-easily-swappable-parameters,-readability-else-after-return,-bugprone-signed-char-misuse,-bugprone-narrowing-conversions,-cppcoreguidelines-narrowing-conversions,-cppcoreguidelines-owning-memory,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-bugprone-implicit-widening-of-multiplication-result,-bugprone-suspicious-include,-readability-suspicious-call-argument,-cppcoreguidelines-avoid-const-or-ref-data-members,-cppcoreguidelines-avoid-do-while,-bugprone-unchecked-optional-access'
 WarningsAsErrors: ''
 HeaderFilterRegex: ''
 AnalyzeTemporaryDtors: false
@@ -493,4 +493,3 @@ CheckOptions:
   - key:             llvm-else-after-return.WarnOnUnfixable
     value:           'false'
 ...
-

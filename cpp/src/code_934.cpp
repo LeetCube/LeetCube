@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <iostream>
 #include <utility>
 #include <vector>
 
@@ -81,7 +80,5 @@ public:
             next_ring.clear();
             next_ring.reserve(curr_ring.size() * 4);
         }
-
-        return -1;
     }
 };
