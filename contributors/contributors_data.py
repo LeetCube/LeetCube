@@ -1,9 +1,6 @@
 from datetime import date
-from enum import Enum
 from typing import List
 from collections import defaultdict
-
-# https://stackoverflow.com/questions/58608361/string-based-enum-in-python
 
 columns = ["nickname", "github", "languages", "first_commit"]
 langs = ["cpp", "py", "js", "java", "ts", "go"]
