@@ -1,9 +1,12 @@
 SRCS_DIR = src
+SRCS = $(wildcard $(SRCS_DIR)/code_*.cpp)
 TESTS_DIR = test
-TESTS = $(subst $(SRCS_DIR)/code, $(TESTS_DIR)/test, $(wildcard $(SRCS_DIR)/code_*.cpp))
+TESTS = $(subst $(SRCS_DIR)/code, $(TESTS_DIR)/test, $(SRCS))
 BUILD_DIR = build
 BIN_DIR = bin
 OUT = $(subst $(TESTS_DIR)/, $(BIN_DIR)/, $(basename $(TESTS)))
+ALL_FILES = $(SRCS)
+ALL_FILES += $(TESTS)
 
 CXX = clang++
 CXXFLAGS = -std=c++17 -g -O2 -march=native -Wall -Wextra -Werror -pedantic -fsanitize=address -fsanitize=undefined
@@ -25,4 +28,30 @@ $(OUT): $(BIN_DIR)/test_%: $(SRCS_DIR)/code_%.cpp $(TESTS_DIR)/test_%.cpp $(BUIL
 clean:
 	rm -rf $(BUILD_DIR) $(BIN_DIR)
 
-.PHONY: all clean
+ifeq (clang_tidy, $(firstword $(MAKECMDGOALS)))
+    ifeq (1, $(words $(MAKECMDGOALS)))
+        TIDY_COMMAND = find . -iname *.cpp -exec sh -c 'clang-tidy --config="" "$$1"' -- {} \;
+    else
+        TIDY_RUN_ARGS = $(wordlist 2, $(words $(MAKECMDGOALS)), $(MAKECMDGOALS))
+        $(eval $(TIDY_RUN_ARGS):;@:)
+        TIDY_COMMAND = find . -iname $(TIDY_RUN_ARGS) -exec sh -c 'clang-tidy --config="" "$$1"' -- {} \;
+    endif
+endif
+
+clang_tidy:
+	$(TIDY_COMMAND)
+
+ifeq (clang_format, $(firstword $(MAKECMDGOALS)))
+    ifeq (1, $(words $(MAKECMDGOALS)))
+        FORMAT_COMMAND = find . -iname *.cpp | xargs clang-format -style=file -i
+    else
+        FORMAT_RUN_ARGS = $(wordlist 2, $(words $(MAKECMDGOALS)), $(MAKECMDGOALS))
+        $(eval $(FORMAT_RUN_ARGS):;@:)
+        FORMAT_COMMAND = find . -iname $(FORMAT_RUN_ARGS) | xargs clang-format -style=file -i
+    endif
+endif
+
+clang_format:
+	$(FORMAT_COMMAND)
+
+.PHONY: all clean clang_tidy clang_format
