@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// asdf
 class Solution {
 public:
     bool is_grid_sequence_valid(set<char>& seen, char entry) {

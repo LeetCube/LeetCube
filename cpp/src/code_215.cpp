@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// asdf
 class Solution {
     size_t partition(vector<int>& nums, size_t left, size_t right) {
         size_t pivot = left + rand() % (right - left + 1);

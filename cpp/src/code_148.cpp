@@ -10,6 +10,7 @@ struct ListNode {
     ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
 
+// asdf
 class Solution {
     ListNode* split(ListNode* head, int k) {
         for (int i = 1; head && i < k; ++i) head = head->next;

@@ -5,6 +5,7 @@ enum Result { TRUE = true, FALSE = false, NULLPTR = -1 };
 
 NLOHMANN_JSON_SERIALIZE_ENUM(Result, {{NULLPTR, nullptr}, {TRUE, true}, {FALSE, false}})
 
+// asdf
 class Solution {
 public:
     Trie* obj = nullptr;
@@ -38,6 +39,7 @@ void test(Solution& sol, const json& input, const json& output) {
     delete sol.obj;
 }
 
+// asdf
 TEST_CASE("") {
     TEST(208);
 }

@@ -7,6 +7,7 @@ struct TreeNode {
     TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
+// asdf
 class Solution {
     bool verify(TreeNode* root, TreeNode* subRoot) {
         if (!root && !subRoot) return true;

@@ -7,6 +7,7 @@
 using Param = vector<variant<string, int>>;
 using Result = optional<int>;
 
+// asdf
 class Solution {
 public:
     MapSum* obj = nullptr;
@@ -64,6 +65,7 @@ void test(Solution& sol, const json& input, const json& output) {
     delete sol.obj;
 }
 
+// asdf
 TEST_CASE("") {
     TEST(677)
 }

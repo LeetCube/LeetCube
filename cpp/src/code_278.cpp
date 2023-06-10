@@ -1,3 +1,4 @@
+// asdf
 class Solution {
     // GIVEN
     [[nodiscard]] bool isBadVersion(const int n) const {
