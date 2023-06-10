@@ -18,13 +18,13 @@ Definition from [freeCodeCamp](https://www.freecodecamp.org/news/using-prettier-
 
 ## C++
 
-`blank` uses Google-style formatting, with a few custom options. A `.clang-format` file with said options is provided.
+`blank` uses Google-style formatting, with a few custom options. A [.clang-format](../cpp/.clang-format) file with said options is provided. A [.clang-tidy](../cpp/.clang-tidy) file is also provided.
 
 See the [Makefile](../cpp/Makefile) for the compilation options. In particular, note that the C++ version is **C++17**.
 
-On Linux, if you have `clang-format` installed, you can run `find . -iname *.cpp | xargs clang-format -style=file -i` when in the project root directory to format all of the files according to the rules above. Rules are subject to change.
+If you have `clang-format` installed, you can run `make clang_format [optional filename(s) glob here]` to format the files according to the `.clang-format` file. Rules are subject to change.
 
-On Linux, if you have `clang-tidy` installed, you can run `find . -iname *.cpp -exec sh -c 'clang-tidy --config-file=.clang-tidy "$1"' -- {} \;` when in the project root directory to run the `clang-tidy` linter on all files. Rules are subject to change. If you want to disable linting for a block of code, add `// NOLINTBEGIN` and `// NOLINTEND` around it.
+If you have `clang-tidy` installed, you can run `make clang_tidy [optional filename(s) glob here]` to run the `clang-tidy` linter according to the `.clang-tidy` file. Rules are subject to change. If you want to disable linting for a block of code, add `// NOLINTBEGIN` and `// NOLINTEND` around it.
 
 ## Python
 
