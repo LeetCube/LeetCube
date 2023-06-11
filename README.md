@@ -7,6 +7,10 @@ Everyone is welcome to contribute their LeetCode solutions!
 [![GitHub Super-Linter](https://github.com/LeetCube/LeetCube/actions/workflows/linter.yml/badge.svg?branch=main)](https://github.com/marketplace/actions/super-linter)
 [![cpp-linter](https://github.com/LeetCube/LeetCube/actions/workflows/cpp-linter.yml/badge.svg?branch=main)](https://github.com/marketplace/actions/c-c-linter)
 
+## Contributors
+
+[Contributors](contributors/contributors.md)
+
 ## Instructions
 
 ### How to set up and update
@@ -34,7 +38,7 @@ We already have 2 formatter actions running on every GitHub PR.
 ## Questions
 
 | Total | Easy | Medium | Hard |
-|-------| ---- |--------| ---- |
+| ----- | ---- | ------ | ---- |
 | 77    | 29   | 40     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
@@ -211,7 +215,7 @@ We already have 2 formatter actions running on every GitHub PR.
 [817. Linked List Components](https://leetcode.com/problems/linked-list-components/)
 🟡 Medium
 
-[934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) 
+[934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium
 
 [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
