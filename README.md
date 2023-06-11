@@ -35,7 +35,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 |-------| ---- |--------| ---- |
-| 76    | 29   | 39     | 8    |
+| 77    | 29   | 40     | 8    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -204,6 +204,9 @@ We already have 2 formatter actions running on every GitHub PR.
 
 [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 🟢 Easy
+
+[739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+🟡 Medium
 
 [817. Linked List Components](https://leetcode.com/problems/linked-list-components/)
 🟡 Medium
