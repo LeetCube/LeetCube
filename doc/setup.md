@@ -1,5 +1,38 @@
 # Set up
 
+## Python
+
+-   conda
+-   pandas
+-   tabulate
+
+### install
+
+#### conda
+
+[Anaconda official](https://www.anaconda.com/)
+
+#### pandas
+
+[pandas official](https://pandas.pydata.org/docs/getting_started/install.html)
+
+```shell
+conda install pandas
+```
+
+#### tabulate
+
+```shell
+conda install -c conda-forge tabulate
+```
+
+### update
+
+```shell
+conda update conda
+conda update --all
+```
+
 ## JavaScript
 
 -   node
