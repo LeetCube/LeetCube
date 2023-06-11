@@ -42,7 +42,14 @@ contributors.append(
         date(2023, 5, 26),
     )
 )
-contributors.append(Contributor("youssef", "ysaleh03", ["cpp"], date(2023, 5, 27)))
+contributors.append(
+    Contributor(
+        "youssef",
+        "ysaleh03",
+        ["cpp"],
+        date(2023, 5, 27),
+    )
+)
 contributors.append(
     Contributor(
         "blank",
