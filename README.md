@@ -39,7 +39,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 77    | 29   | 40     | 8    |
+| 79    | 29   | 41     | 9    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -149,6 +149,9 @@ We already have 2 formatter actions running on every GitHub PR.
 [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 🟢 Easy
 
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+🟡 Medium
+
 [202. Happy Number](https://leetcode.com/problems/happy-number/)
 🟢 Easy
 
@@ -223,6 +226,9 @@ We already have 2 formatter actions running on every GitHub PR.
 
 [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
 🟢 Easy
+
+[1444. Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)
+🔴 Hard
 
 [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 🟡 Medium
