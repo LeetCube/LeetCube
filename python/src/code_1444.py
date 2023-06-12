@@ -15,7 +15,7 @@ class Solution:
                     - prefixGrid[r + 1][c + 1]
                 )
 
-        def count(x1, y1, x2, y2):
+        def count(x1: int, y1: int, x2: int, y2: int):
             return (
                 prefixGrid[x1][y1]
                 + prefixGrid[x2][y2]
