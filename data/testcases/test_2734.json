@@ -1,0 +1,23 @@
+[
+    {
+        "contributor": "given",
+        "input": {
+            "s": "cbabc"
+        },
+        "output": "baabc"
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "s": "acbbc"
+        },
+        "output": "abaab"
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "s": "leetcode"
+        },
+        "output": "kddsbncd"
+    }
+]
