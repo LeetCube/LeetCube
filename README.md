@@ -227,6 +227,9 @@ We already have 2 formatter actions running on every GitHub PR.
 [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
 🟢 Easy
 
+[1444. Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)
+🔴 Hard
+
 [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 🟡 Medium
 
