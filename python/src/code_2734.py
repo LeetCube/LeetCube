@@ -17,11 +17,10 @@ class Solution:
                     if s[j] == "a":
                         ans += [op(x) for x in s[i:j]]
                         ans += s[j:]
-                        return ''.join(ans)
+                        return "".join(ans)
                 # only 1 a found, make rest prev letter
                 ans += [op(x) for x in s[i:]]
-                return ''.join(ans)
+                return "".join(ans)
 
         if not switched:
             return s[:-1] + "z"
-
