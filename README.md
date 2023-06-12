@@ -149,6 +149,9 @@ We already have 2 formatter actions running on every GitHub PR.
 [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 🟢 Easy
 
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+🟡 Medium
+
 [202. Happy Number](https://leetcode.com/problems/happy-number/)
 🟢 Easy
 
