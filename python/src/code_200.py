@@ -6,7 +6,7 @@ class Solution:
         count = 0
         rows, cols = len(grid), len(grid[0])
 
-        def dfs(x, y):
+        def dfs(x: int, y: int):
             if x not in range(rows) or y not in range(cols) or grid[x][y] != "1":
                 return
 
