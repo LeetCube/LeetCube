@@ -9,7 +9,7 @@ class Solution:
         resLen = 1
         for end in range(len(s)):
             exist[s[end]] = exist.get(s[end], 0) + 1
-            
+
             while end - start + 1 != len(exist):
                 exist[s[start]] -= 1
                 if exist[s[start]] == 0:
