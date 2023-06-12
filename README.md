@@ -39,7 +39,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 77    | 29   | 40     | 8    |
+| 79    | 29   | 41     | 9    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
