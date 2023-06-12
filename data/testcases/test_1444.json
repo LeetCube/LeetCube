@@ -2,7 +2,7 @@
   {
     "contributor": "given",
     "input": {
-      "address": ["A..", "AAA", "..."],
+      "pizza": ["A..", "AAA", "..."],
       "k": 3
     },
     "output": 3
@@ -10,7 +10,7 @@
   {
     "contributor": "given",
     "input": {
-      "address": ["A..", "AA.", "..."],
+      "pizza": ["A..", "AA.", "..."],
       "k": 3
     },
     "output": 1
@@ -18,7 +18,7 @@
   {
     "contributor": "given",
     "input": {
-      "address": ["A..", "A..", "..."],
+      "pizza": ["A..", "A..", "..."],
       "k": 1
     },
     "output": 1
