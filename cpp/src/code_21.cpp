@@ -29,18 +29,12 @@ private:
         if ((list1 == nullptr) && (list2 == nullptr)) { return nullptr; }
 
         ListNode* next = nullptr;
-        if (list1 == nullptr) {
+        if (list1 == nullptr || ((list2 != nullptr) && (list2->val <= list1->val))) {
             next = list2;
             list2 = list2->next;
-        } else if (list2 == nullptr) {
-            next = list1;
-            list1 = list1->next;
-        } else if (list1->val < list2->val) {
-            next = list1;
-            list1 = list1->next;
         } else {
-            next = list2;
-            list2 = list2->next;
+            next = list1;
+            list1 = list1->next;
         }
         next->next = nullptr;
         return next;

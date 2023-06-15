@@ -4,18 +4,16 @@
 #include "cpp_deps/boilerplate.hpp"
 
 namespace {
-ListNode* to_list(const std::vector<int>& list_as_vec, std::vector<ListNode>& node_buffer) noexcept {
-    node_buffer.resize(list_as_vec.size());
-    for (std::size_t i = 0; i < list_as_vec.size(); i++) {
-        node_buffer[i].val = list_as_vec[i];
-        if (i == (list_as_vec.size() - 1)) {
-            node_buffer[i].next = nullptr;
-        } else {
-            node_buffer[i].next = &node_buffer[i + 1];
-        }
-    }
-    if (list_as_vec.size() == 0) { return nullptr; }
-    return &node_buffer[0];
+ListNode* from_array(const std::vector<int>& arr, std::size_t idx) noexcept {
+    if (idx >= arr.size()) { return nullptr; }
+    return new ListNode(arr[idx], from_array(arr, idx + 1));
+}
+
+void clear(ListNode*& head) noexcept {
+    if (!head) { return; }
+    clear(head->next);
+    delete head;
+    head = nullptr;
 }
 
 bool is_equivalent(const std::vector<int>& list_as_vec, ListNode* list) noexcept {
@@ -24,21 +22,21 @@ bool is_equivalent(const std::vector<int>& list_as_vec, ListNode* list) noexcept
         if (list->val != val) { return false; }
         list = list->next;
     }
-    if (list != nullptr) { return false; }
-    return true;
+    return list == nullptr;
 }
 }  // namespace
 
 void test(Solution& sol, const json& input, const json& output) {
     std::vector<ListNode> list1_buff{};
     std::vector<ListNode> list2_buff{};
-    auto* list1 = to_list(input["list1"].get<std::vector<int>>(), list1_buff);
-    auto* list2 = to_list(input["list2"].get<std::vector<int>>(), list2_buff);
+    auto* list1 = from_array(input["list1"].get<std::vector<int>>(), 0);
+    auto* list2 = from_array(input["list2"].get<std::vector<int>>(), 0);
 
     const auto expected = output.get<std::vector<int>>();
     auto* result = sol.mergeTwoLists(list1, list2);
 
     CHECK(is_equivalent(expected, result) == true);
+    clear(result);
 }
 
 TEST_CASE("") {
