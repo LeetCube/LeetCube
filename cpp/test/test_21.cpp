@@ -4,7 +4,7 @@
 #include "cpp_deps/boilerplate.hpp"
 
 namespace {
-ListNode* from_array(const std::vector<int>& arr, std::size_t idx) noexcept {
+ListNode* from_array(const std::vector<int>& arr, std::size_t idx) {
     if (idx >= arr.size()) { return nullptr; }
     return new ListNode(arr[idx], from_array(arr, idx + 1));
 }
