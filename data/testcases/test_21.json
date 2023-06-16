@@ -1,0 +1,74 @@
+[
+    {
+        "contributor": "given",
+        "comments": "two small non-empty lists",
+        "input": {
+            "list1": [1,2,4],
+            "list2": [1,3,4]
+        },
+        "output": [1,1,2,3,4,4]
+    },
+    {
+        "contributor": "given",
+        "comments": "one list empty, other list single element",
+        "input": {
+            "list1": [],
+            "list2": [0]
+        },
+        "output": [0]
+    },
+    {
+        "contributor": "given",
+        "comments": "both empty lists",
+        "input": {
+            "list1": [],
+            "list2": []
+        },
+        "output": []
+    },
+    {
+        "contributor": "hue mongus",
+        "comments": "list1 empty, list 2 short length",
+        "input": {
+            "list1": [],
+            "list2": [1,4,5,10,11]
+        },
+        "output": [1,4,5,10,11]
+    },
+    {
+        "contributor": "hue mongus",
+        "comments": "list1 short length, list 2 empty",
+        "input": {
+            "list1": [3,6,7,90,121,123],
+            "list2": []
+        },
+        "output": [3,6,7,90,121,123]
+    },
+    {
+        "contributor": "hue mongus",
+        "comments": "alternate list1, list2, list1...",
+        "input": {
+            "list1": [-100,3,5,21,90],
+            "list2": [-21,4,10,34]
+        },
+        "output": [-100,-21,3,4,5,10,21,34,90]
+    },
+    {
+        "contributor": "hue mongus",
+        "comments": "alternate list2, list1, list2...",
+        "input": {
+            "list1": [-10,34,36,52,61,70,99],
+            "list2": [-20,0,35,40,59,62,81,100]
+        },
+        "output": [-20,-10,0,34,35,36,40,52,59,61,62,70,81,99,100]
+    },
+    {
+        "contributor": "hue mongus",
+        "comments": "two lists non-empty and identical",
+        "input": {
+            "list1": [1,2,3,4,5,6,7,8,9,10],
+            "list2": [1,2,3,4,5,6,7,8,9,10]
+        },
+        "output": [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10]
+    }
+]

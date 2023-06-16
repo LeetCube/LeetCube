@@ -39,7 +39,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 79    | 29   | 41     | 9    |
+| 81    | 30   | 42     | 9    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -96,6 +96,9 @@ We already have 2 formatter actions running on every GitHub PR.
 🟡 Medium
 
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+🟢 Easy
+
+[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 🟢 Easy
 
 [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
@@ -274,6 +277,9 @@ We already have 2 formatter actions running on every GitHub PR.
 
 [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)
 🟢 Easy
+
+[2679. Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix)
+🟡 Medium
 
 [2709. Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)
 🔴 Hard
