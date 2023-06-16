@@ -127,7 +127,7 @@ contributors.append(
         "Jason",
         "argonaut0",
         ["go"],
-        None,
+        date(2023, 6, 15),
     )
 )
 contributors.append(

@@ -21,8 +21,8 @@ We have 17 contributors.
 | Saif       | saifabdelazim | py           | 2023-06-05     |
 | aaryan     | aaryan-rampal | java         | 2023-06-06     |
 | yimeng     | ymnglli       | py           | 2023-06-08     |
+| Jason      | argonaut0     | go           | 2023-06-15     |
 | Nothingyet | hquanvo       | cpp          |                |
-| Jason      | argonaut0     | go           |                |
 | eric       | eysk-io       |              |                |
 | Ryan       | ryanmckim     |              |                |
 | RasPoutine | nopunindented | py, js, ts   |                |
