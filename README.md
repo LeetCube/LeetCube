@@ -39,7 +39,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 81    | 30   | 42     | 9    |
+| 82    | 30   | 43     | 9    |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -196,6 +196,9 @@ We already have 2 formatter actions running on every GitHub PR.
 
 [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
 🟢 Easy
+
+[456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
+🟡 Medium
 
 [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 🟡 Medium
