@@ -93,7 +93,7 @@ contributors.append(
 contributors.append(
     Contributor(
         "Saif",
-        "saifabdelazim",
+        "darksword99",
         ["py"],
         date(2023, 6, 5),
     )

@@ -1,0 +1,30 @@
+[
+    {
+        "contributor": "given",
+        "input": {
+            "operations": ["--X","X++","X++"]
+        },
+        "output": 1
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "operations": ["++X","++X","X++"]
+        },
+        "output": 3
+    },
+    {
+        "contributor": "given",
+        "input": {
+            "operations": ["X++","++X","--X","X--"]
+        },
+        "output": 0
+    },
+    {
+        "contributor": "darksword99",
+        "input": {
+            "operations": ["X++","++X","--X","X--", "--X", "X--", "--X"]
+        },
+        "output": -3
+    }
+]

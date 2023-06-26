@@ -18,7 +18,7 @@ We have 17 contributors.
 | eater      | william-swy   | cpp          | 2023-05-29     |
 | Haad       | hbhutta       | cpp          | 2023-05-29     |
 | Gordon     | Hgjnnf        | py           | 2023-06-02     |
-| Saif       | saifabdelazim | py           | 2023-06-05     |
+| Saif       | darksword99   | py           | 2023-06-05     |
 | aaryan     | aaryan-rampal | java         | 2023-06-06     |
 | yimeng     | ymnglli       | py           | 2023-06-08     |
 | Jason      | argonaut0     | go           | 2023-06-15     |
