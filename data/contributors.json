@@ -110,7 +110,7 @@
 	{
 		"nickname": "alex",
 		"github": "azalexzhang",
-		"langs": [],
+		"langs": ["py"],
 		"first_commit": null
 	}
 ]
