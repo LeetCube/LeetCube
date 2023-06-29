@@ -1,0 +1,116 @@
+[
+	{
+		"nickname": "any",
+		"github": "dataprob",
+		"langs": ["py", "js"],
+		"first_commit": "05/26/2023"
+	},
+	{
+		"nickname": "youssef",
+		"github": "ysaleh03",
+		"langs": ["cpp"],
+		"first_commit": "05/27/2023"
+	},
+	{
+		"nickname": "blank",
+		"github": "Person314159",
+		"langs": ["cpp"],
+		"first_commit": "05/27/2023"
+	},
+	{
+		"nickname": "Requiem",
+		"github": "PhaseRush",
+		"langs": ["py", "java", "ts"],
+		"first_commit": "05/28/2023"
+	},
+	{
+		"nickname": "eater",
+		"github": "william-swy",
+		"langs": ["cpp"],
+		"first_commit": "05/29/2023"
+	},
+	{
+		"nickname": "Haad",
+		"github": "hbhutta",
+		"langs": ["cpp"],
+		"first_commit": "05/29/2023"
+	},
+	{
+		"nickname": "Gordon",
+		"github": "Hgjnnf",
+		"langs": ["py"],
+		"first_commit": "06/02/2023"
+	},
+	{
+		"nickname": "Saif",
+		"github": "darksword99",
+		"langs": ["py"],
+		"first_commit": "06/05/2023"
+	},
+	{
+		"nickname": "aaryan",
+		"github": "aaryan-rampal",
+		"langs": ["java"],
+		"first_commit": "06/06/2023"
+	},
+	{
+		"nickname": "yimeng",
+		"github": "ymnglli",
+		"langs": ["py"],
+		"first_commit": "06/08/2023"
+	},
+	{
+		"nickname": "Jason",
+		"github": "argonaut0",
+		"langs": ["go"],
+		"first_commit": "06/15/2023"
+	},
+	{
+		"nickname": "Nothingyet",
+		"github": "hquanvo",
+		"langs": ["cpp"],
+		"first_commit": null
+	},
+	{
+		"nickname": "eric",
+		"github": "eysk-io",
+		"langs": ["java"],
+		"first_commit": null
+	},
+	{
+		"nickname": "Ryan",
+		"github": "ryanmckim",
+		"langs": ["py"],
+		"first_commit": null
+	},
+	{
+		"nickname": "RasPoutine",
+		"github": "nopunindented",
+		"langs": ["py", "js", "ts"],
+		"first_commit": null
+	},
+	{
+		"nickname": "dinosaur",
+		"github": "Ccolina03",
+		"langs": ["java", "ts"],
+		"first_commit": null
+	},
+	{
+		"nickname": "kiara",
+		"github": "kcoton",
+		"langs": ["py"],
+		"first_commit": null
+	},
+	{
+		"nickname": "joel",
+		"github": "joelbonnie",
+		"langs": ["cpp"],
+		"first_commit": null
+	},
+	{
+		"nickname": "alex",
+		"github": "azalexzhang",
+		"langs": ["py"],
+		"first_commit": null
+	}
+]
