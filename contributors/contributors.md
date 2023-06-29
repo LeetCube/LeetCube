@@ -1,32 +1,26 @@
 # Contributors
 We have 19 contributors.
-| language   |   count |
-|:-----------|--------:|
-| py         |       7 |
-| cpp        |       5 |
-| java       |       3 |
-| ts         |       3 |
-| js         |       2 |
-| go         |       1 |
 
-| nickname   | github        | languages    | first_commit   |
-|:-----------|:--------------|:-------------|:---------------|
-| any        | dataprob      | py, js       | 2023-05-26     |
-| youssef    | ysaleh03      | cpp          | 2023-05-27     |
-| blank      | Person314159  | cpp          | 2023-05-27     |
-| Requiem    | PhaseRush     | py, java, ts | 2023-05-28     |
-| eater      | william-swy   | cpp          | 2023-05-29     |
-| Haad       | hbhutta       | cpp          | 2023-05-29     |
-| Gordon     | Hgjnnf        | py           | 2023-06-02     |
-| Saif       | saifabdelazim | py           | 2023-06-05     |
-| aaryan     | aaryan-rampal | java         | 2023-06-06     |
-| yimeng     | ymnglli       | py           | 2023-06-08     |
-| Jason      | argonaut0     | go           | 2023-06-15     |
-| Nothingyet | hquanvo       | cpp          |                |
-| eric       | eysk-io       |              |                |
-| Ryan       | ryanmckim     |              |                |
-| RasPoutine | nopunindented | py, js, ts   |                |
-| dinosaur   | Ccolina03     | java, ts     |                |
-| kiara      | kcoton        | py           |                |
-| joel       | joelbonnie    |              |                |
-| alex       | azalexzhang   |              |                |
+![](figs/langs.png)
+
+| nickname   | github        | langs                | first_commit   |
+|:-----------|:--------------|:---------------------|:---------------|
+| any        | dataprob      | ['py', 'js']         | 05/26/2023     |
+| youssef    | ysaleh03      | ['cpp']              | 05/27/2023     |
+| blank      | Person314159  | ['cpp']              | 05/27/2023     |
+| Requiem    | PhaseRush     | ['py', 'java', 'ts'] | 05/28/2023     |
+| eater      | william-swy   | ['cpp']              | 05/29/2023     |
+| Haad       | hbhutta       | ['cpp']              | 05/29/2023     |
+| Gordon     | Hgjnnf        | ['py']               | 06/02/2023     |
+| Saif       | darksword99   | ['py']               | 06/05/2023     |
+| aaryan     | aaryan-rampal | ['java']             | 06/06/2023     |
+| yimeng     | ymnglli       | ['py']               | 06/08/2023     |
+| Jason      | argonaut0     | ['go']               | 06/15/2023     |
+| Nothingyet | hquanvo       | ['cpp']              |                |
+| eric       | eysk-io       | ['java']             |                |
+| Ryan       | ryanmckim     | ['py']               |                |
+| RasPoutine | nopunindented | ['py', 'js', 'ts']   |                |
+| dinosaur   | Ccolina03     | ['java', 'ts']       |                |
+| kiara      | kcoton        | ['py']               |                |
+| joel       | joelbonnie    | ['cpp']              |                |
+| alex       | azalexzhang   | []                   |                |

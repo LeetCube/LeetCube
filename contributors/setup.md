@@ -2,7 +2,7 @@
 
 ## Update list
 
-Go to this [list](contributors_data.py)
+Update [contributors.json](../data/contributors.json)
 
 ## Convert to markdown
 
