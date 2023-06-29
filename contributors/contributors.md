@@ -1,5 +1,5 @@
 # Contributors
-We have 17 contributors.
+We have 19 contributors.
 | language   |   count |
 |:-----------|--------:|
 | py         |       7 |
@@ -28,3 +28,5 @@ We have 17 contributors.
 | RasPoutine | nopunindented | py, js, ts   |                |
 | dinosaur   | Ccolina03     | java, ts     |                |
 | kiara      | kcoton        | py           |                |
+| joel       | joelbonnie    |              |                |
+| alex       | azalexzhang   |              |                |

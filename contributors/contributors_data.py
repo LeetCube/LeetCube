@@ -170,6 +170,22 @@ contributors.append(
         None,
     )
 )
+contributors.append(
+    Contributor(
+        "joel",
+        "joelbonnie",
+        None,
+        None,
+    )
+)
+contributors.append(
+    Contributor(
+        "alex",
+        "azalexzhang",
+        None,
+        None,
+    )
+)
 
 dict_langs = defaultdict(int)
 for lang in langs:
