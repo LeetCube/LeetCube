@@ -1,0 +1,30 @@
+[
+	{
+		"contributor": "given",
+		"input": {
+			"grid": ["@.a..", "###.#", "b.A.B"]
+		},
+		"output": 8
+	},
+	{
+		"contributor": "given",
+		"input": {
+			"grid": ["@..aA", "..B#.", "....b"]
+		},
+		"output": 6
+	},
+	{
+		"contributor": "given",
+		"input": {
+			"grid": ["@Aa"]
+		},
+		"output": -1
+	},
+	{
+		"contributor": "any",
+		"input": {
+			"grid": ["@...a", ".###A", "b.BCc"]
+		},
+		"output": 10
+	}
+]

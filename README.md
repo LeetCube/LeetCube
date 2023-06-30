@@ -39,7 +39,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 81    | 30   | 42     | 9    |
+| 82    | 30   | 42     | 10   |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -220,6 +220,9 @@ We already have 2 formatter actions running on every GitHub PR.
 
 [817. Linked List Components](https://leetcode.com/problems/linked-list-components/)
 🟡 Medium
+
+[864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+🔴 Hard
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 🟡 Medium
