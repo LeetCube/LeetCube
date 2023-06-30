@@ -221,8 +221,7 @@ We already have 2 formatter actions running on every GitHub PR.
 [817. Linked List Components](https://leetcode.com/problems/linked-list-components/)
 🟡 Medium
 
-[864. Shortest Path to Get All Keys
-](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+[864. Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
 🔴 Hard
 
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
