@@ -247,6 +247,9 @@ bash tools/format.sh
 [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 🟢 Easy
 
+[2305. Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)
+🟡 Medium
+
 [2620. Counter](https://leetcode.com/problems/counter/)
 🟢 Easy
 
@@ -294,3 +297,6 @@ bash tools/format.sh
 
 [2709. Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)
 🔴 Hard
+
+[2734. Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)
+🟡 Medium
