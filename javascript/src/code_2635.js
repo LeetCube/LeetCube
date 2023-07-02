@@ -5,11 +5,11 @@
  */
 // Preallocate memory: fast if we know the size
 var map = function (arr, fn) {
-  const answer = new Array(arr.length);
-  for (let i = 0; i < arr.length; i++) {
-    answer[i] = fn(arr[i], i);
-  }
-  return answer;
+    const answer = new Array(arr.length);
+    for (let i = 0; i < arr.length; i++) {
+        answer[i] = fn(arr[i], i);
+    }
+    return answer;
 };
 
 // Push values onto array: is like python

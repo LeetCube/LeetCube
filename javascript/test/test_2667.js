@@ -8,6 +8,6 @@ const { createHelloWorld } = require(src_path(2667));
 const test_cases = require(testcases_path(2667));
 
 test_cases.forEach((test_case) => {
-  const f = createHelloWorld();
-  expect(f(...test_case.input.args)).to.equal(test_case.output);
+    const f = createHelloWorld();
+    expect(f(...test_case.input.args)).to.equal(test_case.output);
 });
