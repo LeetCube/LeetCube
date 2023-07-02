@@ -41,7 +41,7 @@ bash tools/format.sh
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 82    | 30   | 42     | 10   |
+| 84    | 30   | 44     | 10   |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
