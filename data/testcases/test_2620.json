@@ -1,16 +1,16 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "n": 10
+    {
+        "contributor": "given",
+        "input": {
+            "n": 10
+        },
+        "output": [10, 11, 12]
     },
-    "output": [10, 11, 12]
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "n": -2
-    },
-    "output": [-2, -1, 0, 1, 2]
-  }
+    {
+        "contributor": "given",
+        "input": {
+            "n": -2
+        },
+        "output": [-2, -1, 0, 1, 2]
+    }
 ]

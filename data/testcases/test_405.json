@@ -1,23 +1,23 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "num": 26
+    {
+        "contributor": "given",
+        "input": {
+            "num": 26
+        },
+        "output": "1a"
     },
-    "output": "1a"
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "num": -1
+    {
+        "contributor": "given",
+        "input": {
+            "num": -1
+        },
+        "output": "ffffffff"
     },
-    "output": "ffffffff"
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "num": 0
-    },
-    "output": "0"
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "num": 0
+        },
+        "output": "0"
+    }
 ]

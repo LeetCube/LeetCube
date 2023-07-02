@@ -1,16 +1,16 @@
 [
-  {
-    "contributor": "phaserush",
-    "input": {
-      "nums": [1, 2, 3, 4]
+    {
+        "contributor": "phaserush",
+        "input": {
+            "nums": [1, 2, 3, 4]
+        },
+        "output": [24, 12, 8, 6]
     },
-    "output": [24, 12, 8, 6]
-  },
-  {
-    "contributor": "phaserush",
-    "input": {
-      "nums": [-1, 1, 0, -3, 3]
-    },
-    "output": [0, 0, 9, 0, 0]
-  }
+    {
+        "contributor": "phaserush",
+        "input": {
+            "nums": [-1, 1, 0, -3, 3]
+        },
+        "output": [0, 0, 9, 0, 0]
+    }
 ]

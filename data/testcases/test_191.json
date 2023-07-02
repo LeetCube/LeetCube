@@ -1,47 +1,47 @@
 [
-  {
-    "contributor": "given",
-    "comments": "The input binary string \u001b[1m00000000000000000000000000001011\u001b[m has a total of three '1' bits.",
-    "input": {
-      "u": 11
+    {
+        "contributor": "given",
+        "comments": "The input binary string \u001b[1m00000000000000000000000000001011\u001b[m has a total of three '1' bits.",
+        "input": {
+            "u": 11
+        },
+        "output": 3
     },
-    "output": 3
-  },
-  {
-    "contributor": "given",
-    "comments": "The input binary string \u001b[1m00000000000000000000000010000000\u001b[m has a total of one '1' bit.",
-    "input": {
-      "u": 128
+    {
+        "contributor": "given",
+        "comments": "The input binary string \u001b[1m00000000000000000000000010000000\u001b[m has a total of one '1' bit.",
+        "input": {
+            "u": 128
+        },
+        "output": 1
     },
-    "output": 1
-  },
-  {
-    "contributor": "given",
-    "comments": "The input binary string \u001b[1m11111111111111111111111111111101\u001b[m has a total of thirty '1' bits.",
-    "input": {
-      "u": 4294967293
+    {
+        "contributor": "given",
+        "comments": "The input binary string \u001b[1m11111111111111111111111111111101\u001b[m has a total of thirty '1' bits.",
+        "input": {
+            "u": 4294967293
+        },
+        "output": 31
     },
-    "output": 31
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "u": 0
+    {
+        "contributor": "blank",
+        "input": {
+            "u": 0
+        },
+        "output": 0
     },
-    "output": 0
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "u": 1
+    {
+        "contributor": "blank",
+        "input": {
+            "u": 1
+        },
+        "output": 1
     },
-    "output": 1
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "u": 2863289685
-    },
-    "output": 16
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "u": 2863289685
+        },
+        "output": 16
+    }
 ]

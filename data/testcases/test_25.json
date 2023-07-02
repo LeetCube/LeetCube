@@ -1,36 +1,36 @@
 [
-  {
-    "contributor": "given",
-    "comments": "https://assets.leetcode.com/uploads/2020/10/03/reverse_ex1.jpg",
-    "input": {
-      "head": [1, 2, 3, 4, 5],
-      "k": 2
+    {
+        "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2020/10/03/reverse_ex1.jpg",
+        "input": {
+            "head": [1, 2, 3, 4, 5],
+            "k": 2
+        },
+        "output": [2, 1, 4, 3, 5]
     },
-    "output": [2, 1, 4, 3, 5]
-  },
-  {
-    "contributor": "given",
-    "comments": "https://assets.leetcode.com/uploads/2020/10/03/reverse_ex2.jpg",
-    "input": {
-      "head": [1, 2, 3, 4, 5],
-      "k": 3
+    {
+        "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2020/10/03/reverse_ex2.jpg",
+        "input": {
+            "head": [1, 2, 3, 4, 5],
+            "k": 3
+        },
+        "output": [3, 2, 1, 4, 5]
     },
-    "output": [3, 2, 1, 4, 5]
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "head": [1],
-      "k": 1
+    {
+        "contributor": "blank",
+        "input": {
+            "head": [1],
+            "k": 1
+        },
+        "output": [1]
     },
-    "output": [1]
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "head": [1, 2, 3, 4, 5],
-      "k": 5
-    },
-    "output": [5, 4, 3, 2, 1]
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "head": [1, 2, 3, 4, 5],
+            "k": 5
+        },
+        "output": [5, 4, 3, 2, 1]
+    }
 ]

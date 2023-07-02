@@ -39,16 +39,16 @@ format_black() {
 
 format_prettier() {
     if [ $ns = "all" ]; then
-        npx prettier --write $1
+        npx prettier --write --tab-width 4 $1
     else
         if [ $lang != "json" ]; then
-            files = ("src/code" "test/test")
+            files=("src/code" "test/test")
         else
-            files = ("testcases/test")
+            files=("testcases/test")
         fi
         for f in "${files[@]}"; do
             for n in "${ns[@]}"; do
-                npx prettier --write --tab-width 4 $1/$f_$n.$lang
+                npx prettier --write --tab-width 4 $1/$f\_$n.$lang
             done
         done
     fi

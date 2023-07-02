@@ -1,69 +1,69 @@
 [
-  {
-    "contributor": "given",
-    "comments": "\"a\" does not match the entire string \"aa\".",
-    "input": {
-      "s": "aa",
-      "p": "a"
+    {
+        "contributor": "given",
+        "comments": "\"a\" does not match the entire string \"aa\".",
+        "input": {
+            "s": "aa",
+            "p": "a"
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "given",
-    "comments": "'*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes \"aa\".",
-    "input": {
-      "s": "aa",
-      "p": "a*"
+    {
+        "contributor": "given",
+        "comments": "'*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes \"aa\".",
+        "input": {
+            "s": "aa",
+            "p": "a*"
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "given",
-    "comments": "\".*\" means \"zero or more (*) of any character (.)\".",
-    "input": {
-      "s": "ab",
-      "p": ".*"
+    {
+        "contributor": "given",
+        "comments": "\".*\" means \"zero or more (*) of any character (.)\".",
+        "input": {
+            "s": "ab",
+            "p": ".*"
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "ab",
-      "p": "."
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "ab",
+            "p": "."
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "ab",
-      "p": ".."
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "ab",
+            "p": ".."
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "b",
-      "p": "a*b"
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "b",
+            "p": "a*b"
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "ab",
-      "p": "a*b"
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "ab",
+            "p": "a*b"
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "aab",
-      "p": "a*b"
-    },
-    "output": true
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "aab",
+            "p": "a*b"
+        },
+        "output": true
+    }
 ]

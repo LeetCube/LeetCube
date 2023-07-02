@@ -1,33 +1,33 @@
 [
-  {
-    "contributor": "given",
-    "comments": "The answer is \"abc\", with the length of 3.",
-    "input": {
-      "s": "abcabcbb"
+    {
+        "contributor": "given",
+        "comments": "The answer is \"abc\", with the length of 3.",
+        "input": {
+            "s": "abcabcbb"
+        },
+        "output": 3
     },
-    "output": 3
-  },
-  {
-    "contributor": "given",
-    "comments": "The answer is \"b\", with the length of 1.",
-    "input": {
-      "s": "bbbbb"
+    {
+        "contributor": "given",
+        "comments": "The answer is \"b\", with the length of 1.",
+        "input": {
+            "s": "bbbbb"
+        },
+        "output": 1
     },
-    "output": 1
-  },
-  {
-    "contributor": "given",
-    "comments": "The answer is \"wke\", with the length of 3. Notice that the answer must be a substring, \"pwke\" is a subsequence and not a substring.",
-    "input": {
-      "s": "pwwkew"
+    {
+        "contributor": "given",
+        "comments": "The answer is \"wke\", with the length of 3. Notice that the answer must be a substring, \"pwke\" is a subsequence and not a substring.",
+        "input": {
+            "s": "pwwkew"
+        },
+        "output": 3
     },
-    "output": 3
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": ""
-    },
-    "output": 0
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "s": ""
+        },
+        "output": 0
+    }
 ]

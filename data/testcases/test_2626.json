@@ -1,29 +1,29 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "nums": [1, 2, 3, 4],
-      "fn": "fn = function sum(accum, curr) { return accum + curr; }",
-      "init": 0
+    {
+        "contributor": "given",
+        "input": {
+            "nums": [1, 2, 3, 4],
+            "fn": "fn = function sum(accum, curr) { return accum + curr; }",
+            "init": 0
+        },
+        "output": 10
     },
-    "output": 10
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "nums": [1, 2, 3, 4],
-      "fn": "fn = function sum(accum, curr) { return accum + curr * curr; }",
-      "init": 100
+    {
+        "contributor": "given",
+        "input": {
+            "nums": [1, 2, 3, 4],
+            "fn": "fn = function sum(accum, curr) { return accum + curr * curr; }",
+            "init": 100
+        },
+        "output": 130
     },
-    "output": 130
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "nums": [],
-      "fn": "fn = function sum(accum, curr) { return 0; }",
-      "init": 25
-    },
-    "output": 25
-  }
+    {
+        "contributor": "given",
+        "input": {
+            "nums": [],
+            "fn": "fn = function sum(accum, curr) { return 0; }",
+            "init": 25
+        },
+        "output": 25
+    }
 ]

@@ -1,18 +1,18 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "init": 5,
-      "calls": ["increment", "reset", "decrement"]
+    {
+        "contributor": "given",
+        "input": {
+            "init": 5,
+            "calls": ["increment", "reset", "decrement"]
+        },
+        "output": [6, 5, 4]
     },
-    "output": [6, 5, 4]
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "init": 0,
-      "calls": ["increment", "increment", "decrement", "reset", "reset"]
-    },
-    "output": [1, 2, 1, 0, 0]
-  }
+    {
+        "contributor": "given",
+        "input": {
+            "init": 0,
+            "calls": ["increment", "increment", "decrement", "reset", "reset"]
+        },
+        "output": [1, 2, 1, 0, 0]
+    }
 ]

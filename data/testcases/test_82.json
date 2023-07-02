@@ -1,46 +1,46 @@
 [
-  {
-    "contributor": "given",
-    "comments": "https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg",
-    "input": {
-      "head": [1, 2, 3, 3, 4, 4, 5]
+    {
+        "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg",
+        "input": {
+            "head": [1, 2, 3, 3, 4, 4, 5]
+        },
+        "output": [1, 2, 5]
     },
-    "output": [1, 2, 5]
-  },
-  {
-    "contributor": "given",
-    "comments": "https://assets.leetcode.com/uploads/2021/01/04/linkedlist2.jpg",
-    "input": {
-      "head": [1, 1, 1, 2, 3]
+    {
+        "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2021/01/04/linkedlist2.jpg",
+        "input": {
+            "head": [1, 1, 1, 2, 3]
+        },
+        "output": [2, 3]
     },
-    "output": [2, 3]
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "head": []
+    {
+        "contributor": "blank",
+        "input": {
+            "head": []
+        },
+        "output": []
     },
-    "output": []
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "head": [1]
+    {
+        "contributor": "blank",
+        "input": {
+            "head": [1]
+        },
+        "output": [1]
     },
-    "output": [1]
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "head": [1, 1]
+    {
+        "contributor": "blank",
+        "input": {
+            "head": [1, 1]
+        },
+        "output": []
     },
-    "output": []
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "head": [1, 1, 2, 2]
-    },
-    "output": []
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "head": [1, 1, 2, 2]
+        },
+        "output": []
+    }
 ]

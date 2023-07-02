@@ -1,18 +1,18 @@
 [
-  {
-    "contributor": "given",
-    "comments": "The function returned by createHelloWorld should always return \"Hello World\".",
-    "input": {
-      "args": []
+    {
+        "contributor": "given",
+        "comments": "The function returned by createHelloWorld should always return \"Hello World\".",
+        "input": {
+            "args": []
+        },
+        "output": "Hello World"
     },
-    "output": "Hello World"
-  },
-  {
-    "contributor": "given",
-    "comments": "Any arguments could be passed to the function but it should still always return \"Hello World\".",
-    "input": {
-      "args": [{}, null, 42]
-    },
-    "output": "Hello World"
-  }
+    {
+        "contributor": "given",
+        "comments": "Any arguments could be passed to the function but it should still always return \"Hello World\".",
+        "input": {
+            "args": [{}, null, 42]
+        },
+        "output": "Hello World"
+    }
 ]

@@ -1,20 +1,20 @@
 [
-  {
-    "contributor": "given",
-    "comments": "https://assets.leetcode.com/uploads/2021/04/28/subtree1-tree.jpg",
-    "input": {
-      "root": [3, 4, 5, 1, 2],
-      "subRoot": [4, 1, 2]
+    {
+        "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2021/04/28/subtree1-tree.jpg",
+        "input": {
+            "root": [3, 4, 5, 1, 2],
+            "subRoot": [4, 1, 2]
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "given",
-    "comments": "https://assets.leetcode.com/uploads/2021/04/28/subtree2-tree.jpg",
-    "input": {
-      "root": [3, 4, 5, 1, 2, null, null, null, null, 0],
-      "subRoot": [4, 1, 2]
-    },
-    "output": false
-  }
+    {
+        "contributor": "given",
+        "comments": "https://assets.leetcode.com/uploads/2021/04/28/subtree2-tree.jpg",
+        "input": {
+            "root": [3, 4, 5, 1, 2, null, null, null, null, 0],
+            "subRoot": [4, 1, 2]
+        },
+        "output": false
+    }
 ]

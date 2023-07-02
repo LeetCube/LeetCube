@@ -1,18 +1,18 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "a": 1,
-      "b": 2
+    {
+        "contributor": "given",
+        "input": {
+            "a": 1,
+            "b": 2
+        },
+        "output": 3
     },
-    "output": 3
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "a": 2,
-      "b": 3
-    },
-    "output": 5
-  }
+    {
+        "contributor": "given",
+        "input": {
+            "a": 2,
+            "b": 3
+        },
+        "output": 5
+    }
 ]

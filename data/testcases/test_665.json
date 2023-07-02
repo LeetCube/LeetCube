@@ -1,46 +1,46 @@
 [
-  {
-    "contributor": "given",
-    "comments": "You could modify the first 4 to 1 to get a non-decreasing array.",
-    "input": {
-      "nums": [4, 2, 3]
+    {
+        "contributor": "given",
+        "comments": "You could modify the first 4 to 1 to get a non-decreasing array.",
+        "input": {
+            "nums": [4, 2, 3]
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "given",
-    "comments": "You cannot get a non-decreasing array by modifying at most one element.",
-    "input": {
-      "nums": [4, 2, 1]
+    {
+        "contributor": "given",
+        "comments": "You cannot get a non-decreasing array by modifying at most one element.",
+        "input": {
+            "nums": [4, 2, 1]
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "nums": [3, 4, 2, 3]
+    {
+        "contributor": "blank",
+        "input": {
+            "nums": [3, 4, 2, 3]
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "nums": [2, 3, 3, 2, 2]
+    {
+        "contributor": "blank",
+        "input": {
+            "nums": [2, 3, 3, 2, 2]
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "nums": [5, 7, 1, 8]
+    {
+        "contributor": "blank",
+        "input": {
+            "nums": [5, 7, 1, 8]
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "nums": [1, 5, 4, 6, 7, 10, 8, 9]
-    },
-    "output": false
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "nums": [1, 5, 4, 6, 7, 10, 8, 9]
+        },
+        "output": false
+    }
 ]

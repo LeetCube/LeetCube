@@ -1,39 +1,39 @@
 [
-  {
-    "contributor": "given",
-    "comments": "The input binary string \u001b[1m00000010100101000001111010011100\u001b[m represents the unsigned integer 43261596, so return 964176192 which its binary representation is \u001b[1m00111001011110000010100101000000\u001b[m.",
-    "input": {
-      "n": 43261596
+    {
+        "contributor": "given",
+        "comments": "The input binary string \u001b[1m00000010100101000001111010011100\u001b[m represents the unsigned integer 43261596, so return 964176192 which its binary representation is \u001b[1m00111001011110000010100101000000\u001b[m.",
+        "input": {
+            "n": 43261596
+        },
+        "output": 964176192
     },
-    "output": 964176192
-  },
-  {
-    "contributor": "given",
-    "comments": "The input binary string \u001b[1m11111111111111111111111111111101\u001b[m represents the unsigned integer 4294967293, so return 3221225471 which its binary representation is \u001b[1m10111111111111111111111111111111\u001b[m.",
-    "input": {
-      "n": 4294967293
+    {
+        "contributor": "given",
+        "comments": "The input binary string \u001b[1m11111111111111111111111111111101\u001b[m represents the unsigned integer 4294967293, so return 3221225471 which its binary representation is \u001b[1m10111111111111111111111111111111\u001b[m.",
+        "input": {
+            "n": 4294967293
+        },
+        "output": 3221225471
     },
-    "output": 3221225471
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "n": 0
+    {
+        "contributor": "blank",
+        "input": {
+            "n": 0
+        },
+        "output": 0
     },
-    "output": 0
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "n": 1
+    {
+        "contributor": "blank",
+        "input": {
+            "n": 1
+        },
+        "output": 2147483648
     },
-    "output": 2147483648
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "n": 2863289685
-    },
-    "output": 2863289685
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "n": 2863289685
+        },
+        "output": 2863289685
+    }
 ]

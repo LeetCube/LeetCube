@@ -1,19 +1,27 @@
 [
-  {
-    "contributor": "given",
-    "comments": "Trie trie = new Trie();\ntrie.insert(\"apple\");\ntrie.search(\"apple\");   // return True\ntrie.search(\"app\");     // return False\ntrie.startsWith(\"app\"); // return True\ntrie.insert(\"app\");\ntrie.search(\"app\");     // return True",
-    "input": {
-      "ops": [
-        "Trie",
-        "insert",
-        "search",
-        "search",
-        "startsWith",
-        "insert",
-        "search"
-      ],
-      "params": [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
-    },
-    "output": [null, null, true, false, true, null, true]
-  }
+    {
+        "contributor": "given",
+        "comments": "Trie trie = new Trie();\ntrie.insert(\"apple\");\ntrie.search(\"apple\");   // return True\ntrie.search(\"app\");     // return False\ntrie.startsWith(\"app\"); // return True\ntrie.insert(\"app\");\ntrie.search(\"app\");     // return True",
+        "input": {
+            "ops": [
+                "Trie",
+                "insert",
+                "search",
+                "search",
+                "startsWith",
+                "insert",
+                "search"
+            ],
+            "params": [
+                [],
+                ["apple"],
+                ["apple"],
+                ["app"],
+                ["app"],
+                ["app"],
+                ["app"]
+            ]
+        },
+        "output": [null, null, true, false, true, null, true]
+    }
 ]

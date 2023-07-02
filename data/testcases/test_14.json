@@ -1,17 +1,17 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "strs": ["flower", "flow", "flight"]
+    {
+        "contributor": "given",
+        "input": {
+            "strs": ["flower", "flow", "flight"]
+        },
+        "output": "fl"
     },
-    "output": "fl"
-  },
-  {
-    "contributor": "given",
-    "comments": "There is no common prefix among the input strings.",
-    "input": {
-      "strs": ["dog", "racecar", "car"]
-    },
-    "output": ""
-  }
+    {
+        "contributor": "given",
+        "comments": "There is no common prefix among the input strings.",
+        "input": {
+            "strs": ["dog", "racecar", "car"]
+        },
+        "output": ""
+    }
 ]

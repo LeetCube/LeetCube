@@ -1,23 +1,23 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "nums": [2, 2, 1]
+    {
+        "contributor": "given",
+        "input": {
+            "nums": [2, 2, 1]
+        },
+        "output": 1
     },
-    "output": 1
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "nums": [4, 1, 2, 1, 2]
+    {
+        "contributor": "given",
+        "input": {
+            "nums": [4, 1, 2, 1, 2]
+        },
+        "output": 4
     },
-    "output": 4
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "nums": [1]
-    },
-    "output": 1
-  }
+    {
+        "contributor": "given",
+        "input": {
+            "nums": [1]
+        },
+        "output": 1
+    }
 ]

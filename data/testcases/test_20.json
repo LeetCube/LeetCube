@@ -1,44 +1,44 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "s": "()"
+    {
+        "contributor": "given",
+        "input": {
+            "s": "()"
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "s": "()[]{}"
+    {
+        "contributor": "given",
+        "input": {
+            "s": "()[]{}"
+        },
+        "output": true
     },
-    "output": true
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "s": "(]"
+    {
+        "contributor": "given",
+        "input": {
+            "s": "(]"
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "("
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "("
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "]"
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "]"
+        },
+        "output": false
     },
-    "output": false
-  },
-  {
-    "contributor": "blank",
-    "input": {
-      "s": "())"
-    },
-    "output": false
-  }
+    {
+        "contributor": "blank",
+        "input": {
+            "s": "())"
+        },
+        "output": false
+    }
 ]

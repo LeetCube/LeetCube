@@ -1,16 +1,16 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "millis": 100
+    {
+        "contributor": "given",
+        "input": {
+            "millis": 100
+        },
+        "output": 100
     },
-    "output": 100
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "millis": 200
-    },
-    "output": 200
-  }
+    {
+        "contributor": "given",
+        "input": {
+            "millis": 200
+        },
+        "output": 200
+    }
 ]
