@@ -89,6 +89,7 @@ node tools/format_helpers.js
 ```
 
 - Copy the string from terminal.
+- Use it like `eval(test_case.input.fn);`
 
 ### Comments
 

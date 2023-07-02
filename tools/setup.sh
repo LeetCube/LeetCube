@@ -9,6 +9,9 @@ main() {
     js)
         js
         ;;
+    ts)
+        js
+        ;;
     *)
         echo We don\'t have setup in $lang yet
         ;;
@@ -16,7 +19,7 @@ main() {
 }
 
 input() {
-    read -p "Enter py, or js: " lang
+    read -p "Enter py, js, or ts: " lang
     read -p "Enter [i] for install, or [u] for update: " setup
 }
 
@@ -46,6 +49,9 @@ js() {
         echo npm version $(npm --version)
         npm i --save-dev lodash
         npm i --save-dev prettier
+        if [ $lang = "ts" ]; then
+            npm i --save-dev @types/node
+        fi
     elif [ $setup = "u" ]; then
         npm install -g npm@latest
         sudo npm install -g n # when prompted: enter your password

@@ -20,7 +20,7 @@ main() {
 }
 
 input() {
-    read -p "Enter py, js, ts: " lang
+    read -p "Enter py, js, or ts: " lang
     read -a ns -p "Enter question numbers (sep by space), or all (slow): "
 }
 

@@ -9,6 +9,6 @@ function singleLine(s) {
 	console.log(s);
 }
 
-// put string inside backticks
+// put string inside backticks, remove string when finished
 s = ``;
 singleLine(s);
