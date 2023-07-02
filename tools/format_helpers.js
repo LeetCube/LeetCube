@@ -4,9 +4,9 @@
  * @returns {String}
  */
 function singleLine(s) {
-	s = s.replace(/\n/g, "");
+    s = s.replace(/\n/g, "");
 
-	console.log(s);
+    console.log(s);
 }
 
 // put string inside backticks, remove string when finished
