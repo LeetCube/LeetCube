@@ -2,9 +2,9 @@
 
 ## Python
 
-- conda
-- pandas
-- tabulate
+-   conda
+-   pandas
+-   tabulate
 
 ### install
 
@@ -58,9 +58,9 @@ conda update --all
 
 ## JavaScript
 
-- node
-- npm
-- lodash
+-   node
+-   npm
+-   lodash
 
 ### install
 

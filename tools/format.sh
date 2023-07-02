@@ -15,6 +15,9 @@ main() {
     json)
         format_prettier "data"
         ;;
+    md)
+        format_prettier "doc"
+        ;;
     *)
         echo We don\'t have format in $lang yet
         ;;
@@ -22,8 +25,12 @@ main() {
 }
 
 input() {
-    read -p "Enter py, js, ts, or json: " lang
-    read -a ns -p "Enter question numbers (sep by space), or all (slow): "
+    read -p "Enter py, js, ts, json, or md: " lang
+    if [ $lang = "md" ]; then
+        ns="all"
+    else
+        read -a ns -p "Enter question numbers (sep by space), or all (slow): "
+    fi
 }
 
 format_black() {
@@ -41,10 +48,10 @@ format_prettier() {
     if [ $ns = "all" ]; then
         npx prettier --write --tab-width 4 $1
     else
-        if [ $lang != "json" ]; then
-            files=("src/code" "test/test")
-        else
+        if [ $lang = "json" ]; then
             files=("testcases/test")
+        else
+            files=("src/code" "test/test")
         fi
         for f in "${files[@]}"; do
             for n in "${ns[@]}"; do
