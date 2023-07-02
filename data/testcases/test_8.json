@@ -1,74 +1,74 @@
 [
-    {
-        "contributor": "given",
-        "comments": "The underlined characters are what is read in, the caret is the current reader position.\nStep 1: \"42\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"42\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m42\u001b[m\" (\"42\" is read in)\n           ^\nThe parsed integer is 42.\nSince 42 is in the range [-2^31, 2^31 - 1], the final result is 42.",
-        "input": {
-            "s": "42"
-        },
-        "output": 42
+  {
+    "contributor": "given",
+    "comments": "The underlined characters are what is read in, the caret is the current reader position.\nStep 1: \"42\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"42\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m42\u001b[m\" (\"42\" is read in)\n           ^\nThe parsed integer is 42.\nSince 42 is in the range [-2^31, 2^31 - 1], the final result is 42.",
+    "input": {
+      "s": "42"
     },
-    {
-        "contributor": "given",
-        "comments": "Step 1: \"\u001b[4m   \u001b[m-42\" (leading whitespace is read and ignored)\n            ^\nStep 2: \"   \u001b[4m-\u001b[m42\" ('-' is read, so the result should be negative)\n             ^\nStep 3: \"   -\u001b[4m42\u001b[m\" (\"42\" is read in)\n               ^\nThe parsed integer is -42.\nSince -42 is in the range [-2^31, 2^31 - 1], the final result is -42.",
-        "input": {
-            "s": "   -42"
-        },
-        "output": -42
+    "output": 42
+  },
+  {
+    "contributor": "given",
+    "comments": "Step 1: \"\u001b[4m   \u001b[m-42\" (leading whitespace is read and ignored)\n            ^\nStep 2: \"   \u001b[4m-\u001b[m42\" ('-' is read, so the result should be negative)\n             ^\nStep 3: \"   -\u001b[4m42\u001b[m\" (\"42\" is read in)\n               ^\nThe parsed integer is -42.\nSince -42 is in the range [-2^31, 2^31 - 1], the final result is -42.",
+    "input": {
+      "s": "   -42"
     },
-    {
-        "contributor": "given",
-        "comments": "Step 1: \"4193 with words\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"4193 with words\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m4193\u001b[m with words\" (\"4193\" is read in; reading stops because the next character is a non-digit)\n             ^\nThe parsed integer is 4193.\nSince 4193 is in the range [-2^31, 2^31 - 1], the final result is 4193.",
-        "input": {
-            "s": "4193 with words"
-        },
-        "output": 4193
+    "output": -42
+  },
+  {
+    "contributor": "given",
+    "comments": "Step 1: \"4193 with words\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"4193 with words\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m4193\u001b[m with words\" (\"4193\" is read in; reading stops because the next character is a non-digit)\n             ^\nThe parsed integer is 4193.\nSince 4193 is in the range [-2^31, 2^31 - 1], the final result is 4193.",
+    "input": {
+      "s": "4193 with words"
     },
-    {
-        "contributor": "blank",
-        "comments": "Step 1: \"\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\" (reading stops because end of string is reached)\n         ^\nThe parsed integer is 0.\nSince 0 is in the range [-2^31, 2^31 - 1], the final result is 0.",
-        "input": {
-            "s": ""
-        },
-        "output": 0
+    "output": 4193
+  },
+  {
+    "contributor": "blank",
+    "comments": "Step 1: \"\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\" (reading stops because end of string is reached)\n         ^\nThe parsed integer is 0.\nSince 0 is in the range [-2^31, 2^31 - 1], the final result is 0.",
+    "input": {
+      "s": ""
     },
-    {
-        "contributor": "blank",
-        "comments": "Step 1: \"asdf\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"asdf\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"asdf\" (reading stops because the next character is a non-digit)\n         ^\nThe parsed integer is 0.\nSince 0 is in the range [-2^31, 2^31 - 1], the final result is 0.",
-        "input": {
-            "s": "asdf"
-        },
-        "output": 0
+    "output": 0
+  },
+  {
+    "contributor": "blank",
+    "comments": "Step 1: \"asdf\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"asdf\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"asdf\" (reading stops because the next character is a non-digit)\n         ^\nThe parsed integer is 0.\nSince 0 is in the range [-2^31, 2^31 - 1], the final result is 0.",
+    "input": {
+      "s": "asdf"
     },
-    {
-        "contributor": "blank",
-        "comments": "Step 1: \"2147483647\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"2147483647\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m2147483647\u001b[m\" (\"2147483647\" is read in)\n                   ^\nThe parsed integer is 2147483647.\nSince 2147483647 is in the range [-2^31, 2^31 - 1], the final result is 2147483647.",
-        "input": {
-            "s": "2147483647"
-        },
-        "output": 2147483647
+    "output": 0
+  },
+  {
+    "contributor": "blank",
+    "comments": "Step 1: \"2147483647\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"2147483647\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m2147483647\u001b[m\" (\"2147483647\" is read in)\n                   ^\nThe parsed integer is 2147483647.\nSince 2147483647 is in the range [-2^31, 2^31 - 1], the final result is 2147483647.",
+    "input": {
+      "s": "2147483647"
     },
-    {
-        "contributor": "blank",
-        "comments": "Step 1: \"2147483648\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"2147483648\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m2147483648\u001b[m\" (\"2147483648\" is read in)\n                   ^\nThe parsed integer is 2147483648.\nSince 2147483648 is greater than 2^31 - 1, the final result is clamped to 2^31 - 1.",
-        "input": {
-            "s": "2147483648"
-        },
-        "output": 2147483647
+    "output": 2147483647
+  },
+  {
+    "contributor": "blank",
+    "comments": "Step 1: \"2147483648\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"2147483648\" (no characters read because there is neither a '-' nor '+')\n         ^\nStep 3: \"\u001b[4m2147483648\u001b[m\" (\"2147483648\" is read in)\n                   ^\nThe parsed integer is 2147483648.\nSince 2147483648 is greater than 2^31 - 1, the final result is clamped to 2^31 - 1.",
+    "input": {
+      "s": "2147483648"
     },
-    {
-        "contributor": "blank",
-        "comments": "Step 1: \"-2147483648\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"\u001b[4m-\u001b[m2147483648\" ('-' is read, so the result should be negative)\n          ^\nStep 3: \"-\u001b[4m2147483648\u001b[m\" (\"2147483648\" is read in)\n                    ^\nThe parsed integer is -2147483648.\nSince -2147483648 is in the range [-2^31, 2^31 - 1], the final result is -2147483648.",
-        "input": {
-            "s": "-2147483648"
-        },
-        "output": -2147483648
+    "output": 2147483647
+  },
+  {
+    "contributor": "blank",
+    "comments": "Step 1: \"-2147483648\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"\u001b[4m-\u001b[m2147483648\" ('-' is read, so the result should be negative)\n          ^\nStep 3: \"-\u001b[4m2147483648\u001b[m\" (\"2147483648\" is read in)\n                    ^\nThe parsed integer is -2147483648.\nSince -2147483648 is in the range [-2^31, 2^31 - 1], the final result is -2147483648.",
+    "input": {
+      "s": "-2147483648"
     },
-    {
-        "contributor": "blank",
-        "comments": "Step 1: \"-2147483649\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"\u001b[4m-\u001b[m2147483649\" ('-' is read, so the result should be negative)\n          ^\nStep 3: \"-\u001b[4m2147483649\u001b[m\" (\"2147483649\" is read in)\n                    ^\nThe parsed integer is -2147483649.\nSince -2147483649 is less than -2^31, the final result is clamped to -2^31.",
-        "input": {
-            "s": "-2147483649"
-        },
-        "output": -2147483648
-    }
+    "output": -2147483648
+  },
+  {
+    "contributor": "blank",
+    "comments": "Step 1: \"-2147483649\" (no characters read because there is no leading whitespace)\n         ^\nStep 2: \"\u001b[4m-\u001b[m2147483649\" ('-' is read, so the result should be negative)\n          ^\nStep 3: \"-\u001b[4m2147483649\u001b[m\" (\"2147483649\" is read in)\n                    ^\nThe parsed integer is -2147483649.\nSince -2147483649 is less than -2^31, the final result is clamped to -2^31.",
+    "input": {
+      "s": "-2147483649"
+    },
+    "output": -2147483648
+  }
 ]

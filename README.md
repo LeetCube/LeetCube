@@ -16,7 +16,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 ### How to set up and update
 
 ```shell
-bash setup.sh
+bash tools/setup.sh
 ```
 
 [Detailed set up and update doc](doc/setup.md)
@@ -24,14 +24,16 @@ bash setup.sh
 ### How to run tests
 
 ```shell
-bash test.sh
+bash tools/test.sh
 ```
 
 [Detailed testing doc](doc/test.md)
 
 ### How to format the code
 
-We already have 2 formatter actions running on every GitHub PR.
+```shell
+bash tools/format.sh
+```
 
 [Detailed formatting doc](doc/format.md)
 

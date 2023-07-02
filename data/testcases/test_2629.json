@@ -1,26 +1,26 @@
 [
-    {
-        "contributor": "given",
-        "input": {
-            "functions": "functions = [(x) => x + 1, (x) => x * x, (x) => 2 * x]",
-            "x": 4
-        },
-        "output": 65
+  {
+    "contributor": "given",
+    "input": {
+      "functions": "functions = [(x) => x + 1, (x) => x * x, (x) => 2 * x]",
+      "x": 4
     },
-    {
-        "contributor": "given",
-        "input": {
-            "functions": "functions = [(x) => 10 * x, (x) => 10 * x, (x) => 10 * x]",
-            "x": 1
-        },
-        "output": 1000
+    "output": 65
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "functions": "functions = [(x) => 10 * x, (x) => 10 * x, (x) => 10 * x]",
+      "x": 1
     },
-    {
-        "contributor": "given",
-        "input": {
-            "functions": "functions = []",
-            "x": 42
-        },
-        "output": 42
-    }
+    "output": 1000
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "functions": "functions = []",
+      "x": 42
+    },
+    "output": 42
+  }
 ]

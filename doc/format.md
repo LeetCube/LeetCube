@@ -28,32 +28,31 @@ If you have `clang-tidy` installed, you can run `make clang_tidy [optional filen
 
 ## Python
 
-`annie` uses [black](https://github.com/psf/black).
+`any` uses [black](https://github.com/psf/black).
 
 - To install, use `pip install black`. VSCode doesn't have black pre-installed, even though it shows black as an option.
 
 - To run on 1 file, use `shift + option + f`
 
-- To bulk run, use `black {source_file_or_directory}`. Best to do a final check with
-
-```shell
-black src/python/
-black test/python/
-```
+- To bulk run, use `python -m black {source_file_or_directory}`.
 
 Output e.g.
 ![](figs/format_black.png)
 
-## JS and Markdown
+## JS, TS, JSON, and Markdown
 
 `annie` uses [prettier](https://prettier.io/).
 
 - To install, search for prettier in VSCode extension. Then you are all set!
   ![](figs/format_prettier.png)
 
+- To run on 1 file, use `shift + option + f`
+
+- To bulk run, use `npx prettier --write {source_file_or_directory}`.
+
 ## Test cases JSON
 
-Upload to the `test/test_json` directory. Format:
+Upload to the `data/testcases` directory. Format:
 
 ```
 [
@@ -70,15 +69,38 @@ Upload to the `test/test_json` directory. Format:
 ]
 ```
 
-Input names should match the argument/example input parameter names. Given test cases (examples) have `"given"` as contributor.
+### Input
+
+Input names should match the argument/example input parameter names. Given test cases (examples) have `"given"` as contributor. Besides given test cases, if you created custom or failed lc's extra test cases, put `"your name"` as contributor.
+
+For JS and TS, if the input is a function
+
+```
+fn = function () {
+    ...
+}
+```
+
+- We need `fn` as a single-line string, to be compatible with JSON, but `fn` is currently multi-line.
+- We can use [tools/format_helpers.js](tools/format_helpers.js). Init the string `s`, and run the script.
+
+```shell
+node tools/format_helpers.js
+```
+
+- Copy the string from terminal.
+
+### Comments
 
 The field `"comments"` is an optional field for general comments. It can
 include, but is not limited to, a description of the test case or an
 explanation on why the input results in such output. For example,
+
 - `"comments": "this test case checks large inputs"` In this case, the comment describes the test case.
 - `"comments": "\"aba\" is also a valid answer."` in this case, the comment describes why a certain input results in a certain output. This is similar
-to the "explanation" that comes with LeetCode examples.
+  to the "explanation" that comes with LeetCode examples.
 
+### Answer
 
 If the problem allows the answer to be returned in any order, or similar:
 

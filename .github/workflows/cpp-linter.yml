@@ -21,4 +21,4 @@ jobs:
           thread-comments: true
           version: 14
           extra-args: -std=c++17 -g -O2 -march=native -Wall -Wextra -Werror -pedantic -fsanitize=address -fsanitize=undefined
-          tidy-checks: ''
+          tidy-checks: ""

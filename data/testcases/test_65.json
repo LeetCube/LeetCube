@@ -1,233 +1,233 @@
 [
-    {
-        "contributor": "given",
-        "input": {
-            "s": "0"
-        },
-        "output": true
+  {
+    "contributor": "given",
+    "input": {
+      "s": "0"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "e"
-        },
-        "output": false
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "e"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "."
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "."
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "2"
-        },
-        "output": true
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "2"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "0089"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "0089"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "-0.1"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "-0.1"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "+3.14"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "+3.14"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "4."
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "4."
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "-.9"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "-.9"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "2e10"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "2e10"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "-90E3"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "-90E3"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "3e+7"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "3e+7"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "+6e-1"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "+6e-1"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "53.5e93"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "53.5e93"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "abc"
-        },
-        "output": false
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "abc"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "1a"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "1a"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "1e"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "1e"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "e3"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "e3"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "99e2.5"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "99e2.5"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "--6"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "--6"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "-+3"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "-+3"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "95a54e53"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "95a54e53"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "0.0"
-        },
-        "output": true
+    "output": false
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "0.0"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": ".0"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": ".0"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "+0"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "+0"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "+0."
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "+0."
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "+0.e0"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "+0.e0"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "+.0e0"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "+.0e0"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "0.e0"
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "0.e0"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": ".e0"
-        },
-        "output": false
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": ".e0"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "0e."
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "0e."
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "0e+"
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "0e+"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "0e+0"
-        },
-        "output": true
-    }
+    "output": false
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "0e+0"
+    },
+    "output": true
+  }
 ]

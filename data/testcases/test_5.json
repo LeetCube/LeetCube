@@ -1,31 +1,31 @@
 [
-    {
-        "contributor": "given",
-        "comments": "\"aba\" is also a valid answer.",
-        "input": {
-            "s": "babad"
-        },
-        "output": [ "bab", "aba" ]
+  {
+    "contributor": "given",
+    "comments": "\"aba\" is also a valid answer.",
+    "input": {
+      "s": "babad"
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "cbbd"
-        },
-        "output": [ "bb" ]
+    "output": ["bab", "aba"]
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "cbbd"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "a"
-        },
-        "output": [ "a" ]
+    "output": ["bb"]
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "a"
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "s": "abb"
-        },
-        "output": [ "bb" ]
-    }
+    "output": ["a"]
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "s": "abb"
+    },
+    "output": ["bb"]
+  }
 ]

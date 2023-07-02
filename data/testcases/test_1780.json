@@ -1,25 +1,25 @@
 [
-    {
-        "contributor": "given",
-        "comments": "12 = 3^1 + 3^2",
-        "input": {
-            "n": 12
-        },
-        "output": true
+  {
+    "contributor": "given",
+    "comments": "12 = 3^1 + 3^2",
+    "input": {
+      "n": 12
     },
-    {
-        "contributor": "given",
-        "comments": "3^0 + 3^2 + 3^4",
-        "input": {
-            "n": 91
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "comments": "3^0 + 3^2 + 3^4",
+    "input": {
+      "n": 91
     },
-    {
-        "contributor": "given",
-        "input": {
-            "n": 21
-        },
-        "output": false
-    }
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "n": 21
+    },
+    "output": false
+  }
 ]

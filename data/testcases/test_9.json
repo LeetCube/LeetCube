@@ -1,54 +1,54 @@
 [
-    {
-        "contributor": "given",
-        "comments": "121 reads as 121 from left to right and from right to left.",
-        "input": {
-            "x": 121
-        },
-        "output": true
+  {
+    "contributor": "given",
+    "comments": "121 reads as 121 from left to right and from right to left.",
+    "input": {
+      "x": 121
     },
-    {
-        "contributor": "given",
-        "comments": "From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.",
-        "input": {
-            "x": -121
-        },
-        "output": false
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "comments": "From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.",
+    "input": {
+      "x": -121
     },
-    {
-        "contributor": "given",
-        "comments": "Reads 01 from right to left. Therefore it is not a palindrome.",
-        "input": {
-            "x": 10
-        },
-        "output": false
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "comments": "Reads 01 from right to left. Therefore it is not a palindrome.",
+    "input": {
+      "x": 10
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "x": 0
-        },
-        "output": true
+    "output": false
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "x": 0
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "x": 1
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "x": 1
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "x": 1221
-        },
-        "output": true
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "x": 1221
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "x": 9009
-        },
-        "output": true
-    }
+    "output": true
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "x": 9009
+    },
+    "output": true
+  }
 ]

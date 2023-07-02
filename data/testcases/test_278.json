@@ -1,19 +1,19 @@
 [
-    {
-        "contributor": "given",
-        "comments": "call isBadVersion(3) -> false\ncall isBadVersion(5) -> true\ncall isBadVersion(4) -> true\nThen 4 is the first bad version.",
-        "input": {
-            "n": 5,
-            "bad": 4
-        },
-        "output": 4
+  {
+    "contributor": "given",
+    "comments": "call isBadVersion(3) -> false\ncall isBadVersion(5) -> true\ncall isBadVersion(4) -> true\nThen 4 is the first bad version.",
+    "input": {
+      "n": 5,
+      "bad": 4
     },
-    {
-        "contributor": "given",
-        "input": {
-            "n": 1,
-            "bad": 1
-        },
-        "output": 1
-    }
+    "output": 4
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "n": 1,
+      "bad": 1
+    },
+    "output": 1
+  }
 ]

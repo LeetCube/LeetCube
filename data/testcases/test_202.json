@@ -1,24 +1,24 @@
 [
-    {
-        "contributor": "given",
-        "comments": "12 + 92 = 82\n82 + 22 = 68\n62 + 82 = 100\n12 + 02 + 02 = 1",
-        "input": {
-            "n": 19
-        },
-        "output": true
+  {
+    "contributor": "given",
+    "comments": "12 + 92 = 82\n82 + 22 = 68\n62 + 82 = 100\n12 + 02 + 02 = 1",
+    "input": {
+      "n": 19
     },
-    {
-        "contributor": "given",
-        "input": {
-            "n": 2
-        },
-        "output": false
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "n": 2
     },
-    {
-        "contributor": "blank",
-        "input": {
-            "n": 1
-        },
-        "output": true
-    }
+    "output": false
+  },
+  {
+    "contributor": "blank",
+    "input": {
+      "n": 1
+    },
+    "output": true
+  }
 ]

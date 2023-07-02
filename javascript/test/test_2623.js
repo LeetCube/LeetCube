@@ -9,8 +9,8 @@ const test_cases = require(testcases_path(2623));
 
 callCount = 0;
 const sum = (a, b) => {
-	callCount++;
-	return a + b;
+  callCount++;
+  return a + b;
 };
 const memoizedSum = memoize(sum);
 expect(memoizedSum(2, 2)).to.equal(4);

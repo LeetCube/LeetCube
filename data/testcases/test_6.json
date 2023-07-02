@@ -1,28 +1,28 @@
 [
-    {
-        "contributor": "given",
-        "comments": "P   A   H   N\n        A P L S I I G\n        Y   I   R",
-        "input": {
-            "s": "PAYPALISHIRING",
-            "numRows": 3
-        },
-        "output": "PAHNAPLSIIGYIR"
+  {
+    "contributor": "given",
+    "comments": "P   A   H   N\n        A P L S I I G\n        Y   I   R",
+    "input": {
+      "s": "PAYPALISHIRING",
+      "numRows": 3
     },
-    {
-        "contributor": "given",
-        "comments": "P     I    N\n        A   L S  I G\n        Y A   H R\n        P     I",
-        "input": {
-            "s": "PAYPALISHIRING",
-            "numRows": 4
-        },
-        "output": "PINALSIGYAHRPI"
+    "output": "PAHNAPLSIIGYIR"
+  },
+  {
+    "contributor": "given",
+    "comments": "P     I    N\n        A   L S  I G\n        Y A   H R\n        P     I",
+    "input": {
+      "s": "PAYPALISHIRING",
+      "numRows": 4
     },
-    {
-        "contributor": "given",
-        "input": {
-            "s": "A",
-            "numRows": 1
-        },
-        "output": "A"
-    }
+    "output": "PINALSIGYAHRPI"
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "s": "A",
+      "numRows": 1
+    },
+    "output": "A"
+  }
 ]

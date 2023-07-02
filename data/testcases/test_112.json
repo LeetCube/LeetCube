@@ -1,29 +1,28 @@
 [
-    {
-        "contributor": "given",
-        "comments": "https://assets.leetcode.com/uploads/2021/01/18/pathsum1.jpg",
-        "input": {
-            "root": [ 5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1 ],
-            "targetSum" : 22
-        },
-        "output": true
+  {
+    "contributor": "given",
+    "comments": "https://assets.leetcode.com/uploads/2021/01/18/pathsum1.jpg",
+    "input": {
+      "root": [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1],
+      "targetSum": 22
     },
-    {
-        "contributor": "given",
-        "comments": "https://assets.leetcode.com/uploads/2021/01/18/pathsum2.jpg",
-        "input": {
-            "root": [ 1, 2, 3 ],
-            "targetSum" : 5
-        },
-        "output": false
+    "output": true
+  },
+  {
+    "contributor": "given",
+    "comments": "https://assets.leetcode.com/uploads/2021/01/18/pathsum2.jpg",
+    "input": {
+      "root": [1, 2, 3],
+      "targetSum": 5
     },
-    {
-        "contributor": "given",
-        "input": {
-            "root": [ null ],
-            "targetSum": 0
-
-        },
-        "output": false
-    }
+    "output": false
+  },
+  {
+    "contributor": "given",
+    "input": {
+      "root": [null],
+      "targetSum": 0
+    },
+    "output": false
+  }
 ]
