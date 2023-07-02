@@ -12,15 +12,17 @@ main() {
     ts)
         format_prettier "typescript"
         ;;
+    json)
+        format_prettier "data"
+        ;;
     *)
         echo We don\'t have format in $lang yet
         ;;
     esac
-    testcases
 }
 
 input() {
-    read -p "Enter py, js, or ts: " lang
+    read -p "Enter py, js, ts, or json: " lang
     read -a ns -p "Enter question numbers (sep by space), or all (slow): "
 }
 
@@ -39,19 +41,15 @@ format_prettier() {
     if [ $ns = "all" ]; then
         npx prettier --write $1
     else
-        for n in "${ns[@]}"; do
-            npx prettier --write $1/src/code_$n.$lang
-            npx prettier --write $1/test/test_$n.$lang
-        done
-    fi
-}
-
-testcases() {
-    if [ $ns = "all" ]; then
-        npx prettier --write data/testcases/
-    else
-        for n in "${ns[@]}"; do
-            npx prettier --write data/testcases/test_$n.json
+        if [ $lang != "json" ]; then
+            files = ("src/code" "test/test")
+        else
+            files = ("testcases/test")
+        fi
+        for f in "${files[@]}"; do
+            for n in "${ns[@]}"; do
+                npx prettier --write --tab-width 4 $1/$f_$n.$lang
+            done
         done
     fi
 }
