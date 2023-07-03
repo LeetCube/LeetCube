@@ -12,12 +12,35 @@
 
 [Anaconda official](https://www.anaconda.com/)
 
+#### Python
+
+Create a new environment `leetcube` with python installed
+
+```shell
+conda create -n leetcube python
+```
+
+Or if you have an environment already, then
+
+```shell
+conda activate {environment}
+conda install python
+```
+
 #### pandas
 
 [pandas official](https://pandas.pydata.org/docs/getting_started/install.html)
 
 ```shell
 conda install pandas
+```
+
+#### Matplotlib
+
+[Matplotlib official](https://matplotlib.org/stable/users/installing/index.html)
+
+```shell
+conda install matplotlib
 ```
 
 #### tabulate
@@ -61,6 +84,7 @@ nvm install --lts
 echo node version $(node --version)
 echo npm version $(npm --version)
 npm i --save-dev lodash
+npm i --save-dev prettier
 ```
 
 #### lodash
@@ -71,12 +95,21 @@ npm i --save-dev lodash
 npm i --save-dev lodash
 ```
 
+#### Prettier
+
+[Prettier official](https://prettier.io/docs/en/install.html)
+
+```shell
+npm i --save-dev prettier
+```
+
 ### update
 
 ```shell
 npm install -g npm@latest
 sudo npm install -g n # when prompted: enter your password
 n lts
+npm update
 echo node version $(node --version)
 echo npm version $(npm --version)
 ```

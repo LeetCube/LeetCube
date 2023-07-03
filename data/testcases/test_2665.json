@@ -3,7 +3,7 @@
         "contributor": "given",
         "input": {
             "init": 5,
-            "calls": ["increment","reset","decrement"]
+            "calls": ["increment", "reset", "decrement"]
         },
         "output": [6, 5, 4]
     },
@@ -11,8 +11,8 @@
         "contributor": "given",
         "input": {
             "init": 0,
-            "calls": ["increment","increment","decrement","reset","reset"]
+            "calls": ["increment", "increment", "decrement", "reset", "reset"]
         },
-        "output": [1,2,1,0,0]
+        "output": [1, 2, 1, 0, 0]
     }
 ]

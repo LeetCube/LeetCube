@@ -3,27 +3,27 @@
         "contributor": "given",
         "comments": "The function increases each value in the array by one.",
         "input": {
-            "arr": [1,2,3],
+            "arr": [1, 2, 3],
             "fn": "fn = function plusone(n) { return n + 1; }"
         },
-        "output": [2,3,4]
+        "output": [2, 3, 4]
     },
     {
         "contributor": "given",
         "comments": "The function increases each value by the index it resides in.",
         "input": {
-            "arr": [1,2,3],
+            "arr": [1, 2, 3],
             "fn": "fn = function plusI(n, i) { return n + i; }"
         },
-        "output": [1,3,5]
+        "output": [1, 3, 5]
     },
     {
         "contributor": "given",
         "comments": "The function always returns 42.",
         "input": {
-            "arr": [10,20,30],
+            "arr": [10, 20, 30],
             "fn": "fn = function constant() { return 42; }"
         },
-        "output": [42,42,42]
+        "output": [42, 42, 42]
     }
 ]

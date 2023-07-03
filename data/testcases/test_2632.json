@@ -3,7 +3,7 @@
         "contributor": "given",
         "input": {
             "fn": "fn = function sum(a, b, c) { return a + b + c; }",
-            "inputs": [[1],[2],[3]]
+            "inputs": [[1], [2], [3]]
         },
         "output": 6
     },
@@ -11,7 +11,7 @@
         "contributor": "given",
         "input": {
             "fn": "fn = function sum(a, b, c) { return a + b + c; }",
-            "inputs": [[1,2],[3]]
+            "inputs": [[1, 2], [3]]
         },
         "output": 6
     },
@@ -19,7 +19,7 @@
         "contributor": "given",
         "input": {
             "fn": "fn = function sum(a, b, c) { return a + b + c; }",
-            "inputs": [[],[],[1,2,3]]
+            "inputs": [[], [], [1, 2, 3]]
         },
         "output": 6
     },

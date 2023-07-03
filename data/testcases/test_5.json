@@ -5,27 +5,27 @@
         "input": {
             "s": "babad"
         },
-        "output": [ "bab", "aba" ]
+        "output": ["bab", "aba"]
     },
     {
         "contributor": "given",
         "input": {
             "s": "cbbd"
         },
-        "output": [ "bb" ]
+        "output": ["bb"]
     },
     {
         "contributor": "blank",
         "input": {
             "s": "a"
         },
-        "output": [ "a" ]
+        "output": ["a"]
     },
     {
         "contributor": "blank",
         "input": {
             "s": "abb"
         },
-        "output": [ "bb" ]
+        "output": ["bb"]
     }
 ]

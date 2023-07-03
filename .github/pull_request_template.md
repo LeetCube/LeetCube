@@ -1,35 +1,14 @@
 <!--
-PR title format
-[LC] 1, 2, 3
-[Feature / Fix] desc
+PR title format: [LC] 1, 2, 3, [Feature / Fix] desc
 -->
 
 ### 📋 Summary
 
 -   TODO
 
-<!-- #### Markdown -->
-
-<!-- if you edited any markdown file besides readme: link md file on your branch
-[file.md](url) -->
-
-<!-- -   TODO -->
-
-<!-- #### Screenshots -->
-
-<!-- screenshots: drag and drop it here -->
-
-<!-- -   TODO -->
-
-<!-- ### 📌 Help needed -->
-
-<!-- -   TODO -->
-
 ### 🧠 Remember to
 
 #### Author
-
-<!-- Leave these blank for now, because it's easy to click on checkbox on GitHub, after you publish your pr -->
 
 -   [ ] add labels to pr
 -   [ ] tag reviewers

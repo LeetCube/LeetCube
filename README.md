@@ -16,7 +16,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 ### How to set up and update
 
 ```shell
-bash setup.sh
+bash tools/setup.sh
 ```
 
 [Detailed set up and update doc](doc/setup.md)
@@ -24,14 +24,16 @@ bash setup.sh
 ### How to run tests
 
 ```shell
-bash test.sh
+bash tools/test.sh
 ```
 
 [Detailed testing doc](doc/test.md)
 
 ### How to format the code
 
-We already have 2 formatter actions running on every GitHub PR.
+```shell
+bash tools/format.sh
+```
 
 [Detailed formatting doc](doc/format.md)
 
@@ -39,7 +41,7 @@ We already have 2 formatter actions running on every GitHub PR.
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 82    | 30   | 42     | 10   |
+| 84    | 30   | 44     | 10   |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -245,6 +247,9 @@ We already have 2 formatter actions running on every GitHub PR.
 [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 🟢 Easy
 
+[2305. Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)
+🟡 Medium
+
 [2620. Counter](https://leetcode.com/problems/counter/)
 🟢 Easy
 
@@ -292,3 +297,6 @@ We already have 2 formatter actions running on every GitHub PR.
 
 [2709. Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)
 🔴 Hard
+
+[2734. Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)
+🟡 Medium

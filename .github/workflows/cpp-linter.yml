@@ -1,24 +1,24 @@
 name: cpp-linter
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
 
 jobs:
-  cpp-linter:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: cpp-linter/cpp-linter-action@v2
-        id: linter
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          style: file
-          ignore: test/cpp/cpp_deps
-          thread-comments: true
-          version: 14
-          extra-args: -std=c++17 -g -O2 -march=native -Wall -Wextra -Werror -pedantic -fsanitize=address -fsanitize=undefined
-          tidy-checks: ''
+    cpp-linter:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: cpp-linter/cpp-linter-action@v2
+              id: linter
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  style: file
+                  ignore: test/cpp/cpp_deps
+                  thread-comments: true
+                  version: 14
+                  extra-args: -std=c++17 -g -O2 -march=native -Wall -Wextra -Werror -pedantic -fsanitize=address -fsanitize=undefined
+                  tidy-checks: ""

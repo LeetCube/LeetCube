@@ -2,36 +2,36 @@
     {
         "contributor": "given",
         "input": {
-            "strs": [ "eat", "tea", "tan", "ate", "nat", "bat" ]
+            "strs": ["eat", "tea", "tan", "ate", "nat", "bat"]
         },
-        "output": [ [ "bat" ], [ "nat", "tan" ], [ "ate", "eat", "tea" ] ]
+        "output": [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
     },
     {
         "contributor": "given",
         "input": {
-            "strs": [ "" ]
+            "strs": [""]
         },
-        "output": [ [ "" ] ]
+        "output": [[""]]
     },
     {
         "contributor": "given",
         "input": {
-            "strs": [ "a" ]
+            "strs": ["a"]
         },
-        "output": [ [ "a" ] ]
+        "output": [["a"]]
     },
     {
         "contributor": "blank",
         "input": {
-            "strs": [ ]
+            "strs": []
         },
-        "output": [ ]
+        "output": []
     },
     {
         "contributor": "blank",
         "input": {
-            "strs": [ "dog", "god" ]
+            "strs": ["dog", "god"]
         },
-        "output": [ [ "dog", "god" ] ]
+        "output": [["dog", "god"]]
     }
 ]

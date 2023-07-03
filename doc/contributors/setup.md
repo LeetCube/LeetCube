@@ -2,11 +2,11 @@
 
 ## Update list
 
-Update [contributors.json](../data/contributors.json)
+Update [contributors.json](../../data/contributors.json)
 
 ## Convert to markdown
 
 ```shell
-cd contributors
+cd doc/contributors/
 python convert.py
 ```

@@ -2,25 +2,25 @@
     {
         "contributor": "given",
         "input": {
-            "nums": [ 5, 7, 7, 8, 8, 10 ],
+            "nums": [5, 7, 7, 8, 8, 10],
             "target": 8
         },
-        "output": [ 3, 4 ]
+        "output": [3, 4]
     },
     {
         "contributor": "given",
         "input": {
-            "nums": [ 5, 7, 7, 8, 8, 10 ],
+            "nums": [5, 7, 7, 8, 8, 10],
             "target": 6
         },
-        "output": [ -1, -1 ]
+        "output": [-1, -1]
     },
     {
         "contributor": "given",
         "input": {
-            "nums": [ ],
+            "nums": [],
             "target": 0
         },
-        "output": [ -1, -1 ]
+        "output": [-1, -1]
     }
 ]
