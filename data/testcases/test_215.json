@@ -2,7 +2,7 @@
     {
         "contributor": "given",
         "input": {
-            "nums": [ 3, 2, 1, 5, 6, 4 ],
+            "nums": [3, 2, 1, 5, 6, 4],
             "k": 2
         },
         "output": 5
@@ -10,7 +10,7 @@
     {
         "contributor": "given",
         "input": {
-            "nums": [ 3, 2, 3, 1, 2, 4, 5, 5, 6 ],
+            "nums": [3, 2, 3, 1, 2, 4, 5, 5, 6],
             "k": 4
         },
         "output": 4
@@ -18,7 +18,7 @@
     {
         "contributor": "blank",
         "input": {
-            "nums": [ 3, 1, 2, 4 ],
+            "nums": [3, 1, 2, 4],
             "k": 2
         },
         "output": 3
@@ -26,7 +26,7 @@
     {
         "contributor": "blank",
         "input": {
-            "nums": [ 1, 2, 2, 2, 2, 3, 4, 4, 4, 5],
+            "nums": [1, 2, 2, 2, 2, 3, 4, 4, 4, 5],
             "k": 5
         },
         "output": 3

@@ -3,7 +3,7 @@
  */
 // Arrow syntax
 var createHelloWorld = function () {
-  return () => "Hello World";
+    return () => "Hello World";
 };
 // Function syntax
 // var createHelloWorld = function () {

@@ -3,25 +3,25 @@
         "contributor": "given",
         "comments": "Because nums[0] + nums[1] == 9, we return [0, 1].",
         "input": {
-            "nums": [ 2, 7, 11, 15 ],
+            "nums": [2, 7, 11, 15],
             "target": 9
         },
-        "output": [ 0, 1 ]
+        "output": [0, 1]
     },
     {
         "contributor": "given",
         "input": {
-            "nums": [ 3, 2, 4 ],
+            "nums": [3, 2, 4],
             "target": 6
         },
-        "output": [ 1, 2 ]
+        "output": [1, 2]
     },
     {
         "contributor": "given",
         "input": {
-            "nums": [ 3, 3 ],
+            "nums": [3, 3],
             "target": 6
         },
-        "output": [ 0, 1 ]
+        "output": [0, 1]
     }
 ]

@@ -5,15 +5,15 @@
 // Closure with shortened syntax
 // The 2 ways to code reset are equiv
 var createCounter = function (init) {
-  let curr = init;
-  return {
-    increment: () => ++curr,
-    decrement: () => --curr,
-    reset: function () {
-      curr = init;
-      return curr;
-    },
-  };
+    let curr = init;
+    return {
+        increment: () => ++curr,
+        decrement: () => --curr,
+        reset: function () {
+            curr = init;
+            return curr;
+        },
+    };
 };
 // var createCounter = function (init) {
 //   let curr = init;

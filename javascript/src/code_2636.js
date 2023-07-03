@@ -7,24 +7,24 @@
 // To do this correctly we have to:
 // wrap our code in helper, call helper recursively in loop, finally call helper once outside
 var promisePool = async function (functions, n) {
-  return new Promise((resolve, reject) => {
-    let count_started = 0;
-    let count_running = 0;
-    function helper() {
-      if (count_started == functions.length) {
-        if (count_running == 0) resolve();
-        return;
-      }
-      while (count_started < functions.length && count_running < n) {
-        count_running++;
-        functions[count_started++]().then(() => {
-          count_running--;
-          helper();
-        });
-      }
-    }
-    helper();
-  });
+    return new Promise((resolve, reject) => {
+        let count_started = 0;
+        let count_running = 0;
+        function helper() {
+            if (count_started == functions.length) {
+                if (count_running == 0) resolve();
+                return;
+            }
+            while (count_started < functions.length && count_running < n) {
+                count_running++;
+                functions[count_started++]().then(() => {
+                    count_running--;
+                    helper();
+                });
+            }
+        }
+        helper();
+    });
 };
 
 module.exports = { promisePool };

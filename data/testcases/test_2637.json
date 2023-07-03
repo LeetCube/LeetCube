@@ -1,42 +1,42 @@
 [
-	{
-		"contributor": "given",
-		"comments": "The provided function is set to resolve after 100ms. However, the time limit is set to 50ms. It rejects at t=50ms because the time limit was reached.",
-		"input": {
-			"fn": "fn = async (n) => {    await new Promise(res => setTimeout(res, 100));    return n * n;  }",
-			"inputs": [5],
-			"t": 50
-		},
-		"output": { "rejected": "Time Limit Exceeded", "time": 50 }
-	},
-	{
-		"contributor": "given",
-		"comments": "The function resolved 5 * 5 = 25 at t=100ms. The time limit is never reached.",
-		"input": {
-			"fn": "fn = async (n) => {   await new Promise(res => setTimeout(res, 100));   return n * n; }",
-			"inputs": [5],
-			"t": 150
-		},
-		"output": { "resolved": 25, "time": 100 }
-	},
-	{
-		"contributor": "given",
-		"comments": "The function resolved 5 + 10 = 15 at t=120ms. The time limit is never reached.",
-		"input": {
-			"fn": "fn = async (a, b) => {   await new Promise(res => setTimeout(res, 120));   return a + b; }",
-			"inputs": [5, 10],
-			"t": 150
-		},
-		"output": { "resolved": 15, "time": 120 }
-	},
-	{
-		"contributor": "given",
-		"comments": "The function immediately throws an error.",
-		"input": {
-			"fn": "fn = async () => {   throw \"Error\"; }",
-			"inputs": [],
-			"t": 1000
-		},
-		"output": { "rejected": "Error", "time": 0 }
-	}
+    {
+        "contributor": "given",
+        "comments": "The provided function is set to resolve after 100ms. However, the time limit is set to 50ms. It rejects at t=50ms because the time limit was reached.",
+        "input": {
+            "fn": "fn = async (n) => {    await new Promise(res => setTimeout(res, 100));    return n * n;  }",
+            "inputs": [5],
+            "t": 50
+        },
+        "output": { "rejected": "Time Limit Exceeded", "time": 50 }
+    },
+    {
+        "contributor": "given",
+        "comments": "The function resolved 5 * 5 = 25 at t=100ms. The time limit is never reached.",
+        "input": {
+            "fn": "fn = async (n) => {   await new Promise(res => setTimeout(res, 100));   return n * n; }",
+            "inputs": [5],
+            "t": 150
+        },
+        "output": { "resolved": 25, "time": 100 }
+    },
+    {
+        "contributor": "given",
+        "comments": "The function resolved 5 + 10 = 15 at t=120ms. The time limit is never reached.",
+        "input": {
+            "fn": "fn = async (a, b) => {   await new Promise(res => setTimeout(res, 120));   return a + b; }",
+            "inputs": [5, 10],
+            "t": 150
+        },
+        "output": { "resolved": 15, "time": 120 }
+    },
+    {
+        "contributor": "given",
+        "comments": "The function immediately throws an error.",
+        "input": {
+            "fn": "fn = async () => {   throw \"Error\"; }",
+            "inputs": [],
+            "t": 1000
+        },
+        "output": { "rejected": "Error", "time": 0 }
+    }
 ]

@@ -46,14 +46,14 @@ pytest python/tests -s
 
 Follow steps outlined [here](https://www.jetbrains.com/help/pycharm/pytest.html#create-pytest-test).
 
-## JavaScript
+## JS / TS
 
 ### Shell
 
 To run 1 test:
 
 ```shell
-node --test javascript/test/test_$n.js
+node --test javascript/test/test_$n.{js or ts}
 ```
 
 To run all tests:

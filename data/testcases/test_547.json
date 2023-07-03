@@ -1,48 +1,48 @@
 [
-  {
-    "contributor": "given",
-    "input": {
-      "isConnected": [
-        [1, 1, 0],
-        [1, 1, 0],
-        [0, 0, 1]
-      ]
+    {
+        "contributor": "given",
+        "input": {
+            "isConnected": [
+                [1, 1, 0],
+                [1, 1, 0],
+                [0, 0, 1]
+            ]
+        },
+        "output": 2
     },
-    "output": 2
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "isConnected": [
-        [1, 0, 0],
-        [0, 1, 0],
-        [0, 0, 1]
-      ]
+    {
+        "contributor": "given",
+        "input": {
+            "isConnected": [
+                [1, 0, 0],
+                [0, 1, 0],
+                [0, 0, 1]
+            ]
+        },
+        "output": 3
     },
-    "output": 3
-  },
-  {
-    "contributor": "given",
-    "input": {
-      "isConnected": [
-        [1, 0, 0, 1],
-        [0, 1, 1, 0],
-        [0, 1, 1, 1],
-        [1, 0, 1, 1]
-      ]
+    {
+        "contributor": "given",
+        "input": {
+            "isConnected": [
+                [1, 0, 0, 1],
+                [0, 1, 1, 0],
+                [0, 1, 1, 1],
+                [1, 0, 1, 1]
+            ]
+        },
+        "output": 1
     },
-    "output": 1
-  },
-  {
-    "contributor": "Hgjnnf",
-    "input": {
-      "isConnected": [
-        [1, 0, 1, 1],
-        [0, 1, 0, 0],
-        [1, 0, 1, 1],
-        [1, 0, 1, 1]
-      ]
-    },
-    "output": 2
-  }
+    {
+        "contributor": "Hgjnnf",
+        "input": {
+            "isConnected": [
+                [1, 0, 1, 1],
+                [0, 1, 0, 0],
+                [1, 0, 1, 1],
+                [1, 0, 1, 1]
+            ]
+        },
+        "output": 2
+    }
 ]
