@@ -1,9 +1,13 @@
+from typing import List
+
+
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
-        altitudes = [0]
+        max_altitude = 0
+        curr_altitude = 0
 
-        for i in range(len(gain)):
-            newAltitude = altitudes[i] + gain[i]
-            altitudes += [newAltitude]
+        for g in gain:
+            curr_altitude += g
+            max_altitude = max(max_altitude, curr_altitude)
 
-        return max(altitudes)
+        return max_altitude

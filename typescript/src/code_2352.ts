@@ -1,10 +1,10 @@
 function equalPairs(grid: number[][]): number {
     let n = grid.length;
-    let gridTranspose = [];
+    let gridTranspose: number[][] = [];
 
     // Create another grid where each array element represents a column.
     for (let i = 0; i < n; i++) {
-        let column = [];
+        let column: number[] = [];
 
         for (let j = 0; j < n; j++) {
             column.push(grid[j][i]);
