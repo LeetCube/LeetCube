@@ -51,6 +51,10 @@ js() {
         npm i --save-dev prettier
         if [ $lang = "ts" ]; then
             npm i --save-dev @types/node
+            npm i --save-dev @types/chai
+            npm i --save-dev @types/chai-as-promised
+            npm install -D typescript
+            npm install -D ts-node
         fi
     elif [ $setup = "u" ]; then
         npm install -g npm@latest

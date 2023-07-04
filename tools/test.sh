@@ -60,10 +60,10 @@ js() {
 
 ts() {
     if [ $ns = "all" ]; then
-        node --test typescript/test/test_*
+        npx ts-node typescript/test/test_*
     else
         for n in "${ns[@]}"; do
-            node --test typescript/test/test_$n.ts
+            npx ts-node typescript/test/test_$n.ts
         done
     fi
 }
