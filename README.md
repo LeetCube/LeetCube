@@ -41,7 +41,7 @@ bash tools/format.sh
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 88    | 32   | 46     | 10   |
+| 89    | 32   | 47     | 10   |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -147,6 +147,9 @@ bash tools/format.sh
 
 [136. Single Number](https://leetcode.com/problems/single-number/)
 🟢 Easy
+
+[137. Single Number II](https://leetcode.com/problems/single-number-ii/)
+🟡 Medium
 
 [148. Sort List](https://leetcode.com/problems/sort-list/)
 🟡 Medium
