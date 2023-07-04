@@ -25,9 +25,9 @@ function equalPairs(grid: number[][]): number {
                 if (i === n - 1) {
                     totalPairs++;
                 }
-            } 
+            }
         }
     }
 
     return totalPairs;
-};
+}
