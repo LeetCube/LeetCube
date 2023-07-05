@@ -41,7 +41,7 @@ bash tools/format.sh
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 84    | 30   | 44     | 10   |
+| 89    | 32   | 47     | 10   |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -112,6 +112,9 @@ bash tools/format.sh
 [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 🔴 Hard
 
+[28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+🟢 Easy
+
 [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 🟡 Medium
 
@@ -144,6 +147,9 @@ bash tools/format.sh
 
 [136. Single Number](https://leetcode.com/problems/single-number/)
 🟢 Easy
+
+[137. Single Number II](https://leetcode.com/problems/single-number-ii/)
+🟡 Medium
 
 [148. Sort List](https://leetcode.com/problems/sort-list/)
 🟡 Medium
@@ -241,13 +247,22 @@ bash tools/format.sh
 [1444. Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)
 🔴 Hard
 
+[1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
+🟢 Easy
+
 [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
 🟡 Medium
 
 [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 🟢 Easy
 
+[2090. K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)
+🟡 Medium
+
 [2305. Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)
+🟡 Medium
+
+[2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)
 🟡 Medium
 
 [2620. Counter](https://leetcode.com/problems/counter/)
