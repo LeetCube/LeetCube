@@ -5,7 +5,7 @@ declare global {
 }
 
 Array.prototype.groupBy = function (fn) {
-    const dict = {};
+    const dict: any = {};
     for (const item of this) {
         const key = fn(item);
         key in dict ? dict[key].push(item) : (dict[key] = [item]);
@@ -14,4 +14,6 @@ Array.prototype.groupBy = function (fn) {
     return dict;
 };
 
-export {};
+const f = (array: any, fn: any) => array.groupBy(fn);
+
+export { f };

@@ -12,6 +12,9 @@ main() {
     js)
         js
         ;;
+    ts)
+        ts
+        ;;
     *)
         echo we don\'t have tests in $lang yet
         ;;
@@ -19,7 +22,7 @@ main() {
 }
 
 input() {
-    read -p "Enter cpp, py, or js: " lang
+    read -p "Enter cpp, py, js, or ts: " lang
     read -a ns -p "Enter question numbers (sep by space), or all (slow): "
 }
 
@@ -51,6 +54,16 @@ js() {
     else
         for n in "${ns[@]}"; do
             node --test javascript/test/test_$n.js
+        done
+    fi
+}
+
+ts() {
+    if [ $ns = "all" ]; then
+        npx ts-node typescript/test/test_*
+    else
+        for n in "${ns[@]}"; do
+            npx ts-node typescript/test/test_$n.ts
         done
     fi
 }

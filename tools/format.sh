@@ -49,7 +49,7 @@ format_prettier() {
         npx prettier --write --tab-width 4 $1
     else
         if [ $lang = "json" ]; then
-            files=("testcases/test")
+            files=("testcases/test" "testcases/typescript/test")
         else
             files=("src/code" "test/test")
         fi
