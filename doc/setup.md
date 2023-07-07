@@ -3,16 +3,18 @@
 ## Python
 
 -   conda
+-   python
 -   pandas
+-   matplotlib
 -   tabulate
 
 ### install
 
 #### conda
 
-[Anaconda official](https://www.anaconda.com/)
+[anaconda official](https://www.anaconda.com/)
 
-#### Python
+#### python
 
 Create a new environment `leetcube` with python installed
 
@@ -35,9 +37,9 @@ conda install python
 conda install pandas
 ```
 
-#### Matplotlib
+#### matplotlib
 
-[Matplotlib official](https://matplotlib.org/stable/users/installing/index.html)
+[matplotlib official](https://matplotlib.org/stable/users/installing/index.html)
 
 ```shell
 conda install matplotlib
@@ -56,11 +58,12 @@ conda update conda
 conda update --all
 ```
 
-## JavaScript
+## JS
 
 -   node
 -   npm
 -   lodash
+-   prettier
 
 ### install
 
@@ -95,7 +98,7 @@ npm i --save-dev prettier
 npm i --save-dev lodash
 ```
 
-#### Prettier
+#### prettier
 
 [Prettier official](https://prettier.io/docs/en/install.html)
 
@@ -112,4 +115,47 @@ n lts
 npm update
 echo node version $(node --version)
 echo npm version $(npm --version)
+```
+
+## TS
+
+### install
+
+-   typescript
+-   ts-node
+-   @types
+
+```shell
+npm install -D typescript
+npm install -D ts-node
+npm i --save-dev @types/node
+npm i --save-dev @types/chai
+npm i --save-dev @types/chai-as-promised
+```
+
+### update
+
+Same as JS.
+
+## Go
+
+-   go
+
+### install
+
+#### go
+
+[go offcial](https://go.dev/doc/install)
+
+To confirm installation, check
+
+```shell
+go version
+```
+
+### update
+
+```shell
+cd {dir}
+go get -u all
 ```

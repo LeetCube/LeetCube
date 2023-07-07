@@ -16,9 +16,10 @@ main() {
         ts
         ;;
     *)
-        echo we don\'t have tests in $lang yet
+        echo "We don't have tests in $lang yet"
         ;;
     esac
+    echo "Completed test"
 }
 
 input() {

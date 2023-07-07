@@ -19,9 +19,10 @@ main() {
         format_prettier "doc"
         ;;
     *)
-        echo We don\'t have format in $lang yet
+        echo "We don't have format in $lang yet"
         ;;
     esac
+    echo "Completed format"
 }
 
 input() {
