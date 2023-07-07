@@ -9,7 +9,7 @@ Everyone is welcome to contribute their LeetCode solutions!
 
 ## Contributors
 
-[Contributors](contributors/contributors.md)
+[Contributors](doc/contributors/contributors.md)
 
 ## Instructions
 
