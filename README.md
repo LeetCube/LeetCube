@@ -41,7 +41,7 @@ bash tools/format.sh
 
 | Total | Easy | Medium | Hard |
 | ----- | ---- | ------ | ---- |
-| 89    | 32   | 47     | 10   |
+| 91    | 32   | 49     | 10   |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -166,10 +166,13 @@ bash tools/format.sh
 [202. Happy Number](https://leetcode.com/problems/happy-number/)
 🟢 Easy
 
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+🟡 Medium
+
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 🟡 Medium
 
-[207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+[209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 🟡 Medium
 
 [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
@@ -255,6 +258,9 @@ bash tools/format.sh
 
 [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 🟢 Easy
+
+[2024. Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
+🟡 Medium
 
 [2090. K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)
 🟡 Medium
