@@ -41,7 +41,7 @@ Output e.g.
 
 ## JS, TS, JSON, and Markdown
 
-`annie` uses [prettier](https://prettier.io/).
+`any` uses [prettier](https://prettier.io/).
 
 -   To install, search for prettier in VSCode extension. Then you are all set!
     ![](figs/format_prettier.png)
