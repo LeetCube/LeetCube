@@ -2,7 +2,7 @@
 	{
 		"nickname": "any",
 		"github": "dataprob",
-		"langs": ["py", "js"],
+		"langs": ["py", "js", "ts"],
 		"first_commit": "05/26/2023"
 	},
 	{
@@ -68,7 +68,7 @@
 	{
 		"nickname": "alex",
 		"github": "azalexzhang",
-		"langs": ["py"],
+		"langs": ["py", "ts"],
 		"first_commit": "07/03/2023"
 	},
 	{
