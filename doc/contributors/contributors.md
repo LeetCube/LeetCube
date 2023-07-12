@@ -1,5 +1,4 @@
 # Contributors
-
 We have 19 contributors.
 
 ![](figs/langs.png)
