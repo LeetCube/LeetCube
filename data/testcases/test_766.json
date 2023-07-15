@@ -1,0 +1,18 @@
+[
+    {
+        "contributor": "given",
+        "comments": "In the above grid, the diagonals are:\n\"[9]\", \"[5, 5]\", \"[1, 1, 1]\", \"[2, 2, 2]\", \"[3, 3]\", \"[4]\".\nIn each diagonal all elements are the same, so the answer is True.",
+        "input": {
+            "matrix": [ [ 1, 2, 3, 4 ], [ 5, 1, 2, 3 ], [ 9, 5, 1, 2 ] ]
+        },
+        "output": true
+    },
+    {
+        "contributor": "given",
+        "comments": "The diagonal \"[1, 2]\" has different elements.",
+        "input": {
+            "matrix": [ [ 1, 2 ], [ 2, 2 ] ]
+        },
+        "output": false
+    }
+]

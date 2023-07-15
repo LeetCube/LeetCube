@@ -1,6 +1,8 @@
 #include "../src/code_575.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 void test(Solution& sol, const json& input, const json& output) {
     vector<int> candyType = input["candyType"].get<vector<int>>();
     int expected = output.get<int>();

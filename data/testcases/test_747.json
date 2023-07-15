@@ -1,0 +1,32 @@
+[
+    {
+        "contributor": "given",
+        "comments": "6 is the largest integer.\nFor every other number in the array x, 6 is at least twice as big as x.\nThe index of value 6 is 1, so we return 1.",
+        "input": {
+            "nums": [ 3, 6, 1, 0 ]
+        },
+        "output": 1
+    },
+    {
+        "contributor": "given",
+        "comments": "4 is less than twice the value of 3, so we return -1.",
+        "input": {
+            "nums": [ 1, 2, 3, 4 ]
+        },
+        "output": -1
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "nums": [ 0, 0, 3, 2 ]
+        },
+        "output": -1
+    },
+    {
+        "contributor": "blank",
+        "input": {
+            "nums": [ 1, 0 ]
+        },
+        "output": 0
+    }
+]

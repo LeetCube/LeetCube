@@ -42,8 +42,8 @@ bash tools/format.sh
 ## Questions
 
 | Total | Easy | Medium | Hard |
-| ----- | ---- | ------ | ---- |
-| 91    | 32   | 49     | 10   |
+|-------|------| ------ | ---- |
+| 95    | 36   | 49     | 10   |
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 🟢 Easy
@@ -230,6 +230,12 @@ bash tools/format.sh
 
 [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 🟡 Medium
+
+[747. Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)
+🟢 Easy
+
+[783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+🟢 Easy
 
 [817. Linked List Components](https://leetcode.com/problems/linked-list-components/)
 🟡 Medium

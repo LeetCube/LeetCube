@@ -3,6 +3,8 @@
 #include "../src/code_148.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 void clear(ListNode*& head) {
     if (!head) return;
 

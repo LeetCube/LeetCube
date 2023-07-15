@@ -1,6 +1,8 @@
 #include "../src/code_221.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 vector<vector<char>> get_matrix(const json& field) {
     vector<vector<char>> matrix;
 

@@ -3,6 +3,8 @@
 #include "../src/code_295.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 using Result = optional<double>;
 
 class Solution {

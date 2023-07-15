@@ -30,11 +30,11 @@ clean:
 
 ifeq (clang_tidy, $(firstword $(MAKECMDGOALS)))
     ifeq (1, $(words $(MAKECMDGOALS)))
-        TIDY_COMMAND = find . -iname *.cpp -exec sh -c 'clang-tidy --config="" "$$1"' -- {} \;
+        TIDY_COMMAND = find . -iname *.cpp -exec sh -c 'clang-tidy --config="" --extra-arg=-std=c++17 "$$1"' -- {} \;
     else
         TIDY_RUN_ARGS = $(wordlist 2, $(words $(MAKECMDGOALS)), $(MAKECMDGOALS))
         $(eval $(TIDY_RUN_ARGS):;@:)
-        TIDY_COMMAND = find . -iname $(TIDY_RUN_ARGS) -exec sh -c 'clang-tidy --config="" "$$1"' -- {} \;
+        TIDY_COMMAND = find . -iname $(TIDY_RUN_ARGS) -exec sh -c 'clang-tidy --config="" --extra-arg=-std=c++17 "$$1"' -- {} \;
     endif
 endif
 

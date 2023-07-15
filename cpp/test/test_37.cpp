@@ -1,6 +1,8 @@
 #include "../src/code_37.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 vector<vector<char>> get_board(const json& field) {
     vector<vector<char>> board;
     for (const auto& row : field.get<std::vector<std::vector<std::string>>>()) {
