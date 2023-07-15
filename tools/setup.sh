@@ -12,14 +12,18 @@ main() {
     ts)
         js
         ;;
+    go)
+        golang
+        ;;
     *)
-        echo We don\'t have setup in $lang yet
+        echo "We don't have setup in $lang yet"
         ;;
     esac
+    echo "Completed setup"
 }
 
 input() {
-    read -p "Enter py, js, or ts: " lang
+    read -p "Enter py, js, ts, or go: " lang
     read -p "Enter [i] for install, or [u] for update: " setup
 }
 
@@ -50,11 +54,11 @@ js() {
         npm i --save-dev lodash
         npm i --save-dev prettier
         if [ $lang = "ts" ]; then
+            npm install -D typescript
+            npm install -D ts-node
             npm i --save-dev @types/node
             npm i --save-dev @types/chai
             npm i --save-dev @types/chai-as-promised
-            npm install -D typescript
-            npm install -D ts-node
         fi
     elif [ $setup = "u" ]; then
         npm install -g npm@latest
@@ -65,6 +69,14 @@ js() {
         echo npm version $(npm --version)
     else
         echo Command invalid
+    fi
+}
+
+golang() {
+    read -p "Enter the go dir to update: " dir
+    if [ $setup = "u" ]; then
+        cd $dir
+        go get -u all
     fi
 }
 

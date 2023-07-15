@@ -1,0 +1,8 @@
+github.com/WindomZ/leetcode-graphql v0.0.0-20181025005938-e408e83026da h1:xFQW0SKoSGpt/3UIiEdiPRcEjlyJ4b22tgSsEIWfx6Q=
+github.com/WindomZ/leetcode-graphql v0.0.0-20181025005938-e408e83026da/go.mod h1:Z5jGLZ69byRwizHp4ar+iapxorf5XUEEmpmTzLAj36c=
+github.com/WindomZ/testify v1.1.4 h1:SDpLYXoWDkCUzElftgmLAILiwjuebRC9aW2ykte95u8=
+github.com/WindomZ/testify v1.1.4/go.mod h1:68PfeBru8Em6RBdocjIeE5LX6bCmdwDOITiHYroyrp0=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
