@@ -1,6 +1,8 @@
 #include "../src/code_357.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 void test(Solution& sol, const json& input, const json& output) {
     int n = input["n"].get<int>();
     int expected = output.get<int>();

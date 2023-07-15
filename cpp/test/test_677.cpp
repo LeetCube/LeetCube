@@ -4,6 +4,8 @@
 #include "../src/code_677.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 using Param = vector<variant<string, int>>;
 using Result = optional<int>;
 

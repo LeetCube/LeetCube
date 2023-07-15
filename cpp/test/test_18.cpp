@@ -1,6 +1,8 @@
 #include "../src/code_18.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 void test(Solution& sol, const json& input, const json& output) {
     vector<int> nums = input["nums"].get<vector<int>>();
     int target = input["target"].get<int>();

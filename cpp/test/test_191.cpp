@@ -1,6 +1,8 @@
 #include "../src/code_191.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
+using namespace std;
+
 void test(Solution& sol, const json& input, const json& output) {
     uint32_t u = input["u"].get<uint32_t>();
     int expected = output.get<int>();

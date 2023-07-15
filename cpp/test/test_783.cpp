@@ -2,7 +2,7 @@
 #include <queue>
 #include <vector>
 
-#include "../src/code_572.cpp"
+#include "../src/code_783.cpp"
 #include "cpp_deps/boilerplate.hpp"
 
 using namespace std;
@@ -53,14 +53,12 @@ vector<Value> get_values(const json& input) {
 
 void test(Solution& sol, const json& input, const json& output) {
     TreeNode* root = from_array(get_values(input["root"]));
-    TreeNode* subRoot = from_array(get_values(input["subRoot"]));
-    bool expected = output.get<bool>();
-    bool result = sol.isSubtree(root, subRoot);
+    int expected = output.get<int>();
+    int result = sol.minDiffInBST(root);
     CHECK_EQ(result, expected);
     clear(root);
-    clear(subRoot);
 }
 
 TEST_CASE("") {
-    TEST(572);
+    TEST(783);
 }
