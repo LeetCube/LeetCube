@@ -1,12 +1,11 @@
 # Contributors
-
 We have 19 contributors.
 
 ![](figs/langs.png)
 
 | nickname   | github        | langs                | first_commit |
 | :--------- | :------------ | :------------------- | :----------- |
-| any        | dataprob      | ['py', 'js']         | 05/26/2023   |
+| any        | dataprob      | ['py', 'js', 'ts']   | 05/26/2023   |
 | youssef    | ysaleh03      | ['cpp']              | 05/27/2023   |
 | blank      | Person314159  | ['cpp']              | 05/27/2023   |
 | Requiem    | PhaseRush     | ['py', 'java', 'ts'] | 05/28/2023   |
@@ -17,7 +16,7 @@ We have 19 contributors.
 | aaryan     | aaryan-rampal | ['java']             | 06/06/2023   |
 | yimeng     | ymnglli       | ['py']               | 06/08/2023   |
 | Jason      | argonaut0     | ['go']               | 06/15/2023   |
-| alex       | azalexzhang   | ['py']               | 07/03/2023   |
+| alex       | azalexzhang   | ['py', 'ts']         | 07/03/2023   |
 | Nothingyet | hquanvo       | ['cpp']              |              |
 | eric       | eysk-io       | ['java']             |              |
 | Ryan       | ryanmckim     | ['py']               |              |

@@ -7,11 +7,11 @@ Everyone is welcome to contribute their LeetCode solutions!
 [![GitHub Super-Linter](https://github.com/LeetCube/LeetCube/actions/workflows/linter.yml/badge.svg?branch=main)](https://github.com/marketplace/actions/super-linter)
 [![cpp-linter](https://github.com/LeetCube/LeetCube/actions/workflows/cpp-linter.yml/badge.svg?branch=main)](https://github.com/marketplace/actions/c-c-linter)
 
-## Contributors
-
-[Contributors](contributors/contributors.md)
+[Contributors](doc/contributors/contributors.md)
 
 ## Instructions
+<details>
+<summary>Instructions for contributing</summary>
 
 ### How to set up and update
 
@@ -36,6 +36,8 @@ bash tools/format.sh
 ```
 
 [Detailed formatting doc](doc/format.md)
+
+</details>
 
 ## Questions
 
@@ -77,10 +79,10 @@ bash tools/format.sh
 🟡 Medium
 
 [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
-🟡 Medium, on easy side
+🟡 Medium
 
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
-🟢 Easy, on hard side
+🟢 Easy
 
 [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 🟢 Easy
@@ -278,7 +280,7 @@ bash tools/format.sh
 🟢 Easy
 
 [2623. Memoize](https://leetcode.com/problems/memoize/)
-🟡 Medium, on easy side
+🟡 Medium
 
 [2626. Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/)
 🟢 Easy
@@ -299,7 +301,7 @@ bash tools/format.sh
 🟢 Easy
 
 [2636. Promise Pool](https://leetcode.com/problems/promise-pool/)
-🟡 Medium, on hard side
+🟡 Medium
 
 [2637. Promise Time Limit](https://leetcode.com/problems/promise-time-limit/)
 🟢 Easy
